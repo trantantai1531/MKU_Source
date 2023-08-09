@@ -1,0 +1,94 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WManDatabase.aspx.vb" Inherits="eMicLibAdmin.WebUI.Admin.WManDatabase" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>WManDatabase</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout" leftmargin="0" topmargin="0">
+		<form id="Form1" method="post" runat="server">
+			<TABLE id="Table1" cellSpacing="2" cellPadding="0" width="100%" border="0">
+				<TR>
+					<TD align="center" colspan="2" Class="lbGroupTitle">
+						<asp:Label ID="lblTitle" Runat="server" CssClass="lbGroupTitle">Thay đổi mật khẩu đăng nhập cơ sở dữ liệu</asp:Label>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right" width="50%">
+						<asp:Label ID="lblUserName" Runat="server" CssClass="lbLabel"><u>T</u>ên đăng nhập:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="txtUserName" Runat="server" Width="150px" CssClass="lbTextbox"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="lblPassWord" Runat="server" CssClass="lbLabel"><u>M</u>ã đăng nhập:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="txtPassWord" Runat="server" Width="150px" CssClass="lbTextbox" TextMode="Password"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="Label1" Runat="server" CssClass="lbLabel"><u>M</u>ã đăng nhập:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="Textbox1" Runat="server" Width="150px" CssClass="lbTextbox" TextMode="Password"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="lblDataSource" Runat="server" CssClass="lbLabel">Tên <u>c</u>ơ sở dữ liệu:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="txtDataSource" Runat="server" Width="150px" CssClass="lbTextbox"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="lblServerName" Runat="server" CssClass="lbLabel">Tên máy chủ chứa cơ sở <u>
+								d</u>ữ liệu:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="txtServerName" Runat="server" Width="150px" CssClass="lbTextbox"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="lblServerIP" Runat="server" CssClass="lbLabel">Địa chỉ máy chủ chứa cơ <u>
+								s</u>ở dữ liệu:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:TextBox ID="txtServerIP" Runat="server" Width="150px" CssClass="lbTextbox"></asp:TextBox>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+						<asp:Label ID="lblDatabase" Runat="server" CssClass="lbLabel">Hệ quản trị cơ 
+								sở <u>d</u>ữ liệu:&nbsp;</asp:Label>
+					</TD>
+					<TD>
+						<asp:DropDownList ID="ddlDatabase" Runat="server" Visible="True">
+							<asp:ListItem Value="0">SQLSERVER</asp:ListItem>
+							<asp:ListItem Value="1">ORACLE</asp:ListItem>
+						</asp:DropDownList>
+					</TD>
+				</TR>
+				<TR>
+					<TD align="right">
+					</TD>
+					<TD>
+						<asp:Button ID="btnUpdate" Width="90px" Text="Cập nhật(u)" Runat="server" CssClass="lbButton"></asp:Button>
+					</TD>
+				</TR>
+				<asp:DropDownList ID="ddlLabel" Runat="server" Visible="True" Width="0">
+					<asp:ListItem Value="0">Dữ liệu được đã được cập nhật thành công!</asp:ListItem>
+				</asp:DropDownList>
+			</TABLE>
+		</form>
+	</body>
+</HTML>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lbHeader</name>
+<vie>Danh sách các tài liệu đã lựa chọn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRoot1</name>
+<vie>Trang tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnComBack</name>
+<vie>Chọn tiếp(c)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDelete</name>
+<vie>Xoá(x)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDownload</name>
+<vie>Tải về(t)</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgSavedList</name>
+<vie>Danh sách|+|&lt;input type='checkbox' name='CheckAll' value='ON' onClick='javascript:SetCheckAll();'&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Bạn cần chọn tài liệu để tải về !|+|1|+|Chưa có tài liệu nào được chọn để xóa !|+|2|+|Không có bản ghi, nhấn nút chọn tiếp để thêm bản ghi mới!|+|3|+|Không có bản ghi nào cả!</vie>
+<eng></eng>
+</data>
+</Head>

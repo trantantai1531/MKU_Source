@@ -1,0 +1,76 @@
+.TreeView 
+{ 
+  background-color:White;
+  padding-top:1px; 
+  padding-left:1px; 
+  cursor:default; 
+}
+
+.TreeNode 
+{ 
+  font-family: tahoma; 
+  font-size: 11px; 
+  padding-top:2px;
+  padding-bottom:1px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+}
+
+.GrayedTreeNode 
+{ 
+  font-family: tahoma; 
+  font-size: 11px; 
+  padding-top:2px;
+  padding-bottom:1px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+  color:gray; 
+  cursor:default;
+}
+
+.HoverTreeNode 
+{ 
+  font-family: tahoma; 
+  font-size: 11px; 
+  text-decoration:underline; 
+  padding-top:2px;
+  padding-bottom:1px;
+  padding-left: 3px; 
+  padding-right: 3px; 
+  cursor: default; 
+}
+
+.SelectedTreeNode 
+{ 
+  /*background-image: url(images/node_bg.gif);*/ 
+  font-family: tahoma; 
+  font-size: 15px; 
+  border: none;
+  padding-top:1px;
+  padding-bottom:0px;
+  padding-left: 2px; 
+  padding-right: 2px; 
+  cursor: default;
+    color: #F0A30A;
+}
+
+.HoverPopup
+{
+  background-image: url(images/node_bg.gif);
+  filter:progid:DXImageTransform.Microsoft.Shadow(color='#666666', Direction=135, Strength=2);
+  font-family: tahoma; 
+  font-size: 11px; 
+  border: solid 1px #9ADFFE;
+  padding-top:1px;
+  padding-bottom:0px;
+  padding-left: 2px; 
+  padding-right: 2px; 
+  cursor: default;
+}
+
+.NodeEdit 
+{
+  border:1px gray solid;
+  font-family: tahoma; 
+  font-size: 11px;
+}

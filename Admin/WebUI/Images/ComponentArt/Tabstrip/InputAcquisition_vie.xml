@@ -1,0 +1,6 @@
+﻿<tabs>
+  <tab Text="Trường biên mục" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Thuộc tính" Look-LeftIconUrl="attribute.png" SelectedLook-LeftIconUrl="attribute.png" />
+  <tab Text="Gắn tệp tư liệu điện tử" Look-LeftIconUrl="attachment.png" SelectedLook-LeftIconUrl="attachment.png" />
+  <tab Text="Gắn ảnh bìa" Look-LeftIconUrl="upload.png" SelectedLook-LeftIconUrl="upload.png" />
+</tabs>

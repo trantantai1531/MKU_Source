@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblStatCat</name>
+<vie>Thống kê bạn đọc theo nhóm bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalOfPatrons</name>
+<vie>Tổng số bạn đọc:</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPatronProfile</name>
+<vie>Hồ sơ bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPatronCard</name>
+<vie>In thẻ bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfBatchProcess</name>
+<vie>Xử lý theo lô</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfStatistic</name>
+<vie>Thông kê báo cáo</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chi tiết lỗi: |+|1|+|Mã lỗi: |+|2|+|Bạn không có quyền thực hiện chức năng này|+|3|+|Nhóm bạn đọc|+|4|+|Số lượng bạn đọc|+|5|+|Tỉ lệ % theo nhóm bạn đọc|+|6|+|Không rõ|+|7|+|Thống kê nhóm bạn đọc</vie>
+<eng></eng>
+</data>
+</Head>

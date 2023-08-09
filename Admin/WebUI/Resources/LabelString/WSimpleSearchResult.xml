@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblContacInfor</name>
+<vie>Thông tin hồ sơ bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapFullName</name>
+<vie>Họ tên :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFullName</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapEthnic</name>
+<vie>Dân tộc :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblEthnic</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapDOB</name>
+<vie>Ngày sinh :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDOB</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapSex</name>
+<vie>Giới tính :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSex</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapCode</name>
+<vie>Số thẻ :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCode</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapValidDate</name>
+<vie>Ngày cấp :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValidDate</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapExipredDate</name>
+<vie>Ngày hết hạn :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExipredDate</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapGroup</name>
+<vie>Nhóm :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblGroup</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapNote</name>
+<vie>Ghi chú :</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNote</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapCollege</name>
+<vie>Trường:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCollege</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapFaculty</name>
+<vie>Đơn vị:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFaculty</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapGrade</name>
+<vie>Khóa:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblGrade</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapOtherAddress</name>
+<vie>Nơi thường trú:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOtherAddress</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapTel</name>
+<vie>Số điện thoại:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTel</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Nam|+|3|+|Nữ</vie>
+<eng></eng>
+</data>
+</Head>

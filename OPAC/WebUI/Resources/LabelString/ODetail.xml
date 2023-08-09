@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spFullDisplay</name>
+<vie>Đầy đủ</vie>
+<eng>Full</eng>
+</data>
+<data>
+<name>spSimpleDisplay</name>
+<vie>Đơn giản</vie>
+<eng>Simple</eng>
+</data>
+<data>
+<name>spISBDDisplay</name>
+<vie>ISBD</vie>
+<eng>ISBD</eng>
+</data>
+<data>
+<name>spMARCDisplay</name>
+<vie>MARC</vie>
+<eng>MARC</eng>
+</data>
+<data>
+<name>spRelation</name>
+<vie>Tài liệu liên quan</vie>
+<eng>Realtion Document</eng>
+</data>
+<data>
+<name>spRelationNone</name>
+<vie>Không có tài liệu liên quan</vie>
+<eng>Realtion Document</eng>
+</data>
+<data>
+<name>spISSN</name>
+<vie>ISSN</vie>
+<eng>ISSN</eng>
+</data>
+<data>
+<name>spAuthor</name>
+<vie>Tác giả</vie>
+<eng>Author</eng>
+</data>
+<data>
+<name>spPublisher</name>
+<vie>Nhà xuất bản</vie>
+<eng>Publisher</eng>
+</data>
+<data>
+<name>spPhysicalInfo</name>
+<vie>Mô tả vật lý</vie>
+<eng>Physical Information</eng>
+</data>
+<data>
+<name>spPublisherInfo</name>
+<vie>Thông tin xuất bản</vie>
+<eng>Publisher Information</eng>
+</data>
+<data>
+<name>spEDATAContent</name>
+<vie>Đọc nội dung</vie>
+<eng>Read Content</eng>
+</data>
+<data>
+<name>spEDATA</name>
+<vie>Dữ liệu điện tử</vie>
+<eng>Electronic data</eng>
+</data>
+<data>
+<name>spItemType</name>
+<vie>Dạng tài liệu</vie>
+<eng>Document type</eng>
+</data>
+<data>
+<name>spFree</name>
+<vie>Rỗi</vie>
+<eng>Available</eng>
+</data>
+<data>
+<name>spBusy</name>
+<vie>Bận</vie>
+<eng>unAvailable</eng>
+</data>
+<data>
+<name>spMap</name>
+<vie>Sơ đồ</vie>
+<eng>Site Map</eng>
+</data>
+<data>
+<name>spBarcodeInfo</name>
+<vie>Thông tin xếp giá</vie>
+<eng>Barcode Information</eng>
+</data>
+<data>
+<name>spMagazineInfo</name>
+<vie>Thông tin số liệu tổng hợp</vie>
+<eng>Information aggregated data</eng>
+</data>
+<data>
+<name>spAvailable</name>
+<vie>bản tài liệu rỗi</vie>
+<eng>Available documents</eng>
+</data>
+<data>
+<name>spAddToMyList</name>
+<vie>Thêm vào danh sách của tôi</vie>
+<eng>Add to my list</eng>
+</data>
+<data>
+<name>spInMyList</name>
+<vie>Đã trong danh sách của tôi</vie>
+<eng>In my list</eng>
+</data>
+<data>
+<name>spKeyword</name>
+<vie>Từ khóa</vie>
+<eng>Keyword</eng>
+</data>
+<data>
+<name>spSubjectHeading</name>
+<vie>Tiêu đề đề mục</vie>
+<eng>Subject heading</eng>
+</data>
+<data>
+<name>spDDC</name>
+<vie>DDC</vie>
+<eng>DDC</eng>
+</data>
+<data>
+<name>spNLM</name>
+<vie>NLM</vie>
+<eng>NLM</eng>
+</data>
+<data>
+<name>spSeries</name>
+<vie>Tuyển tập (Series)</vie>
+<eng>Series</eng>
+</data>
+<data>
+<name>spRelatedWord</name>
+<vie>Mục từ truy cập</vie>
+<eng>Related Word</eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|LC Control Number: |+|1|+|Dạng tài liệu: |+|2|+|Thông tin mô tả: |+|3|+|Call Number: |+|4|+|Phụ chú: |+|5|+|Sách: |+|6|+|Xuất bản ấn phẩm nhiều kỳ: |+|7|+|Thông tin biên mục: |+|8|+|Địa chỉ truy cập: |+|9|+|Dữ liệu điện tử: |+|10|+|Đọc nội dung: </vie>
+<eng>0|+|LC Control Number: |+|1|+|Document Type: |+|2|+|Description Information: |+|3|+|Call Number: |+|4|+|Note: |+|5|+|Books: |+|6|+|Publication serials: |+|7|+|Cataloging Information: |+|8|+|Address access: |+|9|+|Electronic data: |+|10|+|Read content: </eng>
+</data>
+<data>
+<name>ddlLabel_FullRecord</name>
+<vie>0|+|Loại tài liệu: |+|1|+|Chỉ số ISBN: |+|2|+|Chỉ số ISSN: |+|3|+|Mã ngôn ngữ: |+|4|+|Phân loại UDC: |+|5|+|Phân loại DDC: |+|6|+|Phân loại BBK: |+|7|+|Tên tác giả: |+|8|+|Tác giả tập thể: |+|9|+|Tác giả liên quan: |+|10|+|Thông tin nhan đề: |+|11|+|Xuất bản,phát hành: |+|12|+|Mô tả vật lý: |+|13|+|Thông tin tùng thư: |+|14|+|Tóm tắt/chú giải: |+|15|+|Ký hiệu kho: |+|16|+|Địa chỉ điện tử và truy cập: |+|17|+|Từ khóa: |+|18|+|Sách: |+|19|+|Xuất bản ấn phẩm nhiều kỳ: |+|20|+|Tiêu đề đề mục: |+|21|+|Phân loại NLM: |+|22|+|Thông tin biên mục: |+|23|+|Địa chỉ truy cập: |+|24|+|Dữ liệu điện tử: |+|25|+|Đọc nội dung: |+|26|+|Dạng tài liệu: |+|27|+|Phụ chú luận án: </vie>
+<eng>0|+|Document Type: |+|1|+|ISBN Index: |+|2|+|ISSN Index: |+|3|+|Language Code: |+|4|+|Classification UDC: |+|5|+|Classification DDC: |+|6|+|Classification BBK: |+|7|+|Author name: |+|8|+|Collective author: |+|9|+|Relevance author: |+|10|+|Title Information: |+|11|+|Publication, delivery: |+|12|+|Physical description: |+|13|+|Information series: |+|14|+|Abstract / glossary: |+|15|+|Warehouse symbol: |+|16|+|Address and access: |+|17|+|Tags: |+|18|+|Books: |+|19|+|Publication serials: |+|20|+|Subject headings: |+|21|+|NLM Classification: |+|22|+|Cataloging Information: |+|23|+|Location access only: |+|24|+|eletronic data: |+|25|+|Read content: |+|26|+|Document Type: |+|27|+|Note thesis: </eng>
+</data>
+<data>
+<name>raiseView</name>
+<vie>raiseView</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,62 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WSearchFrintInventory.aspx.vb" Inherits="eMicLibAdmin.WebUI.Acquisition.WSearchFrintInventory" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//Dtd HTML 4.0 transitional//EN">
+<HTML xmlns:o="urn:schemas-microsoft-com:office:office">
+	<HEAD>
+		<title>Kiểm kê</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body topMargin="10" MS_POSITIONING="GridLayout" leftmargin="0">
+		<form id="frm" method="post" encType="multipart/form-data" runat="server">
+			<TABLE id="tbl" width="100%">
+				<tr>
+					<td class="lbPageTitle" colSpan="2"><asp:label id="lblMainTitle" runat="server" cssClass="lbPageTitle">In kết quả kiểm kê </asp:label></td>
+				</tr>
+				<tr>
+					<td colSpan="2"><asp:label id="lblInventory" runat="server" CssClass="lbFunctionDetail">Kỳ k<u>i</u>ểm kê</asp:label><asp:dropdownlist id="ddlInventory" runat="server"></asp:dropdownlist></td>
+				</tr>
+				<tr>
+					<td colspan="2"><asp:label id="lblInventoryBound" runat="server" CssClass="lbFunctionTitle">Phạm vi in</asp:label></td>
+				</tr>
+				<tr>
+					<td align="right" width="30%"><asp:label id="lblLibraryName" runat="server" CssClass="lbFunctionDetail"><u>T</u>ên thư viện</asp:label></td>
+					<td align="left"><asp:dropdownlist id="ddlLibrary" runat="server" AutoPostBack="True"></asp:dropdownlist></td>
+				</tr>
+				<tr>
+					<td align="right"><asp:label id="lblLocation" runat="server" CssClass="lbFunctionDetail">Tê<u>n</u> kho</asp:label></td>
+					<td align="left"><asp:dropdownlist id="ddlLocation" runat="server"></asp:dropdownlist>&nbsp;</td>
+				</tr>
+				<tr>
+					<td align="right"><asp:label id="lblShelf" runat="server" CssClass="lbFunctionDetail">Tên <u>g</u>iá sách</asp:label></td>
+					<td><asp:textbox id="txtShelf" runat="server" CssClass="lbTextBox"></asp:textbox></td>
+				</tr>
+				<tr>
+					<td colSpan="2"><asp:label id="lblInventoryForm" runat="server" CssClass="lbFunctionTitle">Hình thức in</asp:label></td>
+				</tr>
+				<tr>
+					<td colSpan="2"><asp:radiobuttonlist id="optPurpose" runat="server" CssClass="lbFunctionDetail">
+							<asp:ListItem Value="0" Selected="True">Kết quả đăng <u>k</u>ý cá biệt thiếu</asp:ListItem>
+							<asp:ListItem Value="1">Kết quả đăng ký <u>c</u>á biệt nhầm chỗ</asp:ListItem>
+						</asp:radiobuttonlist></td>
+				</tr>
+				<tr>
+					<td colSpan="2"><asp:button id="btnInventory" runat="server" CssClass="lbButton" Text="In kết quả (k)"></asp:button>&nbsp;<asp:button id="btnViewResult" runat="server" CssClass="lbButton" Text="Đóng (x)"></asp:button><INPUT id="txtHiddenPathFile" type="hidden" name="txtHiddenPathFile" runat="server">
+						<INPUT id="txtLibraryID" type="hidden" name="txtLibraryID" runat="server"> <INPUT id="txtLocationID" type="hidden" name="txtLocationID" runat="server">
+						<INPUT id="txtInventoryID" type="hidden" name="txtInventoryID" runat="server"></td>
+				</tr>
+			</TABLE>
+			<asp:label id="lblLiblaryInv" Runat="server" Visible="False">Kết quả kiểm kê thư viện:</asp:label>
+			<asp:label id="lblLocationInv" Runat="server" Visible="False">    kho:</asp:label>
+			<asp:label id="lblShelfInv" Runat="server" Visible="False">    giá:</asp:label>
+			<asp:label id="lblErrorInfor" Runat="server" Visible="False">Chi tiết lỗi</asp:label><asp:label id="lblErrorCode" Runat="server" Visible="False">Mã lỗi</asp:label></TD></TR></TBODY></TABLE></form>
+		<asp:label id="lblTotalNoLoop1" Runat="server" Visible="False">Tổng số bản ghi thực kiểm kê(lọc bỏ các đăng ký cá biệt trùng): </asp:label>
+		<asp:label id="lblTotalWrong1" Runat="server" Visible="False">Tổng số bản ghi đặt nhầm chỗ: </asp:label>
+		<asp:label id="lblWrongDetail1" Runat="server" Visible="False">&nbsp;&nbsp;&nbsp;&nbsp;Các đăng ký cá biệt đặt nhầm chỗ là: </asp:label>
+		<asp:label id="lblTotalNo1" Runat="server" Visible="False">Tổng số bản ghi không có trong dữ liệu là: </asp:label>
+		<asp:label id="lblNoDetail1" Runat="server" Visible="False">&nbsp;&nbsp;&nbsp;&nbsp;Các đăng ký cá biệt không có trong dữ liệu là: </asp:label>
+		<asp:label id="lblNoFile" Runat="server" Visible="False">Không tồn tại file này.</asp:label>
+		<asp:label id="lblNoCopynumber" Runat="server" Visible="False">Không có đăng ký cá biệt nào được chọn.</asp:label>
+	</body>
+</HTML>

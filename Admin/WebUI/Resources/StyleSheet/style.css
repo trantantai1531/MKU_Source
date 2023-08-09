@@ -1,0 +1,291 @@
+@font-face {
+    font-family: 'HeadFont';
+    src: url("../fonts/UTMBebas.ttf");
+}
+
+@font-face {
+    font-family: "WebFont";
+    src: url("../fonts/segoeui.ttf");
+}
+
+.titleform {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlecontrol {
+    font-weight: bold;
+    font-size: 12px;
+    font-style: italic;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlerowtextwhite {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.lbGroupTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial,Tahoma, Verdana, Arial;
+    background-color: #f3f3f3;
+}
+
+.titlerowtextread {
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+    padding: 0px 0px 0px 5px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.logon {
+    BACKGROUND-IMAGE: url('../../Images/login.gif');
+}
+
+.textlogon {
+    font-style: normal;
+    font-size: 11px;
+    color: #000000;
+    padding-left: 15px;
+    padding-right: 5px;
+    font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.backgroundbody {
+    background-color: white;
+}
+
+.backgroundbodywhite {
+    background-color: White;
+}
+
+.backgroundrow {
+    background-color: #25A0DA;
+}
+
+a:link {
+    color: #F0A30A;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F0A30A;
+    text-decoration: none;
+}
+
+    a:visited:hover {
+        color: #F0A30A;
+        text-decoration: underline;
+    }
+
+a:hover {
+    color: #F0A30A;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #F0A30A;
+    text-decoration: underline;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+td {
+    font-size: 12px;
+}
+
+.MultiFont {
+    font-family: Arial Unicode MS, Arial,Tahoma, Verdana;
+}
+
+.status-login {
+    color: #f0a30a !important;
+}
+
+#loginstatus {
+    width: 100%;
+    top: 7px;
+    right: 0px;
+    float: right;
+    position: fixed;
+    background-color: Transparent;
+    height: 30px;
+    padding-top: 5px;
+    z-index: 20001;
+    text-align: right;
+    padding-right: 10px;
+    font-size: 16px;
+    font-family: WebFont;
+}
+
+#language {
+    width: 80px;
+    top: 50px;
+    right: 0px;
+    float: right;
+    position: fixed;
+    background-color: Transparent;
+    height: 30px;
+    padding-top: 5px;
+    z-index: 10000;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.imageHandle {
+    cursor: hand;
+    cursor: pointer;
+    vertical-align: middle;
+}
+/*FOOTER*/
+#divFooter {
+    background: #333 none repeat scroll 0 0;
+}
+
+.footer-form {
+    min-width: 320px;
+    padding: 10px 5px;
+    position: relative;
+}
+
+    .footer-form .footer-info h5 {
+        color: #fff;
+        font-size: 13px;
+        line-height: 14px;
+        font-weight: normal;
+        margin-bottom: 5px;
+        margin-top: 0px;
+        font-family: 'WebFont';
+    }
+
+    .footer-form .footer-info a {
+        color: #f0a30a;
+        text-decoration: none;
+    }
+
+    .footer-form .footer-info span {
+        margin: 0 10px;
+    }
+/*.VerticalSplitterBar{display:none}*/
+.RadRibbonBar_Silk .rrbTabs {
+    background: #f0a30a none repeat scroll 0 0 !important;
+    border: 0px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    border-top: 1px solid #655640 !important;
+}
+
+.rrbContentWrapIn {
+    background-color: transparent !important;
+    border: 0px solid transparent !important;
+}
+
+.RadRibbonBar_Silk .rrbTabLabel {
+    color: #fff !important;
+    display: block !important;
+    font-size: 15px !important;
+    padding: 9px 25px !important;
+    font-family: WebFont;
+    background-image: url("../../Images/menu_top.png") !important;
+    background-repeat: no-repeat !important;
+    background-position:right center;
+}
+
+ul.rrbTabs {
+    padding: 0px !important;
+    border: 0px solid #000 !important;
+    height: auto !important;
+}
+
+.RadRibbonBar .rrbTab, .RadRibbonBar .rrbApplicationTab {
+    bottom: 0px !important;
+}
+
+.rrbButtonArea {
+    background: #333 none repeat scroll 0 0 !important;
+    color: white;
+}
+
+.rrbButtonGroup {
+    color: #fff;
+    display: block;
+    padding: 11px 0px;
+    text-align: center;
+    margin: 0px !important;
+}
+
+span.rrbButtonText {
+    color: white !important;
+    font-family: WebFont;
+    font-size: 14px;
+}
+
+.rrbButtonGroupIn {
+    border: none !important;
+    font-size: 14px !important;
+    padding: 6px 7px !important;
+    zoom: 0.97 !important;
+}
+
+.RadRibbonBar_Silk .rrbGroupTitle {
+    display: none !important;
+}
+
+.RadRibbonBar .rrbControlGroup {
+    height: 73px !important;
+}
+
+.RadRibbonBar .rrbButtonGroupIn, .RadRibbonBar .rrbLargeButton .rrbButtonIn {
+    height: 73px !important;
+}
+
+.rrbButtonArea {
+    padding: 0px 10px;
+    height: 90px !important;
+}
+
+.RadRibbonBar_Silk .rrbSelectedTab .rrbTabLabel {
+    background: #333 none repeat scroll 0 0 !important;
+    color: #fff !important;
+   
+}
+
+.RadRibbonBar_Silk .rrbHoveredTab .rrbTabLabel {
+    background: #666 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+
+.rrbButtonOut:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+    .rrbButtonOut:hover span {
+        color: #f0a30a !important;
+    }
+
+.active span {
+    color: #f0a30a !important;
+}

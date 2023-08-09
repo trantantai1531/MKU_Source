@@ -1,0 +1,6 @@
+﻿<tabs>
+  <tab Text="Field catalogue" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Attribute" Look-LeftIconUrl="attribute.png" SelectedLook-LeftIconUrl="attribute.png" />
+  <tab Text="Attach e-book" Look-LeftIconUrl="attachment.png" SelectedLook-LeftIconUrl="attachment.png" />
+  <tab Text="Attach image cover" Look-LeftIconUrl="upload.png" SelectedLook-LeftIconUrl="upload.png" />
+</tabs>

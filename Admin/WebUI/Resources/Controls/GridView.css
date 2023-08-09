@@ -1,0 +1,66 @@
+﻿.table-form tr:hover .lbl-box-page-size, .table-form tr:hover .lbl-page-size {
+    background: #ececec none repeat scroll 0 0;
+}
+
+.table-form .row-head, .table-form .lbGridHeader {
+   
+    text-align: center;
+}
+
+.LinkPaging {
+    width: 20px;
+    background-color: White;
+    text-align: center;
+    margin-left: 8px;
+}
+
+.footer-pager, .lbGridPager > td {
+    border: none !important;
+}
+
+.lbGridPager .current-page {
+    background-color: white;
+    border: 1px solid #666666 !important;
+    color: #666 !important;
+    display: block;
+    float: left;
+    height: 26px;
+    margin-left: 10px;
+    padding-top: 4px;
+    text-align: center;
+    width: 30px;
+}
+
+.lbGridPager .lbl-page-size {
+    border: medium none;
+    margin-left: 59px;
+    width: 87px;
+    float: right;
+}
+
+.txt-page-size {
+    float: left;
+    font-size: 15px;
+    height: 32px;
+    margin-left: 13px;
+    margin-right: -5px;
+    text-align: right;
+    width: 32px;
+}
+
+.lbl-box-page-size {
+    border: medium none !important;
+}
+
+.footer-pager {
+    width: 100%;
+}
+
+.ddl-page-size {
+    float: right;
+     width: 55px;
+}
+
+input.lbTextBox {
+    margin-bottom: 10px;
+}

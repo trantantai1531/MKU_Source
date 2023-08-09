@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spLblExport2file</name>
+<vie>Danh sách biên mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spOrder</name>
+<vie>Sắp xếp theo:</vie>
+<eng></eng>
+</data>
+<data>
+<name>spBackMyList</name>
+<vie> Trở lại</vie>
+<eng></eng>
+</data>
+</Head>

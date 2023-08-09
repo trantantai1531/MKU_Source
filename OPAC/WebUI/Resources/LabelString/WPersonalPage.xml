@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblPatronName</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNoText</name>
+<vie>Số thẻ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNoValue</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValidDateText</name>
+<vie>Cấp ngày: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValidDateValue</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExpriedDateText</name>
+<vie>Hết hạn ngày: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExpriedDateValue</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronGroupText</name>
+<vie>Nhóm bạn đọc: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronGroupValue</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdateInfor</name>
+<vie>Thay đổi thông tin(y)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblReservation</name>
+<vie>Ấn phẩm đặt chỗ</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrReservation</name>
+<vie>|+||+|</vie>
+<eng></eng>
+</data>
+<data>
+<name>ckbCheckAll</name>
+<vie>Chọn tất</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReservationDelete</name>
+<vie>Xoá(x)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOnHolding</name>
+<vie>Ấn phẩm đang mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrOnHolding</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblILLRequest</name>
+<vie>Ấn phẩm mưọn liên thư viện</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrILLRequest</name>
+<vie>|+|</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInterestItem</name>
+<vie>Ấn phẩm mới</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfInterstItem</name>
+<vie>Chọn lĩnh vực quan tâm
+						</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrInterestItem</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCheckOutDate</name>
+<vie>Ngày mượn: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCheckInDate</name>
+<vie>Ngày trả: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOverDueDate</name>
+<vie>Quá hạn: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDate</name>
+<vie> ngày</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCreatedDate</name>
+<vie>Ngày tạo y/c: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lbldelILL</name>
+<vie>huỷ yêu cầu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblStatus</name>
+<vie> Trạng thái: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRenew</name>
+<vie>gia hạn </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOnHoldingB</name>
+<vie>sách đã được đặt chỗ </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNotRenew</name>
+<vie> không có quyền gia hạn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHour</name>
+<vie>giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblGetBefore</name>
+<vie>Lấy truớc: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLibaryName</name>
+<vie>Thư viện: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPosition</name>
+<vie>Bạn đứng thứ</vie>
+<eng></eng>
+</data>
+</Head>

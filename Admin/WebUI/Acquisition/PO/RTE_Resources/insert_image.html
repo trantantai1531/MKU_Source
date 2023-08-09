@@ -1,0 +1,177 @@
+<!-- based on insimage.dlg -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD W3 HTML 3.2//EN">
+<HTML id="dlgImage" STYLE="width: 325px; height: 360px; ">
+	<HEAD>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+		<meta http-equiv="MSThemeCompatible" content="Yes">
+		<TITLE>Insert Image</TITLE>
+		<style>
+  html, body, button, div, input, select,tr,td, fieldset { font-family: MS Shell Dlg; font-size: 8pt; };
+</style>
+		<SCRIPT defer>
+
+// if we pass the "window" object as a argument and then set opener to
+// equal that we can refer to dialogWindows and popupWindows the same way
+opener = window.dialogArguments;
+
+function _CloseOnEsc() {
+  if (event.keyCode == 27) { window.close(); return; }
+}
+
+
+//window.onerror = HandleError
+
+/*
+function HandleError(message, url, line) {
+  var str = "An error has occurred in this dialog." + "\n\n"
+  + "Error: " + line + "\n" + message;
+  alert(str);
+  window.close();
+  return true;
+}
+*/
+function Init() 
+{
+  
+  // event handlers  
+  document.body.onkeypress = _CloseOnEsc;
+  btnOK.onclick = new Function("btnOKClick()");
+
+  
+/*
+  if (globalDoc.selection.type == htmlSelectionControl) {
+    if (grngMaster.length == 1) {
+      elmSelectedImage = grngMaster.item(0);
+      if (elmSelectedImage.tagName == "IMG") {
+        txtFileName.fImageLoaded = true;
+        if (elmSelectedImage.src) {
+          txtFileName.value          = elmSelectedImage.src.replace(/^[^*]*(\*\*\*)/, "$1");  // fix placeholder src values that editor converted to abs paths
+          txtFileName.intImageHeight = elmSelectedImage.height;
+          txtFileName.intImageWidth  = elmSelectedImage.width;
+          txtVertical.value          = elmSelectedImage.vspace;
+          txtHorizontal.value        = elmSelectedImage.hspace;
+          txtBorder.value            = elmSelectedImage.border;
+          txtAltText.value           = elmSelectedImage.alt;
+          selAlignment.value         = elmSelectedImage.align;
+        }
+      }
+    }
+  }
+  */
+
+}
+
+
+function btnOKClick() {
+ 
+  var img = txtFileName.value;
+  
+  // error checking
+
+  if (!img || img == "http://") { 
+    alert("Image URL must be specified.");
+    txtFileName.focus();
+    return;
+  }
+  
+  var alt = txtAltText.value;
+  
+  
+	
+img = "<img alt='"+alt+"' border='"+borderWidth.value+"'align='"+document.all.alignment.value+"'src='"+img+"'></img>";
+  if(txtAnchor.value != "http://")
+  {
+	img = "<a href='"+txtAnchor.value+"' target='"+document.all.target.value+"'>"+img+"</a>";
+  }
+  
+  //insert image
+  opener[0].insertString(img,opener[1]);
+  
+  //clos popup
+  window.close();
+}
+		</SCRIPT>
+	</HEAD>
+	<BODY id="bdy" onload="Init()" style="background: threedface; color: windowtext;" scroll="no">
+		<div>
+			<div style="padding-top:5px;padding-left:10px;padding-right:10px;;padding-bottom:5px">
+				<FIELDSET style="width: 100%; text-align: center">
+					<LEGEND>Image:</LEGEND>
+					<table>
+						<tr>
+							<td width="25px">Full Image URL:</td>
+							<td><INPUT ID="txtFileName" type="text" value="http://" tabIndex="10" title="Full url of the image. Example http://news.bbc.co.uk" style="width: 20em" onfocus="select()" NAME="Text1"></td>
+						</tr>
+						<tr>
+							<td width="25px">Alternate Text:</td>
+							<td><INPUT ID="txtAltText" type="text" tabIndex="15" style="width: 20em" title="The text to be displayed when the mouse pointer is placed on the image." onfocus="select()" NAME="Text2"></td>
+						</tr>
+					</table>
+				</FIELDSET>
+			</div>
+			<br />
+			<div style="padding-top:0px;padding-left:10px;padding-right:10px;;padding-bottom:5px">
+				<FIELDSET style="width: 100%; text-align: center">
+					<LEGEND>Link Image To:</LEGEND>
+					<table ID="Table1">
+						<tr>
+							<td width="25px">Url:</td>
+							<td><INPUT ID="txtAnchor" type="text" value="http://" title="Full url of the image. Example http://news.bbc.co.uk" tabIndex="15" style="width: 20em" NAME="Text2" value="http://"></td>
+						</tr>
+						<tr>
+							<td width="25px">Target:</td>
+							<td>
+								<select name="target" size="1" ID="Select3">
+									<option value="_blank">_blank</option>
+									<option value="_parent">_parent</option>
+									<option value="_self">_self</option>
+									<option value="_top">_top</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</FIELDSET>
+			</div>
+			<br />
+			<div style="padding-top:0px;padding-left:10px;padding-right:10px;padding-bottom:5px;text-align: center"">
+				<FIELDSET style="width: 1%; text-align: center">
+					<LEGEND>Layout</LEGEND>
+					<table border="0" cellspacing="6" cellpadding="0" ID="Table2">
+						<tr>
+							<td height="21">Alignment:</td>
+							<td>
+								<select name="alignment" size="1" ID="Select1">
+									<option value="">Not set</option>
+									<option value="left">Left</option>
+									<option value="right">Right</option>
+									<option value="textTop">Texttop</option>
+									<option value="absMiddle">Absmiddle</option>
+									<option value="baseline">Baseline</option>
+									<option value="absBottom">Absbottom</option>
+									<option value="bottom">Bottom</option>
+									<option value="middle">Middle</option>
+									<option value="top">Top</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td><nobr>Border Width:</nobr></td>
+							<td>
+								<select name="borderWidth" size="1" ID="Select2">
+									<option value="0">0</option>
+									<option value="1">1</option>
+								</select>
+							</td>
+						</tr>
+					</table>
+				</FIELDSET>
+			</div>
+			<br />
+			<div style="text-align:center;">
+				<BUTTON ID="Button1" type="reset" tabIndex="45" style="width: 7em; height: 2.2em; " onClick="window.close();">Cancel</BUTTON>
+				&nbsp;
+				<BUTTON ID="btnOK" type="submit" tabIndex="40" style="width: 7em; height: 2.2em; ">OK</BUTTON>
+			</div>
+		</div>
+	</BODY>
+</HTML>

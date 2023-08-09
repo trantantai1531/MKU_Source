@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblResource</name>
+<vie>Tài nguyên</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkAllType</name>
+<vie>Mọi tư liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkBook</name>
+<vie>Sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkArti</name>
+<vie>Bài trích</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkThes</name>
+<vie>Luận án</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkMaga</name>
+<vie>Báo tạp chí</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkFilm</name>
+<vie>Nghe nhìn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkGap</name>
+<vie>Hình ảnh</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkEdata</name>
+<vie>Metadata</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkEbook</name>
+<vie>Toàn văn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkMaps</name>
+<vie>Bản đồ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkSubjBrow</name>
+<vie>Duyệt đề mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblService</name>
+<vie>Dịch vụ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkGISMAP</name>
+<vie>Bản đồ số (GIS)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkZ3950</name>
+<vie>Z3950</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkEdev</name>
+<vie>Mua tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkILL</name>
+<vie>ILL</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkForum</name>
+<vie>Diễn đàn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkOAI</name>
+<vie>OAI-PMH</vie>
+<eng></eng>
+</data>
+</Head>

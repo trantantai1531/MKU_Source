@@ -1,0 +1,266 @@
+﻿.RadRibbonBar_Silk .rrbTabs
+{
+    background:#024385 none repeat scroll 0 0 !important;
+}
+.RadRibbonBar_Silk .rrbSelectedTab .rrbTabLabel, .RadRibbonBar_Silk .rrbHoveredTab .rrbTabLabel {
+    background: #aacfea none repeat scroll 0 0 !important;
+    color: #214385 !important;
+    border-bottom: 1px solid #92D9EB !important;
+}
+.rrbButtonArea {
+    background: #AACFEA none repeat scroll 0 0 !important;
+    color: #000;
+}
+[class*="icon-"], [class*="exicon"] span.rrbImagePlaceholder, span.rrbButtonText span.rrbTextContent
+{
+    color:#000;
+}
+.rrbButtonOut:hover span {
+    color: blue !important;
+}
+.main-head-form{
+    color: rgb(31, 97, 163);
+    font-family: HeadFont;
+    font-size: 183%;
+    font-weight: normal;
+    margin: 3px 0 6px;
+}
+.group-menu a {
+    color: rgb(31, 97, 163);
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+}
+.group-menu a:hover {
+    text-decoration: underline;
+    color: #06f !important;
+}
+a.status-login
+{
+    color: #92D9EB !important;
+}
+.active span
+{
+    color: #06f !important;
+}
+
+.tab-head {
+    background: #4182c4 none repeat scroll 0 0;
+    text-align: left;
+}
+.tab-head .TabbedPanelsTabSelected, .tab-head .TabbedPanelsTabHover {
+    background: rgb(31, 97, 163) none repeat scroll 0 0;
+}
+.TabbedPanelsTab a:hover, .TabbedPanelsTab a:active {
+    color: #fff;
+    border: none; 
+    outline: none;
+}
+.TabbedPanelsTab a:after {
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: rgb(31, 97, 163) none repeat scroll 0 0;
+}
+.row-detail .lbLinkFunction
+{
+    color: #2561A3 !important;
+}
+.row-detail .lbLinkFunction:hover {
+    color: blue !important;
+}
+.button-form .form-btn {
+    color: #2061a3;
+}
+.button-control .button-form .form-btn {
+    background: #aacfea none repeat scroll 0 0;
+    min-height: 31px;
+}
+.button-control .button-form .form-btn:hover {
+    background-color: #024385 !important;
+    color: white !important;
+    box-shadow:none;
+}
+.form-btn, .lbButton {
+    background: #aacfea none repeat scroll 0 0;
+    border-radius: 5px;
+    border: 1px solid #aacfea !important;
+    color: #2061a3;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 6px;
+    vertical-align: top;
+    min-width: 45px;
+}
+
+.lbButton:hover {
+    background: #1D24FB none repeat scroll 0 0 !important;
+    color: white !important;
+    border-radius: 5px;
+    border: 1px solid #024385;
+    box-shadow:none;
+}
+.RadGrid_Office2010Black th.rgHeader
+{
+    background: #aacfea none repeat scroll 0 0 !important;
+}
+.table-form .row-head:hover, .table-form .lbGridHeader:hover {
+    background: #1D24FB none repeat scroll 0 0;
+}
+#btnAdd.btn-icon ~ .icon-btn, #btnRemove.btn-icon ~ .icon-btn {
+    background: #8AB5C2 none repeat scroll 0 0 !important;
+    border: 1px solid #8AB5C2 !important;
+}
+
+a.lbLinkFunction {
+    color: #2061A7;
+    font-size: 14px;
+}
+.main-group-form {
+    background: #aacfea none repeat scroll 0 0;
+    color: #000;
+    display: inline-block;
+    font-family: HeadFont;
+    font-size: 150%;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 4px 0% 7px;
+    width: 100%;
+}
+
+.table-form .lbGridHeader td {
+    padding: 8px 20px;
+    font-weight: bold;
+}
+.table-form td {
+    color: #3D61AB;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #666;
+}
+.fileAttach input::before {
+    content: 'Chọn tệp';
+    display: inline-block;
+    padding: 7px 8px 6px;
+    outline: none;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 10pt;
+    background: #BEDAEF none repeat scroll 0 0;
+    border: 1px solid #BEDAEF !important;
+    color: white;
+}
+tr.lbGridHeader, tr.lbTrPageTitle {
+    background-color: #BEDAEF;
+}
+.table-form .row-head:hover, .table-form .lbGridHeader:hover {
+    background: #BEDAEF none repeat scroll 0 0;
+}
+.radGridPager {
+    display: inline-block;
+    background-color: #BEDAEF;
+    height: 24px;
+    margin-left: 6px;
+    padding-top: 8px;
+    color: white !important;
+    text-align: center;
+    width: 32px !important;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.form-btn:hover {
+    background: #1D24FB none repeat scroll 0 0 !important;
+    color: white !important;
+}
+#tabMuonve > li.activetab {
+    background-color: #1F61A3;
+    color: white;
+}
+li.TabbedPanelsTab, li.TabbedPanelsTab a.lbLinkFunction {
+    color: white;
+}
+.tab-head .TabbedPanelsTab {
+    border: none;
+    margin: 0 !important;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-family: WebFont;
+}
+.row-detail p a {
+    color: #3369B9;
+    font-style: italic;
+}
+.row-detail p a:hover {
+    text-decoration: underline;
+    color: blue !important;
+}
+.btn-icon.btn-next
+{
+    background:none;
+}
+.HeadingCell, .HeadingCellText {
+    background-color: #BEDAEF;
+    color: #000;
+}
+#toolbar .ca_tb_txt nobr {
+    background-color: #BEDAEF;
+    border: 1px solid #BEDAEF;
+    border-radius: 10px;
+    color: #2061a3;
+    font-family: WebFont !important;
+    padding: 10px 10px 12px 12px;
+    text-align: center;
+    font-size: 13px;
+}
+#toolbar .ca_tb_txt nobr:hover {
+    background-color: #1D24FB;
+    border: 1px solid #1D24FB;
+    border-radius: 10px;
+    color: white;
+    font-family: WebFont !important;
+    padding: 10px 10px 12px 12px;
+    text-align: center;
+    box-shadow: 0 2px 0 #f63;
+}
+.row-hd .cell
+{
+    background-color: #BEDAEF;
+    color: #2061a3;
+}
+#divBody .tab ul li {
+    background: #4182C4 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+#divBody .tab ul li.active {
+    background-color: #024385;
+    display: inline-block;
+    padding: 5px 10px;
+}
+#divBody .tab ul li.active span
+{
+    color: #fff !important;
+}
+#divBody .tab ul li {
+    background: #4182C4 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#divBody .tab ul li.active {
+    background-color: #024385;
+    display: inline-block;
+    padding: 5px 10px;
+}
+#divBody .tab ul li.active span
+{
+    color: #fff !important;
+}

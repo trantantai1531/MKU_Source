@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab Text="Access Page" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Access Resource" Look-LeftIconUrl="attribute.png" SelectedLook-LeftIconUrl="attribute.png" />
+</tabs>

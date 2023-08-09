@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+eMicLibAdmin.DataAccess
+</name>
+</assembly>
+<members>
+<member name="M:eMicLibAdmin.DataAccess.Catalogue.clsDItemCollection.GetHoldingDel(System.String)">
+ <summary>
+ Include Non-DKCB and DKCB with state denote by 0 or 1
+ </summary>
+ <param name="strSQL"></param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.DataAccess.Common.clsDInput.GetHoldingLocationByUserID(System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ Get HoldingLocation
+ </summary>
+ <param name="intHoldingLibrary"></param>
+ <param name="intUserID">0 if get all location, or get only location belong to user</param>
+ <param name="intTopText">0 if not generating top text (--chọn tất cả--) 1 if so</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.DataAccess.Common.clsDUserLocation.GetHoldingLocationByUserID(System.Int32,System.Int32,System.Int32,System.String)">
+ <summary>
+ Get HoldingLocation
+ </summary>
+ <param name="intHoldingLibrary"></param>
+ <param name="intUserID">0 if get all location, or get only location belong to user</param>
+ <param name="intTopText">0 if not generating top text (--chọn tất cả--) 1 if so</param>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsDDHVLStatistic.LoanMode">
+ <summary>
+ Hình thức mượn
+ 0 - Tất cả
+ 1 - Về nhà
+ 2 - Tại chỗ
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsDDHVLStatistic.LoanType">
+ <summary>
+ Dạng tư liệu lưu thông
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsDDHVLStatistic.StatOption">
+ <summary>
+ 0 - Theo đầu ấn phẩm
+ 1 - Theo bản ấn phẩm
+ 2 - Theo bạn đọc
+ </summary>
+ <returns></returns>
+</member>
+</members>
+</doc>

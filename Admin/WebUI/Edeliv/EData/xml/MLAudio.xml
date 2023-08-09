@@ -1,0 +1,53 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/">
+  <channel>
+    <title>MRSS Playlist</title>
+    <item>
+      <id>71679</id>
+      <title>1. Lang tham mot tinh yeu Yasuy Music.vnn.vn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/Lang tham mot tinh yeu Yasuy Music.vnn.vn.mp3" xmlns:media="schema" />
+      <order>1</order>
+    </item>
+    <item>
+      <id>71680</id>
+      <title>2. Mat den Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/Mat den Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>2</order>
+    </item>
+    <item>
+      <id>71681</id>
+      <title>3. ngay xua em den Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/ngay xua em den Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>3</order>
+    </item>
+    <item>
+      <id>71682</id>
+      <title>4. NOi ay Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/NOi ay Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>4</order>
+    </item>
+    <item>
+      <id>71684</id>
+      <title>5. NOi tinh yeu bat dau Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/NOi tinh yeu bat dau Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>5</order>
+    </item>
+    <item>
+      <id>71686</id>
+      <title>6. phut giay khat khao yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/phut giay khat khao yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>6</order>
+    </item>
+    <item>
+      <id>71687</id>
+      <title>7. tro ve Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/tro ve Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>7</order>
+    </item>
+    <item>
+      <id>71688</id>
+      <title>8. viet tinh ca Yasuy Music Vnn</title>
+      <media:content url="http://music.vnn.vn/DataMusic/20130225/viet tinh ca Yasuy Music Vnn.mp3" xmlns:media="schema" />
+      <order>8</order>
+    </item>
+  </channel>
+</rss>

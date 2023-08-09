@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>btnFirst</name>
+<vie>|&lt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnBack</name>
+<vie>&lt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblReci</name>
+<vie>&lt;u&gt;b&lt;/u&gt;ản ghi thứ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOf</name>
+<vie>trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumRec</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumRecs</name>
+<vie>bản ghi tìm thấy</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnNext</name>
+<vie>&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnEnd</name>
+<vie>&gt;|</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnNew</name>
+<vie>&gt;*</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm mới(s)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnEdit</name>
+<vie>Sửa(u)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnResetPass</name>
+<vie>Reset PassWord</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDelete</name>
+<vie>Xoá(d)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Thứ tự bản ghi phải là số!|+|3|+|Không thể xoá được hồ sơ bạn đọc đang mượn ấn phẩm của Thư viện!|+|4|+|Chọn OK nếu bạn thực sự muốn xoá hồ sơ bạn đọc này!|+|5|+|Xoá hồ sơ bạn đọc|+|6|+|Vượt qua dưới hạn thứ tự bản ghi cho phép !|+|7|+|Xoá hồ sơ bạn đọc thành công|+|8|+|Chọn OK để reset PassWord mặc định cho bạn đọc!|+|9|+|Reset password thành công!</vie>
+<eng></eng>
+</data>
+</Head>

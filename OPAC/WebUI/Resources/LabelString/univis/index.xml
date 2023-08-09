@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblDisplay</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Bạn không có quyền truy cập vào file này!!!</vie>
+<eng></eng>
+</data>
+</Head>

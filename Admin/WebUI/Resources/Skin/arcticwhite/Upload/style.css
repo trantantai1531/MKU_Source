@@ -1,0 +1,91 @@
+a:active,a:focus { outline:none; }
+
+/* Form elements */
+.sel { width:304px; }
+	.sel .file { height:25px;width:304px;cursor:default;margin:0 0 10px 0; }
+	.sel div.filename { width:144px;height:21px;border:1px solid #bbb;background-color:#fff;padding:2px 0 0 4px;margin:0;display:block;float:left;margin:0 1px 0 0; }
+	.sel div input { background-color:transparent;width:144px;padding:2px !important;margin:0;font-family:Arial,Helvetica,sans-serif;font-size:11px;border:none;color:#666;cursor:default !important; }
+	.sel div.empty { background-color:#f6f6f6; }
+	.sel div.empty input { color:#999; }
+	.sel a.browse { text-decoration:none;color:#333;cursor:default !important;display:block;float:left;background:none;width:68px;height:25px;border:0; }
+	.sel a.browse img { border:0; }
+	.sel a.remove,.sel a.remove-d { text-decoration:none;color:#333;cursor:default !important;display:block;float:right;background:url("images/static.png") no-repeat -113px -83px;width:76px;height:25px; }
+	.sel a.remove:hover { background-position:-113px -108px; }
+	.sel a.remove:active { background-position:-113px -133px;outline:none; }
+	.sel a.remove-d { background-position:-113px -158px; } /* Disabled class */
+.actions { height:25px;width:304px;cursor:default; }
+	.actions a.add,.actions a.add-d { text-decoration:none;color:#333;cursor:default !important;display:block;float:left;background:url("images/static.png") no-repeat -113px -183px;width:219px;height:25px; }
+	.actions a.add:hover { background-position:-113px -208px; }
+	.actions a.add:active { background-position:-113px -233px;outline:none; }
+	.actions a.add-d { background-position:-113px -258px; } /* Disabled class */
+	.actions a.add-d:active { outline:none; } /* Disabled class */
+
+	.actions a.upload,.actions a.upload-d { text-decoration:none;color:#333;cursor:default !important;display:block;float:right;background:url("images/static.png") no-repeat -189px -83px;width:76px;height:25px; }
+	.actions a.upload:hover { background-position:-189px -108px; }
+	.actions a.upload:active { background-position:-189px -133px;outline:none; }
+	.actions a.upload-d { background-position:-189px -158px; } /* Disabled class */
+
+/* Dialogue titlebar */
+.ttl { width:100%;height:38px;cursor:move; }
+	.ttl a { margin-top:4px;display:block;float:right;width:23px;height:21px;background:transparent url("images/static.png") no-repeat -18px 0;cursor:default; }
+	.ttl a:hover { background-position:-18px -21px; }
+	.ttl a:active { background-position:-18px -42px;outline:none; }
+	.ttl a:focus { outline:none; }
+
+	.ttlt { width:100%;height:30px; }
+		.ttlt-l { width:9px;height:100%;background:transparent url("images/static.png") no-repeat;float:left; }
+		.ttlt-m { height:100%;background:#000 url("images/horizontal.png") repeat-x;float:left; }
+		.ttlt-r { width:9px;height:100%;background:transparent url("images/static.png") no-repeat -9px 0;float:left; }
+	.ttlt span { cursor:inherit;margin-left:4px;line-height:32px;color:#333;font-weight:bold;font-family:Arial,Helvetica,sans-serif;font-size:12px; }
+
+	.ttlb { width:100%;height:8px;overflow:hidden; } /*** overflow:hidden to prevent IE6 from rendering the div at the current font height ***/
+		.ttlb-l { width:9px;height:100%;background:#000 url("images/static.png") no-repeat 0 -30px;float:left; }
+		.ttlb-m { height:100%;background:#fff url("images/horizontal.png") repeat-x 0 -30px;float:left; }
+		.ttlb-r { width:9px;height:100%;background:#000 url("images/static.png") no-repeat -9px -30px;float:left; }
+
+
+/* Dialogue contents */
+.con { background:#fff url("images/vertical.png") repeat-y;font-family:Arial,Helvetica,sans-serif;font-size:11px;padding:4px 7px;min-height:20px; }
+
+/* Dialogue footer */
+.ftr { width:100%;height:37px;font-family:Arial,Helvetica,sans-serif;font-size:11px; }
+	.ftr-l { width:9px;height:100%;background:transparent url("images/static.png") no-repeat 0 -83px;float:left; }
+	.ftr-m { height:100%;background:#eee url("images/horizontal.png") repeat-x 0 -83px;float:left; }
+	.ftr-r { width:9px;height:100%;background:transparent url("images/static.png") no-repeat -9px -83px;float:left; }
+
+	/* Footer buttons */
+	.ftr .btns { float:right;margin-top:6px; }
+	.ftr .btns a { text-decoration:none;color:#333;cursor:default !important;display:inline; }
+	.ftr .btns a span.l { display:block;float:left;width:10px;height:25px;background:transparent url("images/static.png") no-repeat -93px 0;margin-left:2px; }
+	.ftr .btns a span.m { display:block;float:left;padding:0;height:25px;line-height:25px;background:transparent url("images/horizontal.png") repeat-x 0 -120px; }
+	.ftr .btns a span.r { display:block;float:left;width:10px;height:25px;background:transparent url("images/static.png") no-repeat -103px 0; }
+	.ftr .btns a:hover { text-decoration:none;color:#000; }
+	.ftr .btns a:hover span.l { background-position: -93px -25px; }
+	.ftr .btns a:hover span.m { background-position:0 -145px; }
+	.ftr .btns a:hover span.r { background-position: -103px -25px; }
+	.ftr .btns a:active span.m { height:23px;line-height:24px;padding-top:2px; }
+
+
+/* Upload dialogue styles */
+.dlg-up { color:#999;cursor:default !important; }
+.dlg-up .ttlt-m,.dlg-up .ttlb-m,.dlg-up .ftr-m { width:440px; }
+
+.dlg-up .stat,.dlg-up .list { padding:0 15px; }
+
+.dlg-up h3 { margin:0;font-weight:normal;font-size:11px;padding:0 0 4px 0;color:#666; }
+.dlg-up .blue { color:#3c7e9d; }
+.dlg-up strong { color:#3c7e9d;font-weight:normal; }
+
+.dlg-up .files { height:auto;margin:0 8px 8px 8px;}
+.dlg-up .list ul { margin:0;padding:0;list-style-type:none; }
+.dlg-up .list ul li { line-height:16px;background:#fff url("images/static.png") no-repeat -384px -32px;padding-left:16px; }
+.dlg-up .list ul li.done { color:#000;background-position:-384px 0; }
+.dlg-up .list ul li.cur { color:#3c7e9d;background-position:-384px -16px;}
+
+.dlg-up .info { float:left;font-size:11px;cursor:default !important;margin:2px 0 0 8px;height:34px;line-height:34px;font-size:10px; }
+
+/* Progress bar and related elements */
+.prog { width:412px;height:18px !important;border:1px solid #ccc;border-bottom-color:#ddd;border-right-color:#ddd;padding:0;margin:0;float:left;display:inline;overflow:hidden; }
+.prog .con { width:410px;height:16px !important;background:transparent url("images/horizontal.png") repeat-x 0 -170px;border:0;margin:0;padding:1px; }
+.prog .con .bar { height:16px;background:transparent url("images/horizontal.png") repeat-x 0 -188px; }
+

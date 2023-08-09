@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleFullText</name>
+<vie>TOÀN VĂN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblquery</name>
+<vie>Điều kiện &lt;u&gt;t&lt;/u&gt;ìm kiếm: </vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm(m)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSort</name>
+<vie>Sắp &lt;u&gt;x&lt;/u&gt;ếp theo:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSort</name>
+<vie>0|+|Điểm số|+|3|+|Ngày tháng|+|2|+|Tiêu đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSummary</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrResult</name>
+<vie>stt|+|nội dung</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblShowsResults</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLink</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNotFoundAlert</name>
+<vie>Không tìm thấy kết quả nào</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBuy</name>
+<vie>Thêm vào giỏ hàng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDuplinco</name>
+<vie>Thông tin biên mục duplinco</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPreviousPage</name>
+<vie>trang trước</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNextPage</name>
+<vie>trang tiếp</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFind</name>
+<vie>Tìm được</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItems</name>
+<vie> tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMark</name>
+<vie>Ðiểm số: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDate</name>
+<vie>Ngày tháng: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSize</name>
+<vie>Kích thước: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSimilar</name>
+<vie>Tìm tương tự</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNotFound</name>
+<vie>không tìm thấy dữ liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSimilaryFind</name>
+<vie>Tìm tương tự</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chưa nhập điều kiện tìm kiếm|+|1|+|Không có tiêu đề|+|2|+|Bạn không đủ thẩm quyền tải tài liệu này.|+|3|+|Tải về máy trạm.</vie>
+<eng></eng>
+</data>
+</Head>

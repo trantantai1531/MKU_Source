@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spLibrary</name>
+<vie>Thư viện</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+</Head>

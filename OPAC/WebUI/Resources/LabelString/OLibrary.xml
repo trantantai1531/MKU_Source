@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblWelcome</name>
+<vie>Chào mừng đến với thư viện điện tử - thư viện số eMicLib</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLanguage</name>
+<vie>Ngôn ngữ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLanguage</name>
+<vie>vie|+|Tiếng Việt|+|eng|+|Tiếng Anh</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFooter</name>
+<vie>&lt;strong&gt;DGSoft Technologies JSC © eMicLib 2014. All Rights Reserved&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+</Head>

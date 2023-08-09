@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblScript</name>
+<vie>&lt;script&gt;initializeDocument()&lt;/script&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Hệ thống lưu trữ|+|3|+|Không xác định</vie>
+<eng></eng>
+</data>
+</Head>

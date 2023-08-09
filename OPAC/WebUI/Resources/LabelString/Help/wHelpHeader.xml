@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lnkContent</name>
+<vie>Nội dung</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkSearch</name>
+<vie>Tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHeader</name>
+<vie></vie>
+<eng></eng>
+</data>
+</Head>

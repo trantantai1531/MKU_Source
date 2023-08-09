@@ -1,0 +1,12 @@
+﻿select{  cursor: pointer;
+  height: 30px;
+  width: 100%;
+  font: 14px Arial;
+  padding: 2px 5px;}
+input[type=text]
+{
+      background: #fff none repeat scroll 0 0;
+  border: 1px solid #999;
+  padding: 2px 5px;
+      font: 14px Arial;
+}

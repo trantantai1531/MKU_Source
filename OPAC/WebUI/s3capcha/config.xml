@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<s3capcha>
+    <icons>
+        <name>apple,cherry,lemon,pear,strawberry</name>
+        <title>Trái táo,Trái anh đào,Trái chanh,Trái lê,Trái dâu tây</title>
+        <width>33</width>
+        <height>33</height>
+        <ext>jpg</ext>
+        <folder>fruit</folder>
+    </icons>
+    <message>Mã xác minh, bạn vui lòng hãy chọn {0}</message>
+</s3capcha>

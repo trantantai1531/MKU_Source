@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleEDataSearch</name>
+<vie>SƯU TẬP SỐ</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoAll</name>
+<vie>&lt;u&gt;T&lt;/u&gt;oàn bộ</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoImage</name>
+<vie>&lt;u&gt;H&lt;/u&gt;ình ảnh</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoMap</name>
+<vie>&lt;u&gt;B&lt;/u&gt;ản đồ</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoVideo</name>
+<vie>&lt;u&gt;V&lt;/u&gt;ideo</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoSound</name>
+<vie>&lt;u&gt;Â&lt;/u&gt;m thanh</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoDocument</name>
+<vie>Văn &lt;u&gt;b&lt;/u&gt;ản</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoExecutable</name>
+<vie>Chương t&lt;u&gt;r&lt;/u&gt;ình</vie>
+<eng></eng>
+</data>
+<data>
+<name>rdoOther</name>
+<vie>&lt;u&gt;K&lt;/u&gt;hác</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName1</name>
+<vie>0|+|Mọi trường|+|1|+|Nhan đề|+|2|+|Người biên mục|+|3|+|Chủ đề|+|4|+|Chú thích|+|5|+|Nhà xuất bản|+|6|+|Nhà cung cấp|+|7|+|Ngày xuất bản|+|8|+|Loại ấn phẩm|+|9|+|Định dạng|+|10|+|Từ định danh|+|11|+|Nguồn|+|12|+|Ngôn ngữ|+|13|+|Liên hệ|+|14|+|Thông tin chính|+|15|+|Bản quyền</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator2</name>
+<vie>1|+|AND|+|2|+|OR|+|3|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName2</name>
+<vie>0|+|Mọi trường|+|1|+|Nhan đề|+|2|+|Người biên mục|+|3|+|Chủ đề|+|4|+|Chú thích|+|5|+|Nhà xuất bản|+|6|+|Nhà cung cấp|+|7|+|Ngày xuất bản|+|8|+|Loại ấn phẩm|+|9|+|Định dạng|+|10|+|Từ định danh|+|11|+|Nguồn|+|12|+|Ngôn ngữ|+|13|+|Liên hệ|+|14|+|Thông tin chính|+|15|+|Bản quyền</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator3</name>
+<vie>1|+|AND|+|2|+|OR|+|3|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName3</name>
+<vie>0|+|Mọi trường|+|1|+|Nhan đề|+|2|+|Người biên mục|+|3|+|Chủ đề|+|4|+|Chú thích|+|5|+|Nhà xuất bản|+|6|+|Nhà cung cấp|+|7|+|Ngày xuất bản|+|8|+|Loại ấn phẩm|+|9|+|Định dạng|+|10|+|Từ định danh|+|11|+|Nguồn|+|12|+|Ngôn ngữ|+|13|+|Liên hệ|+|14|+|Thông tin chính|+|15|+|Bản quyền</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAllAttributes</name>
+<vie>Thuộc tính tệp:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAllFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFromAll</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblToAll</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTypePicture</name>
+<vie>Kiểu tệp &lt;u&gt;ả&lt;/u&gt;nh: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlColor</name>
+<vie>|+||+|1|+|Nhị phân|+|2|+|Thang độ xám|+|3|+|Mầu|+|4|+|Mầu thật</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbTypeColor</name>
+<vie>Hệ mà&lt;u&gt;u&lt;/u&gt;: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlTypeColor</name>
+<vie>|+||+|RGB|+|RGB|+|CMYK|+|CMYK</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblWidth</name>
+<vie>Rộng(pixel): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblWidthTo</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblWidthFrom</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHeightFrom</name>
+<vie>Cao(pixel): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lbHeightTo</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHeightTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMinRes</name>
+<vie>Độ phân giải(dpi): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMaxResFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMaxResTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMaxSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMaxSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMaxSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoWith</name>
+<vie>Rộng(pixel): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoWithFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoWidthTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoHeight</name>
+<vie>Cao(pixel): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoHeightFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoHeightTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoDuration</name>
+<vie> Trường độ(giây): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVidepDurationFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoDurationTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoFileSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVideoFileSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAlbum</name>
+<vie>Tên Album: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundAuthor</name>
+<vie>Tên nghệ sĩ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblGenre</name>
+<vie>Thể loại: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundDuration</name>
+<vie> Trường độ(giây): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundDurationFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundDurationTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBitRate</name>
+<vie>Bit Rate(kbps): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBitRateFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBitRateTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundFileSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSoundFileSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPage</name>
+<vie>Số trang: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPageFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPageCountTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDocFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDocFileSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDocFileSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExeFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExeFileSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExeFileSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOtherFileSize</name>
+<vie>Kích thước tệp(byte): </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOtherFileSizeFrom</name>
+<vie> Từ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOtherFileSizeTo</name>
+<vie>Tới: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblEdataType</name>
+<vie>&lt;u&gt;D&lt;/u&gt;ạng ấn phẩm điện tử: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlEdataType</name>
+<vie>-1|+|Tất cả|+|1|+|Miễn phí|+|0|+|Thu phí</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSort</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ắp xếp theo: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSort</name>
+<vie>|+||+|FileSize|+|Kích thước tệp|+|MediaType|+|Kiểu tệp|+|ColorModel|+|Hệ mầu (Ảnh)|+|ImgWidth|+|Độ rộng (Ảnh, video)|+|ImgHeight|+|Độ cao (Ảnh, video)|+|Xdpi|+|Độ phân giải (Ảnh)|+|Duration|+|Trường độ (Video, âm thanh)|+|Album|+|Tên album (Âm thanh)|+|Artist|+|Tên nghệ sĩ (Âm thanh)|+|Genre|+|Thể loại (Âm thanh)|+|BitRate|+|Bit Rate (Âm thanh)|+|PageCount|+|Số trang (Văn bản)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLimit</name>
+<vie>&lt;u&gt;G&lt;/u&gt;iới hạn: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLimit</name>
+<vie>|+|Toàn bộ|+|1000|+|1000|+|500|+|500|+|300|+|300|+|200|+|200|+|100|+|100|+|50|+|50</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRecord</name>
+<vie> bản ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPageSize</name>
+<vie>Số &lt;u&gt;b&lt;/u&gt;ản ghi tối đa/trang: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPageSize</name>
+<vie>15|+|15|+|30|+|30|+|60|+|60|+|90|+|90|+|120|+|120|+|150|+|150|+|180|+|180</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRecordPerPage</name>
+<vie> bản ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm (f)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Đặt lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Hiện thông tin biên mục|+|1|+|Ẩn thông tin biên mục|+|2|+|Bạn phải nhập dữ liệu kiểu số!|+|3|+|Không tìm thấy biểu ghi nào.</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMode</name>
+<vie>&lt;U&gt;L&lt;/U&gt;oại số liệu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlMode</name>
+<vie>0|+|Chưa kiểm nhận|+|1|+|Trong kho|+|2|+|Đã mất/Thanh lý</vie>
+<eng></eng>
+</data>
+</Head>

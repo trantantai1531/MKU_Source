@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblStatCat</name>
+<vie>Thống kê bản ấn phẩm theo dạng tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalHolding</name>
+<vie>Tổng số ấn phẩm xếp giá:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsInOrder</name>
+<vie>Tổng số ấn phẩm đang được đặt mua:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsInProcess</name>
+<vie>Tổng số ấn phẩm đang xử lý:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsInQuery</name>
+<vie>Tổng số ấn phẩm đang chờ nhập kho:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsWaiting</name>
+<vie>Tổng số ấn phẩm đang chờ mua:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsSendCatalogue</name>
+<vie>Tổng số ấn phẩm đã giao biên mục:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemsRequest</name>
+<vie>Tổng số ấn phẩm chờ duyệt mua:</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPO</name>
+<vie>Đơn đặt</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfAcquisition</name>
+<vie>Bổ sung</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfInventory</name>
+<vie>Thư viện, kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfBudget</name>
+<vie>Quản lý tài chính</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfStatistic</name>
+<vie>Thống kê báo cáo</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLog</name>
+<vie>0|+|Thống kê theo dạng tài liệu|+|1|+|Chi tiết lỗi |+|2|+|Mã lỗi|+|3|+|Tổng số bản ấn phẩm|+|4|+|Dạng tài liệu|+|5|+|Số bản ấn phẩm</vie>
+<eng></eng>
+</data>
+</Head>

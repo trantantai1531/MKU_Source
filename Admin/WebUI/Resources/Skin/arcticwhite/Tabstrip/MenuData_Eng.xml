@@ -1,0 +1,19 @@
+<items>
+  <item Text="Admin" NavigateUrl="../Admin/AdmIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook" >
+    <item Text="User" NavigateUrl="AdmUser.aspx?page=AdmUser" target="main"/>
+    <item Text="Log system" NavigateUrl="AdmLog.aspx?page=AdmLog" target="main"/>
+    <item Text="Parameter system" NavigateUrl="AdmParameter.aspx?page=AdmParameter" target="main"/>
+    <item Text="Language" NavigateUrl="AdmLanguage.aspx?page=AdmLanguage" target="main"/>
+  </item>
+
+  <item Text="Catalogue" NavigateUrl="../Acquisition/AcqIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Acquisition" NavigateUrl="AcqAcquisition.aspx?page=AcqAcquisition" target="main"/>
+    <item Text="Stored system" NavigateUrl="AcqStoredSystem.aspx?page=AcqStoredSystem" target="main"/>
+    <item Text="Statistic" NavigateUrl="AcqStatistic.aspx?page=AcqStatistic" target="main"/>
+  </item>
+
+  <item Text="OPAC" NavigateUrl="../Patron/PatIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Document" NavigateUrl="PatDocument.aspx?page=PatIndexPatDocument" />
+  </item>
+ 
+</items>

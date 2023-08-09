@@ -1,0 +1,52 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WZFind.aspx.vb" Inherits="eMicLibAdmin.WebUI.Acquisition.WZFind" EnableViewStateMAC="False" EnableViewState="false" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>Kết quả tìm qua Z39.50</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body leftMargin="0" topMargin="0" MS_POSITIONING="GridLayout">
+		<form id="Form1" method="post" runat="server">
+			<table cellSpacing="0" cellPadding="2" width="100%">
+				<tr class="lbPageTitle">
+					<td>
+						<asp:label id="lblNext" Visible="False" Runat="server">Xem 10 biểu ghi tiếp: </asp:label>
+						<asp:textbox id="txtNext" Width="56px" Visible="False" Runat="server">1</asp:textbox>
+						<asp:button id="btnNext" Visible="False" Runat="server" Text="Xem(v)" Width="70px"></asp:button></td>
+				</tr>
+				<tr>
+					<td><asp:table id="tblResult" runat="server" Width="100%"></asp:table></td>
+				</tr>
+				<tr class="lbGridHeader">
+					<td align="center">
+						<asp:label id="NotFound" Visible="False" Runat="server">Không tìm thấy bản ghi nào thoả mãn điều kiện</asp:label></td>
+				</tr>
+				<tr class="lbPageTitle">
+					<td align="center">
+						<asp:button id="btnClose" Runat="server" Text="Đóng(c)" Width="70px"></asp:button></td>
+				</tr>
+				<TR>
+					<TD align="center">
+						<INPUT type="hidden" runat="server" id="txtHidTitle" name="txtHidTitle"> <INPUT type="hidden" runat="server" id="txtHidAuthor" name="txtHidAuthor">
+						<INPUT type="hidden" runat="server" id="txtHidISBN" name="txtHidISBN"> <INPUT type="hidden" runat="server" id="txtHidISSN" name="txtHidISSN">
+						<INPUT type="hidden" runat="server" id="txtHidPublisher" name="txtHidPublisher">
+						<INPUT type="hidden" runat="server" id="txtHidPublishYear" name="txtHidPublishYear">
+						<INPUT type="hidden" runat="server" id="txtHidPublishOrder" name="txtHidPublishOrder">
+						<asp:Label id="lblJS" runat="server"></asp:Label>
+					</TD>
+				</TR>
+			</table>
+			<asp:DropDownList ID="ddlLabel" Runat="server" Visible="False" Width="0">
+				<asp:ListItem Value="0">tìm thấy </asp:ListItem>
+				<asp:ListItem Value="1"> biểu ghi</asp:ListItem>
+				<asp:ListItem Value="2">Tác giả</asp:ListItem>
+				<asp:ListItem Value="3">Nhan đề</asp:ListItem>
+				<asp:ListItem Value="4">Xuất bản</asp:ListItem>
+				<asp:ListItem Value="5">Thông tin khác</asp:ListItem>
+			</asp:DropDownList>
+		</form>
+	</body>
+</HTML>

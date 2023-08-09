@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblContent</name>
+<vie>Content</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInforItem</name>
+<vie>InforItem</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblStore</name>
+<vie>Kho: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLib</name>
+<vie>Thư viện: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblShelf</name>
+<vie>Giá: </vie>
+<eng></eng>
+</data>
+</Head>

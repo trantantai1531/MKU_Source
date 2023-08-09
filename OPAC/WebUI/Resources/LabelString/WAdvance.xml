@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleAdvance</name>
+<vie>NÂNG CAO</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmSimple</name>
+<vie>Tìm đơn giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmDetail</name>
+<vie>Tìm chi tiết</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmAdvance</name>
+<vie>Tìm nâng cao</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix1</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng|+|4|+|Ngày lớn hơn|+|5|+|Ngày nhỏ hơn|+|6|+|Số lớn hơn|+|7|+|Số nhỏ hơn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkDic1</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator2</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix2</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng|+|4|+|Ngày lớn hơn|+|5|+|Ngày nhỏ hơn|+|6|+|Số lớn hơn|+|7|+|Số nhỏ hơn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkDic2</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator3</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix3</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng|+|4|+|Ngày lớn hơn|+|5|+|Ngày nhỏ hơn|+|6|+|Số lớn hơn|+|7|+|Số nhỏ hơn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkDic3</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator4</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix4</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng|+|4|+|Ngày lớn hơn|+|5|+|Ngày nhỏ hơn|+|6|+|Số lớn hơn|+|7|+|Số nhỏ hơn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkDic4</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbFormat</name>
+<vie>Dạng tài &lt;U&gt;l&lt;/U&gt;iệu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSort</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ắp xếp theo:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSort</name>
+<vie>|+||+|Title|+|Nhan đề chính|+|Author|+|Tác giả chính|+|Year|+|Năm xuất bản|+|Publish|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbViewMethod</name>
+<vie>Hiển thị:</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISBD</name>
+<vie>ISB&lt;u&gt;D&lt;/u&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>optSimple</name>
+<vie>Đ&lt;u&gt;ơ&lt;/u&gt;n giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm (f)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Làm lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG</name>
+<vie>Chưa nhập thông tin cần tìm !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbAllField</name>
+<vie>Mọi trường</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbTitleInDDL</name>
+<vie>Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemType</name>
+<vie>Toàn bộ tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsgNotFound</name>
+<vie>Không tìm thấy biểu ghi nào.</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,34 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WEDataMenu.aspx.vb" Inherits="eMicLibAdmin.WebUI.Edeliv.WEDataMenu" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>WEDataMenu</title>
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="CODE_LANGUAGE" content="Visual Basic .NET 7.1">
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+	</HEAD>
+	<body MS_POSITIONING="GridLayout">
+		<form id="Form1" method="post" runat="server">
+			<TABLE id="Table1" cellSpacing="0" cellPadding="2" width="100%" border="0">
+				<TR>
+					<TD width="20%">
+						<asp:HyperLink id="lnkMain" runat="server" CssClass="lbLinkFunction">Quản lý tư liệu điện tử</asp:HyperLink>
+					</TD>
+					<TD width="20%">
+						<asp:HyperLink id="lnkEdata" runat="server" CssClass="lbLinkFunction">Dữ liệu điện tử</asp:HyperLink>
+					</TD>
+					<TD width="20%">
+						<asp:HyperLink id="HyperLink3" runat="server" CssClass="lbLinkFunction">Quản trị UNIVIS</asp:HyperLink>
+					</TD>
+					<TD width="20%">
+						<asp:HyperLink id="lnk2" runat="server" CssClass="lbLinkFunction">Trình soạn thảo ngoài</asp:HyperLink>
+					</TD>
+					<TD width="20%">
+						<asp:HyperLink id="HyperLink1" runat="server" CssClass="lbLinkFunction">Quản lý bộ sưu tập</asp:HyperLink>
+					</TD>
+				</TR>
+			</TABLE>
+		</form>
+	</body>
+</HTML>

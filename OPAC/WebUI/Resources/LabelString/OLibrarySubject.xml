@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>btnSearchVocabulary</name>
+<vie>Tra Cứu</vie>
+<eng></eng>
+</data>
+<data>
+<name>Label1</name>
+<vie>Chủ đề đã chọn: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMean</name>
+<vie></vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab ID="1" Text="Quản lý người dùng" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab ID="2" Text="Quản lý Role" Look-LeftIconUrl="attribute.png" SelectedLook-LeftIconUrl="attribute.png" />
+</tabs>

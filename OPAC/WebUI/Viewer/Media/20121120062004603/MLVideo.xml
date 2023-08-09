@@ -1,0 +1,41 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/">
+  <channel>
+    <title>MRSS Playlist</title>
+    <item>
+      <id>1</id>
+      <creator>
+      </creator>
+      <title>PHẦN 1/4</title>
+      <media:content url="http://localhost/ebooks/2012/11/20121120062004603/QUAN TRI THOI GIAN HIEU QUA - TAP 1.flv" xmlns:media="schema" />
+      <description>Thử &lt;b&gt;thôi okay&lt;/b&gt;</description>
+      <jwplayer:duration xmlns:jwplayer="duration">00:12:39.75</jwplayer:duration>
+    </item>
+    <item>
+      <id>2</id>
+      <creator>
+      </creator>
+      <title>PHẦN 2/4</title>
+      <media:content url="http://localhost/ebooks/2012/11/20121120062003480/QUAN TRI THOI GIAN HIEU QUA - TAP 2.flv" xmlns:media="schema" />
+      <description>Thử phần &lt;font color="#ff5010"&gt;&lt;b&gt;2 nhé&lt;/b&gt;&lt;/font&gt;</description>
+      <jwplayer:duration xmlns:jwplayer="duration">00:12:39.78</jwplayer:duration>
+    </item>
+    <item>
+      <id>3</id>
+      <creator>
+      </creator>
+      <title>PHẦN 3/4</title>
+      <media:content url="http://localhost/ebooks/2012/11/20121120062002575/QUAN TRI THOI GIAN HIEU QUA - TAP 3.flv" xmlns:media="schema" />
+      <description>Test tiếp &lt;b&gt;Okay&lt;/b&gt;</description>
+      <jwplayer:duration xmlns:jwplayer="duration">00:12:39.75</jwplayer:duration>
+    </item>
+    <item>
+      <id>4</id>
+      <creator>
+      </creator>
+      <title>PHẦN 4/4</title>
+      <media:content url="http://localhost/ebooks/2012/11/20121120062001421/QUAN TRI THOI GIAN HIEU QUA - TAP 4.flv" xmlns:media="schema" />
+      <description>abc</description>
+      <jwplayer:duration xmlns:jwplayer="duration">00:15:22.55</jwplayer:duration>
+    </item>
+  </channel>
+</rss>

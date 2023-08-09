@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblReason</name>
+<vie>&lt;U&gt;L&lt;/U&gt;ý do:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnLock</name>
+<vie>Khoá(l)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUnlock</name>
+<vie>Mở khoá(u)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnRemove</name>
+<vie>Huỷ(r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnRestoreUnlock</name>
+<vie>Phục hồi(o)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnRestore</name>
+<vie>Phục hồi/Mở khoá(v)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReceive</name>
+<vie>Kiểm nhận(c)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReceiveUnlock</name>
+<vie>Kiểm nhận/Mở khoá(d)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm(s)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDelete</name>
+<vie>Xóa(x)</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPrevious</name>
+<vie>&lt;&lt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInPage</name>
+<vie>/</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblUboundPage</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalPage</name>
+<vie>trang</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfNext</name>
+<vie>&gt;&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNote</name>
+<vie>Bạn phải chọn ít nhất một ÐKCB!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNote1</name>
+<vie>ÐKCB không được rỗng!!!</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Dữ liệu nhập vào phải là số nguyên dương!!!|+|1|+|Bạn đang ở trang đầu tiên!!!|+|2|+|Bạn đang ở trang cuối cùng!!!|+|3|+|Vượt quá tổng số trang dang có!!!</vie>
+<eng></eng>
+</data>
+</Head>

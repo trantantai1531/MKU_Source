@@ -1,0 +1,31 @@
+<items>
+  <item Text="Admin" NavigateUrl="../Admin/AdmIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook" >
+    <item Text="User" NavigateUrl="AdmUser.aspx?page=AdmUser" />
+    <item Text="Log system" NavigateUrl="AdmLog.aspx?page=AdmLog" />
+    <item Text="Parameter system" NavigateUrl="AdmParameter.aspx?page=AdmParameter" />
+    <item Text="Language" NavigateUrl="AdmLanguage.aspx?page=AdmLanguage" />
+  </item>
+
+  <item Text="Catalogue" NavigateUrl="../Acquisition/AcqIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Acquisition" NavigateUrl="AcqAcquisition.aspx?page=AcqAcquisition" />
+    <item Text="Stored system" NavigateUrl="AcqStoredSystem.aspx?page=AcqStoredSystem" />
+    <item Text="Statistic" NavigateUrl="AcqStatistic.aspx?page=AcqStatistic" />
+  </item>
+
+  <item Text="Patron" NavigateUrl="../Patron/PatIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Document" NavigateUrl="PatDocument.aspx?page=PatIndexPatDocument" />
+    <item Text="Card" NavigateUrl="PatCard.aspx?page=PatCard" />
+    <item Text="Statistic" NavigateUrl="PatStatistic.aspx?page=PatStatistic" />
+  </item>
+
+  <item Text="Circulation" NavigateUrl="../Circulation/CirIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Check out" NavigateUrl="CirCheckout.aspx?page=PatIndexCirCheckout" />
+    <item Text="Check in" NavigateUrl="CirCheckin.aspx?page=PatIndexCirCheckin" />
+    <item Text="Renewal" NavigateUrl="CirRenewal.aspx?page=PatIndexCirRenewal" />
+    <item Text="Overdue" NavigateUrl="CirOverdue.aspx?page=PatIndexCirOverdue" />
+    <item Text="Reservation" NavigateUrl="CirReservation.aspx?page=PatIndexCirReservation" />
+    <item Text="Policy" NavigateUrl="CirPolicy.aspx?page=PatIndexCirPolicy" />
+    <item Text="Statistic" NavigateUrl="CirStatistic.aspx?page=PatIndexCirStatistic" />
+  </item>
+
+</items>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Xoá bản ghi biên mục|+|1|+|Xoá bản ghi dữ liệu căn cứ|+|2|+|Hiển thị bản ghi|+|3|+|Xem bản ghi dữ liệu biên mục|+|4|+|Xem bản ghi dữ liệu căn cứ|+|5|+|Không thể xoá bản ghi dữ liệu biên mục vì vẫn tồn tại mã xếp giá|+|6|+|Đóng|+|7|+|Xoá|+|8|+|Sửa|+|9|+|Mã lỗi|+|10|+|Chi tiết lỗi|+|11|+|Xoá bản ghi dữ liệu biên mục (1 bản ghi)|+|12|+|Xoá bản ghi dữ liệu căn cứ (1 bản ghi)|+|13|+|Xoá bản ghi thành công!|+|14|+|Bạn có muốn xóa bản ghi biên mục này không?|+|15|+|Hủy</vie>
+<eng></eng>
+</data>
+</Head>

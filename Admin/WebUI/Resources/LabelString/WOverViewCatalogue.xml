@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblRectStat</name>
+<vie>Thống kê</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalRecords_Soluoc</name>
+<vie>Số lượng bản ghi biên mục sơ lược:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalRecords_Review</name>
+<vie>Số lượng bản ghi biên mục chờ duyệt:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalRecords_Bib</name>
+<vie>Số lượng bản biên mục:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalRecords_Aut</name>
+<vie>Số lượng bản biên mục căn cứ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalItems</name>
+<vie>Tổng số biểu ghi biên mục:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalItemsQueue</name>
+<vie>Tổng số ấn phẩm chờ biên mục:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalItemsSendLocation</name>
+<vie>Tổng số bản ấn phẩm biên mục đã chuyển ra kho:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalItemsWaitSendLocation</name>
+<vie>Tổng số bản ấn phẩm biên mục chưa chuyển ra kho:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkBibliographic</name>
+<vie>Dữ liệu thư mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkIndex</name>
+<vie>Từ điển, chỉ mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkBibliographies</name>
+<vie>Danh mục</vie>
+<eng></eng>
+</data>
+</Head>

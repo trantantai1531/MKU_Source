@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Số thẻ hoặc mật khẩu không hợp lệ !|+|1|+|Hiện tại thẻ này đang bị khoá !|+|2|+|Số thẻ không được để trống !|+|3|+|Mật khẩu không được để trống !|+|4|+|Hiện tại thẻ này đã hết hạn sử dụng !</vie>
+<eng></eng>
+</data>
+<data>
+<name>spSetPassword</name>
+<vie>Đặt mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEmptyCard</name>
+<vie>Số thẻ là rỗng</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEmptyPassword</name>
+<vie>Mật khẩu là rỗng</vie>
+<eng></eng>
+</data>
+</Head>

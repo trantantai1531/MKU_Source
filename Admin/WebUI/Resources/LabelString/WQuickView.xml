@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblStabyCat</name>
+<vie>Thống kê lượt mượn ấn phẩm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoanItems</name>
+<vie>Tổng số ấn phẩm đang được mượn:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoancycles</name>
+<vie>Tổng số lượt mượn ấn phẩm:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOverdueItems</name>
+<vie>Tổng số ấn phẩm mượn quá hạn:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHoldingRequests</name>
+<vie>Tổng số yêu cầu đang đặt mượn:</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfCheckOut</name>
+<vie>Ghi mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfCheckIn</name>
+<vie>Ghi trả</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfRenew</name>
+<vie>Gia hạn</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfOverdue</name>
+<vie>Quá hạn</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfRequest</name>
+<vie>Đặt chỗ</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPolici</name>
+<vie>Chính sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfFineAndFee</name>
+<vie>Phí phạt</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfStatistic</name>
+<vie>Thống kê, báo cáo</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfRoomsBooking</name>
+<vie>Phòng họp</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chi tiết lỗi|+|1|+|Mã lỗi|+|2|+|Số lượng ấn phẩm|+|3|+|Ký hiệu kho</vie>
+<eng></eng>
+</data>
+</Head>

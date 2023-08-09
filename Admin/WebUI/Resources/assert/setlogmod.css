@@ -1,0 +1,6 @@
+﻿.row-detail .input-control{
+      width: inherit;
+}
+.input-control .dropdown-form select{
+      width: auto;
+}

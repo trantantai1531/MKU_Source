@@ -1,0 +1,518 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <OwnerKey>{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}</OwnerKey>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{624ABDC8-7B12-4AA4-AC94-BBF88D0F286D}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>eMicLibAdmin.DataAccess</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccAuxPath>
+    </SccAuxPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibAdmin.DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibAdmin.DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.OracleClient">
+      <Name>System.Data.OracleClient</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acquisition\clsDAccounting.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDBudget.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDCheckExistItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDCopyNumber.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDHoldingRemove.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDInventory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDItemOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDItemQueue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDLibrary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDMoveLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDOrdinalNumberChange.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDPurchaseOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDRateMan.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDSpendReceived.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDStatistic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsDVendor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsDEventGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsDLog.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\ClsDLogin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsDParameter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsDRole.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsDUser.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsDFiche.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsDGenIdx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsDIDX.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsDIDXGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsDCatalogueForm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsDExportRecord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsDImportRecord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDBiliographic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDBiliographyPart.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDCataQueue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDCatCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDEData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDField.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDForm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDHolding.vb" />
+    <Compile Include="Catalogue\clsDItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDItemCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsDItemDissertation.vb" />
+    <Compile Include="Catalogue\clsDTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDAuthority.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDCatAuthority.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDCatDicItemType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDCatDicKeyword.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsDCatDicList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDCatDicMedium.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDCatDicSH.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsDClassification.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDDictionary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDDictionarySelfMade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsDLibraryDictionary.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsDLibrarySubject.vb" />
+    <Compile Include="Circulation\clsDAccountTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDBaseTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDCirCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDDHVLStatistic.vb" />
+    <Compile Include="Circulation\clsDHoldTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDLoanHistoryTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDLoanTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDLoanType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDLoanTypeSemester.vb" />
+    <Compile Include="Circulation\clsDOverdueTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDOverdueTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDPatron.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDPhotocopyTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDPhotocopyType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDRenew.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDReservationTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDReserve.vb" />
+    <Compile Include="Circulation\clsDRooms.vb" />
+    <Compile Include="Circulation\clsDRoomsBooking.vb" />
+    <Compile Include="Circulation\clsDSchedule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDHelp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDLoanTypeOther.vb" />
+    <Compile Include="Common\clsDCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDCommonBusiness.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDCommonTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDInput.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDReference.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDSysCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDUserLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDZ3950.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDAccountTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDECustomer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDEData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDEFile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDERequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDERequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDERequestMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsDETemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDCopyRightCompliance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDDenyReason.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDElecDelMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDILLInRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDILLInRequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDILLLibrary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDILLOutRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDILLOutRequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDPaymentType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDPhyDelAddress.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDPhysDelMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDZ3950Server.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="News\clsDCAT_News.vb" />
+    <Compile Include="News\clsDCAT_Type.vb" />
+    <Compile Include="News\clsDCAT_WebsiteUseful.vb" />
+    <Compile Include="Patron\clsDCollege.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDEducation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDEthnic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDFaculty.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDOccupation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDOtherAddress.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDPatron.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDPatronCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDPatronGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDPatronTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDProvince.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsDRequestCataloguer.vb" />
+    <Compile Include="Patron\clsDUniversity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDArticle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDBindingVolume.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDClaimTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDCopy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDIssue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDMagazine.vb" />
+    <Compile Include="Serial\clsDPeriodical.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsDPeriodicalCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TDLELEMENTTYPE="DataAccess" TDLFILE="DAP.tdl" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

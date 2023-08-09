@@ -1,0 +1,216 @@
+﻿.RadListView table
+{
+    width:100%;
+    color: #333;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+    border-bottom: 1px dashed #9acd9a;
+    border-top: 1px dashed #9acd9a;        
+}
+
+.rlvHeader th
+{
+    cursor:pointer;
+    color: #333;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.rlvHeader .asc:after
+{
+    content: " \21D1";
+    font-size:14px;
+    line-height:10px;
+    float:right;
+}
+
+.rlvHeader .desc:after
+{
+    content: " \21D3";
+    font-size:14px;
+    line-height:10px;
+    float:right;
+}
+
+.rlvI .ctrl
+{
+    display: block;
+    font-size: 13px;
+    height: 21px;
+    padding: 3px 0 0 32px;
+    position: relative;
+}
+
+.rlvI
+{
+	color: #333;
+    font-size: 13px;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    height: 21px;
+    padding: 3px 0 0 32px;
+    position: relative;
+}
+
+.rlvI a
+{
+    text-decoration:none;
+    font-weight:bold;
+    color: #006187;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.rlvI a:hover
+{
+    text-decoration:underline;    
+    color: #006187;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+.rlvA .ctrl
+{
+    display: block;
+    font-size: 13px;
+    height: 21px;
+    padding: 3px 0 0 32px;
+    position: relative;
+}
+
+.rlvA
+{
+	color: #333;
+    font-size: 13px;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    height: 21px;
+    padding: 3px 0 0 32px;
+    position: relative;
+    background-color:transparent;
+}
+
+.rlvA a
+{
+    text-decoration:none;
+    font-weight:bold;
+    color: #006187;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.rlvA a:hover
+{
+    text-decoration:underline;    
+    color: #006187;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+#pagerContainer
+{
+    height:32px;
+    color: #006187;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+
+.empty
+{
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+    font-family: Calibri, Helvetica, Arial, Verdana, sans-serif;
+    font-size: 13px;
+}
+
+.rlvHeaderRelation 
+{
+	height:30px;
+	/*BORDER-BOTTOM: #94adc1 0px solid; BORDER-LEFT: #94adc1 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: #94adc1 1px solid; BORDER-RIGHT: #94adc1 1px solid; PADDING-TOP: 0px;
+	BACKGROUND: url(../../images/bg_listview.gif) repeat-x 0px 100%; PADDING-TOP: 15px;*/
+	background-color:#25A0DA;
+	border:#27B6EF;
+	color:White;
+	padding-top:15px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.DownloadShow
+{
+	display:inline;
+}
+
+.DownloadHide
+{
+	display:none;
+}
+
+.TableOfContentShow
+{
+	display:inline;
+}
+
+.TableOfContentHide
+{
+	display:none;
+}
+
+.row_ebooks_odd {
+	position:relative;	
+	float:left;
+	min-height:32px;
+	background:#ffffff;
+	margin: 0px 0px 0px 0px;	
+	color:#000000;	
+	padding:0px 0px 0px 0px;	
+}
+.cell_ebooks {
+	float:left;   
+    margin: 0px 0px 0px 0px;	
+    position: relative;
+    width: 146px;
+	height: 222px;
+}
+
+.cell_ebooks .thumb_ebook
+{
+	background: url(../../images/Design/bgthumebook.png) no-repeat top left;    
+    margin: 0px 0px 0px 0px;	
+    position: relative;
+    width: 146px;
+	height: 222px;
+}
+
+.cell_ebooks .thumb_ebook img {
+    text-align: center;
+    width: 140px;
+	height:210px;
+	margin:3px 3px 3px 3px;	
+}
+
+.cell_ebooks_relation {
+	float:left;   
+    margin: 0px 0px 0px 0px;	
+    position: relative;
+    width: 102px;
+	height: 155px;
+}
+
+.cell_ebooks_relation .thumb_ebook_relation
+{
+	background: url(../../images/Design/bgthumebookRelation.png) no-repeat top left;    
+    margin: 0px 0px 0px 0px;	
+    position: relative;
+    width: 102px;
+	height: 155px;
+}
+
+.cell_ebooks_relation .thumb_ebook_relation img {
+    text-align: center;
+    width: 96px;
+	height:143px;
+	margin:3px 3px 3px 3px;	
+}

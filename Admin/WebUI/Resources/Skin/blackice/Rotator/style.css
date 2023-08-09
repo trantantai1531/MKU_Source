@@ -1,0 +1,23 @@
+
+.DemoNewsTitle
+{
+  font-family:Verdana;
+  font-size:10px;   
+  font-weight:bolder; 
+  letter-spacing:-0.2mm;
+  color:white; 
+}
+
+.DemoNewsText
+{
+  font-family:Verdana;
+  font-size:8px;   
+  color:white; 
+}
+
+.NewsImage
+{
+  border:solid 1px #F8CB75; 
+  border-right-color:#842402; 
+  border-bottom-color:#842402; 
+}

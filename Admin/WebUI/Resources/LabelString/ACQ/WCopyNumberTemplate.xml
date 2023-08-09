@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>ddlElement</name>
+<vie>|+|---------- Chọn ----------|+|&lt;$INV$&gt;|+|Tên kho|+|&lt;$SHELF$&gt;|+|Tên giá|+|&lt;$YR$&gt;|+|Năm bổ sung|+|&lt;$SERINUM$&gt;|+|Số sêri(liên tiếp)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ckbEnable</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdate</name>
+<vie>Cập nhật(u)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Đặt lại(r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Tạo mẫu đăng ký cá biệt |+|1|+|Cập nhật mẫu đăng ký cá biệt |+|2|+|Chi tiết lỗi|+|3|+|Mã lỗi |+|4|+| thành công|+|5|+|Bạn chưa nhập nội dung khuôn dạng đăng ký cá biệt!</vie>
+<eng></eng>
+</data>
+</Head>

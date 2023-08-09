@@ -1,0 +1,83 @@
+' purpose : Input Help
+' Creator: thaott
+' Created Date: 30/Aug/2006
+' Modification History: 
+Imports eMicLibAdmin.BusinessRules
+Namespace eMicLibAdmin.WebUI
+    Partial Class WHelpSearch
+        Inherits clsWHelpBase
+
+#Region " Web Form Designer Generated Code "
+
+        'This call is required by the Web Form Designer.
+        <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+
+        End Sub
+        Protected WithEvents Label1 As System.Web.UI.WebControls.Label
+
+
+        Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init
+            'CODEGEN: This method call is required by the Web Form Designer
+            'Do not modify it using the code editor.
+            InitializeComponent()
+        End Sub
+
+#End Region
+
+        Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+            'Put user code to initialize the page here
+        End Sub
+        Private Sub loadData(ByVal strHelpTitle As String, ByVal strAccessContent As String)
+            Dim objBHelp As New clsBHelp
+            Dim dtSearch As New DataTable
+            Call Initialize(objBHelp)
+            objBHelp.AccessContent = strAccessContent
+            objBHelp.HelpTitle = strHelpTitle
+            objBHelp.Type = Session("HelpLibolType")
+            dtSearch = objBHelp.GetInforSearch()
+            If dtSearch.Rows.Count > 0 Then
+                lblResult.Visible = True
+                dtgSearchResult.Visible = True
+                lblNoResul.Visible = False
+                dtgSearchResult.DataSource = dtSearch
+                dtgSearchResult.DataBind()
+            Else
+                lblNoResul.Visible = True
+                lblResult.Visible = True
+                dtgSearchResult.Visible = False
+            End If
+        End Sub
+        Private Sub Initialize(ByVal obj As clsBHelp)
+            ' Init objBHelp object
+            obj.InterfaceLanguage = Session("InterfaceLanguage")
+            obj.DBServer = Session("DBServer")
+            obj.ConnectionString = Session("ConnectionString")
+            Call obj.Initialize()
+        End Sub
+
+        Private Sub bttSearch_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles bttSearch.Click
+            Dim strContent As String
+            strContent = txtContent.Text.Trim
+            If strContent <> "" Then
+                If strContent.IndexOf("%") < 0 Then
+                    strContent = "%" & strContent & "%"
+                End If
+            End If
+            Call loadData(txtTitle.Text.Trim, strContent)
+        End Sub
+
+        Private Sub dtgSearchResult_ItemCreated(ByVal sender As Object, ByVal e As System.Web.UI.WebControls.DataGridItemEventArgs) Handles dtgSearchResult.ItemCreated
+            'Select Case e.Item.ItemType
+            Dim lnkTemp As HyperLink
+            Dim strLnk As String
+            strLnk = "#"
+            Select Case e.Item.ItemType
+                Case ListItemType.Item, ListItemType.AlternatingItem
+                    lnkTemp = e.Item.FindControl("lnkDetail")
+                    lnkTemp.NavigateUrl = strLnk
+                    lnkTemp.Attributes.Add("onClick", "parent.right.location.href='WHelpOverViewDetail.aspx?DicID=" & DataBinder.Eval(e.Item.DataItem, "ID") & "';")
+                    'lnkTemp.Attributes.Add("onClick", "parent.right.location.href='WHelpOverViewDetail.aspx?DicID=" & DataBinder.Eval(e.Item.DataItem, "ID") & "&Title=" & txtTitle.Text.Trim & "&Content=" & txtContent.Text.Trim & "';")
+            End Select
+        End Sub
+    End Class
+End Namespace

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleAdvance</name>
+<vie>Tìm kiếm nâng cao</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix1</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbIn1</name>
+<vie>Trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator2</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix2</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbIn2</name>
+<vie>Trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator3</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix3</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbIn3</name>
+<vie>Trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator4</name>
+<vie>AND|+|AND|+|OR|+|OR|+|NOT|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPrefix4</name>
+<vie>0|+|Chứa|+|1|+|Chính xác|+|2|+|Bắt đầu bằng|+|3|+|Kết thúc bằng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbIn4</name>
+<vie>Trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLimit</name>
+<vie>Thêm giới hạn</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPublisherYear</name>
+<vie> &lt;strong&gt;Năm xuất bản&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlPublisherYear</name>
+<vie>0|+|Tất cả các năm|+|1|+|Năm vừa rồi|+|5|+|5 năm vừa qua|+|10|+|10 năm vừa qua</vie>
+<eng></eng>
+</data>
+<data>
+<name>spLibray</name>
+<vie> &lt;strong&gt;Thư viện&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>spMaterialType</name>
+<vie> &lt;strong&gt;Loại tài liệu&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>spSort</name>
+<vie> &lt;strong&gt;Sắp xếp theo&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSort</name>
+<vie>|+|---Chọn trường sắp xếp---|+|TITLE|+|Nhan đề chính|+|AUTHOR|+|Tác giả chính|+|YEAR|+|Năm xuất bản|+|PUBLISH|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm (f)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Làm lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblISBN</name>
+<vie>ISBN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblISSN</name>
+<vie>ISSN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG</name>
+<vie>Chưa nhập thông tin cần tìm !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbAllField</name>
+<vie>Mọi trường</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbTitleInDDL</name>
+<vie>Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemType</name>
+<vie>Toàn bộ tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsgNotFound</name>
+<vie>Không tìm thấy biểu ghi nào.</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,31 @@
+.nb { width:220px;height:310px;background:transparent url("images/static.png") no-repeat -210px 0;padding-top:5px; }
+
+.item,.item-h { font-family:Tahoma,"Lucida Grande",Verdana,Arial,Helvetica,sans-serif;font-size:11px;color:#fff;cursor:default; }
+
+.item .top,.item-h .top { height:30px;width:210px;background:transparent url("images/static.png") no-repeat;line-height:30px;font-weight:bold;margin:0 5px; }
+.item-h .top { background-position:0 -30px; }
+
+.item .sub,.item-h .sub { width:210px;height:25px;background-color:#e3e3e3;color:#666;margin:0 5px;line-height:25px; }
+.item-h .sub { background:#e3e3e3 url("images/static.png") no-repeat 0 -65px;color:#000; }
+
+.icon { float:left;width:16px;height:16px;background:transparent url("images/icons.png") no-repeat; }
+
+.sub-t { padding:0;margin:0 5px;width:210px;height:5px;background:transparent url("images/static.png") no-repeat 0 -60px; }
+.sub-b { padding:0;margin:0;width:220px;height:8px;background:transparent url("images/static.png") no-repeat -210px -315px; }
+
+.icon { _background-image:url("images/icons.gif"); }
+.top .icon { margin:5px 8px; }
+.sub .icon { margin:4px 8px 0 12px; }
+
+.mail { background-position:0 0; }
+.contacts { background-position:0 -16px; }
+.note { background-position:0 -32px; }
+
+.mailbox { background-position:0 -48px; }
+.inbox { background-position:0 -64px; }
+.drafts { background-position:0 -80px; }
+.outbox { background-position:0 -96px; }
+.junk { background-position:0 -112px; }
+.deleted { background-position:0 -128px; }
+.search { background-position:0 -144px; }
+.sent { background-position:0 -160px; }

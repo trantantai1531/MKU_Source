@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spNotFound</name>
+<vie>Không tìm thấy: </vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPage</name>
+<vie>Trang</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <OwnerKey>{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}</OwnerKey>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2DA806B-B371-4861-8607-C636BD250BB9}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>eMicLibOPAC.DataAccess</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccAuxPath>
+    </SccAuxPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibOPAC.DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibOPAC.DataAccess.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.OracleClient">
+      <Name>System.Data.OracleClient</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDCAT_News.vb" />
+    <Compile Include="clsDCAT_Type.vb" />
+    <Compile Include="clsDCAT_WebsiteUseful.vb" />
+    <Compile Include="clsDHoldingCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDItemCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDItemDissertation.vb" />
+    <Compile Include="clsDLibraryDictionary.vb" />
+    <Compile Include="clsDLibrarySubject.vb" />
+    <Compile Include="clsDOPACComment.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACDictionary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACEData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACHelp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACHoldRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACLoanRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACPatronInfor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOpacRequestCataloguer.vb" />
+    <Compile Include="clsDOPACReservationReq.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACRooms.vb" />
+    <Compile Include="clsDOPACRoomsBooking.vb" />
+    <Compile Include="clsDOPACSearchResult.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDOPACSubjBrowse.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDPeriodical.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsDReserve.vb" />
+    <Compile Include="Common\clsDCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDCounter.vb" />
+    <Compile Include="Common\clsDSysCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDZ3950.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsDSysLibrary.vb" />
+    <Compile Include="clsDOPACFilterBrowse.vb" />
+    <Compile Include="clsDOPACFile.vb" />
+    <Compile Include="clsDOPACeMagazine.vb" />
+    <Compile Include="EDelivery\clsDOPACEDelivCustomerInfor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EDelivery\clsDOPACEDelivRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EDelivery\clsDOPACEDelivTools.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forum\clsDForum.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forum\clsDMember.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forum\clsDPost.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forum\clsDReply.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDOPACILLInComingReq.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDOPACILLItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsDOPACILLOutGoingReq.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OAIPMH\clsDOAIHavester.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OAIPMH\clsDOAIRepository.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WAP\clsMDSearch.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Z3950\clsDOPACZ3950Client.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TDLELEMENTTYPE="DataAccess" TDLFILE="DAP.tdl" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

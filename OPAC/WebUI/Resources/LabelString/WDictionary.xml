@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMainTitle</name>
+<vie>TRA CỨU TỪ ĐIỂN THAM CHIẾU</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDictinaryTitle</name>
+<vie>Tên hiển thị</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFind</name>
+<vie>Tì&lt;u&gt;m&lt;/u&gt;: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lsbDictionary</name>
+<vie>|&|</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSelect</name>
+<vie>Chọn(n)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnClose</name>
+<vie>Đóng(g)</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,81 @@
+.bgbody  
+{
+	background-image:url(images/backgroundgradient1.gif);
+	background-repeat:repeat-x;
+}
+.toolbar
+{
+  padding-left:7px;
+  padding-right:5px;
+  padding-top:6px;
+  padding-bottom:6px;
+}
+
+.item
+{
+
+  font-family:Tahoma,Verdana;
+  font-size:8pt;
+  cursor:pointer;
+}
+
+
+.itemActive
+{
+  background-color:#D4D0C8;
+  border:solid 1px #D4D0C8;
+  border-left-color:#999999;
+  border-top-color:#999999;
+  border-bottom-color:#EEEEEE;
+  border-right-color:#EEEEEE;
+  font-family:Tahoma,Verdana;
+  font-size:8pt;
+  cursor:pointer;
+}
+
+/* "ca_tb_img" is a dummy class name applied by the 
+ * toolbar to item table cell holding the image. */
+
+.item TABLE TR TD.ca_tb_img,
+
+.itemActive TABLE TR TD.ca_tb_img
+{
+  line-height:1px;
+  font-size:1px;
+  text-align:center;
+}
+.item TABLE TR TD.ca_tb_img IMG
+
+{
+  display:inline !important;
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.itemActive TABLE TR TD.ca_tb_img IMG
+{
+  display:inline !important;
+  padding-top:3px;
+  padding-bottom:1px;
+  padding-left:4px;
+  padding-right:2px;
+}
+
+/* "ca_tb_txt" is a dummy class name applied by the 
+ * toolbar to item table cell holding the text. */
+ 
+.item TABLE TR TD.ca_tb_txt
+{
+  padding-top:2px;
+  padding-bottom:2px;
+  padding-left:3px;
+  padding-right:3px;
+}
+.itemActive TABLE TR TD.ca_tb_txt
+{
+  padding-top:3px;
+  padding-bottom:1px;
+  padding-left:4px;
+  padding-right:2px;
+}

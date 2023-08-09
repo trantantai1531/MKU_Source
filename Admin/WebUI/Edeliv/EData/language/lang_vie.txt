@@ -1,0 +1,14 @@
+﻿&langNextPage=Đến trang kế tiếp
+&langPrevPage=Về trang trước
+&langZoomBestFit=Xem trang tốt nhất
+&langZoomIn=Phóng lớn
+&langZoomOut=Thu nhỏ
+&langFullScreen=Xem toàn màn hình
+&langExitFullScreen=Thoát toàn màn hình
+&langZoomIn=Phóng lớn
+&langZoomOut=Thu nhỏ
+&langSearch=Tìm kiếm
+&langClearSearch=Xóa mục tìm kiếm
+&langZoomShowAll=Xem tất cả
+&langCopyClip=Sao lưu vào bộ nhớ
+&langPrint=In

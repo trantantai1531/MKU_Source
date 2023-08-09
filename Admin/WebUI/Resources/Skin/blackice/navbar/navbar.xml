@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<items>
+	<item Text="Mail" Value="mail" ClientTemplateId="TopItemTemplate" Expanded="true">
+		<item Value="sub-t" ClientTemplateId="SubEndItemTemplate" />
+		<item Text="Mailbox - Scott Guest" Value="mailbox" ClientTemplateId="SubItemTemplate" />
+		<item Text="Inbox" Value="inbox" ClientTemplateId="SubItemTemplate" />
+		<item Text="Drafts" Value="drafts" ClientTemplateId="SubItemTemplate" />
+		<item Text="Outbox" Value="outbox" ClientTemplateId="SubItemTemplate" />
+		<item Text="Junk E-mail" Value="junk" ClientTemplateId="SubItemTemplate" />
+		<item Text="Deleted Items" Value="deleted" ClientTemplateId="SubItemTemplate" />
+		<item Text="Search Folders" Value="search" ClientTemplateId="SubItemTemplate" />
+		<item Text="Sent Items" Value="sent" ClientTemplateId="SubItemTemplate" />
+		<item Value="sub-b" ClientTemplateId="SubEndItemTemplate" />
+	</item>
+
+	<item Text="Notes" Value="note" ClientTemplateId="TopItemTemplate">
+		<item Value="sub-t" ClientTemplateId="SubEndItemTemplate" />
+		<item Text="Icons" Value="note" ClientTemplateId="SubItemTemplate" />
+		<item Text="Note List" Value="note" ClientTemplateId="SubItemTemplate" />
+		<item Text="Last Seven Days" Value="note" ClientTemplateId="SubItemTemplate" />
+		<item Text="By Category" Value="note" ClientTemplateId="SubItemTemplate" />
+		<item Text="By Color" Value="note" ClientTemplateId="SubItemTemplate" />
+		<item Value="sub-b" ClientTemplateId="SubEndItemTemplate" />
+	</item>
+
+	<item Text="Contacts" Value="contacts" ClientTemplateId="TopItemTemplate">
+		<item Value="sub-t" ClientTemplateId="SubEndItemTemplate" />
+		<item Text="Address Cards" Value="contact" ClientTemplateId="SubItemTemplate" />
+		<item Text="Detailed Address List" Value="contact" ClientTemplateId="SubItemTemplate" />
+		<item Text="By Category" Value="contact" ClientTemplateId="SubItemTemplate" />
+		<item Text="By Company" Value="contact" ClientTemplateId="SubItemTemplate" />
+		<item Text="By Follow-up Flag" Value="contact" ClientTemplateId="SubItemTemplate" />
+		<item Value="sub-b" ClientTemplateId="SubEndItemTemplate" />
+	</item>
+</items>

@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lnkBriefRecord</name>
+<vie>Hiển thị đơn giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkISBD</name>
+<vie>Hiển thị ISBN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkFullRecord</name>
+<vie>Hiển thị đầy đủ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkMARC</name>
+<vie>Hiển thị MARC</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkBookMark</name>
+<vie>Đánh dấu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkReturn</name>
+<vie>Trang kết quả</vie>
+<eng></eng>
+</data>
+<data>
+<name>ImgPre</name>
+<vie>images/truoc.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>ImgNext</name>
+<vie>images/sau.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCataData</name>
+<vie>Dữ liệu biên mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRecInfor</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCoverPic</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHoldingInfor</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSerialHolding</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumItems</name>
+<vie>Tổng số bản:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValSumItems</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumFree</name>
+<vie>Số bản rỗi:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVallblSumFree</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumFeeAll</name>
+<vie>(kể cả các bản được giữ chỗ)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumOnHold</name>
+<vie>Số bản được giữ chỗ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValSumOnHold</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFreeDate</name>
+<vie>Ngày rỗi sớm nhất</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValFree</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNoCopyNumber</name>
+<vie>&gt;&gt;&gt; Không có thông tin xếp giá &lt;&lt;&lt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumHold</name>
+<vie>Số yêu cầu giữ chỗ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValSumHold</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNoServices</name>
+<vie>&gt;&gt;&gt; Ấn phẩm không phục vụ &lt;&lt;&lt;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNo</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ố thẻ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassWord</name>
+<vie>Mật &lt;u&gt;k&lt;/u&gt;hẩu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCopyNum</name>
+<vie>&lt;u&gt;Đ&lt;/u&gt;KCB:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNote</name>
+<vie>(Chỉ nhập khi muốn yêu cầu một ĐKCB cụ thể)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValidDate</name>
+<vie>Hiệu lực tới &lt;u&gt;n&lt;/u&gt;gày:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkCal</name>
+<vie>Lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReser</name>
+<vie>Đăng ký mượn(u)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnHold</name>
+<vie>Đặt chỗ(o)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG1</name>
+<vie>Số thẻ hoặc mật khẩu không hợp lệ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG2</name>
+<vie>Số thẻ đã bị hết hạn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG3</name>
+<vie>Yêu cầu này đã tồn tại</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG4</name>
+<vie>Yêu cầu vượt quá giới hạn được mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG5H</name>
+<vie>Yêu cầu vượt quá giới hạn giữ chỗ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG5R</name>
+<vie>Bạn đã hết lượt đăng ký đặt chỗ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG0</name>
+<vie>Đăng ký thành công</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSGInput</name>
+<vie>Chưa nhập đủ thông tin thẻ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInvalidDate</name>
+<vie>Ngày đăng ký mượn hết hiệu lực phải lớn hơn ngày hiện tại!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDateMsg</name>
+<vie>Khuôn dạng ngày tháng không hợp lệ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG6H</name>
+<vie>Đăng ký cá biệt không hợp lệ!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHold</name>
+<vie>Vượt quá số lượng được đặt!</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgEData</name>
+<vie>Logo|+|LINK</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgEbook</name>
+<vie>|+||+|Nhan đề ấn phẩm|+|Khuôn dạng / Kích thước|+|Ghi chú|+|Giá tiền|+||+||+||+||+|</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSelect</name>
+<vie>Chọn mua</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnView</name>
+<vie>Xem đã chọn</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgRelatedAna</name>
+<vie>Bài trích</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAuthor</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBBK</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblUDC</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDDC</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNSC</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblKeyWord</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSH</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgRelationBook</name>
+<vie>Những độc giả mượn ấn phẩm này cũng mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDetail</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgComment</name>
+<vie>Mức|+|Tiêu đề|+|Nội dung|+|Họ tên/ Số thẻ|+|Ngày|+|E-Mail</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRelationTitles</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPagination</name>
+<vie>Tr.</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAuthorCap</name>
+<vie>Tác giả</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBBKCap</name>
+<vie>BBK</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblUDCCap</name>
+<vie>UDC</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDDCCap</name>
+<vie>DDC</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNSCCap</name>
+<vie>Đề mục quốc gia</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblKeyWordCap</name>
+<vie>Từ khoá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSHCap</name>
+<vie>Tiêu đề đề mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG</name>
+<vie>Quá giới hạn download !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNOINFO</name>
+<vie>Không có thông tin bổ sung</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFree</name>
+<vie>Rỗi</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblBusy</name>
+<vie>Bận</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblViewMap</name>
+<vie>Sơ đồ</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|LC Control Number:|+|1|+|Dạng tài liệu:|+|2|+|Thông tin mô tả:|+|3|+|Call Number:|+|4|+|Phụ chú:|+|5|+|Sách|+|6|+|Xuất bản ấn phẩm nhiều kỳ</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel_FullRecord</name>
+<vie>0|+|Loại tài liệu|+|1|+|Chỉ số ISBN|+|2|+|Chỉ số ISSN|+|3|+|Mã ngôn ngữ|+|4|+|Phân loại thập phân bách khoa|+|5|+|Phân loại thập phân Dewey|+|6|+|Phân loại khác|+|7|+|Tên tác giả|+|8|+|Tác giả tập thể|+|9|+|Tác giả liên quan|+|10|+|Thông tin nhan đề|+|11|+|Xuẩt bản,phát hành|+|12|+|Mô tả vật lý|+|13|+|Thông tin tùng thư|+|14|+|Tóm tắt/chú giải|+|15|+|Ký hiệu kho|+|16|+|Địa chỉ điện tử và truy cập|+|17|+|Từ khóa|+|18|+|Sách|+|19|+|Xuất bản ấn phẩm nhiều kỳ</vie>
+<eng></eng>
+</data>
+</Head>

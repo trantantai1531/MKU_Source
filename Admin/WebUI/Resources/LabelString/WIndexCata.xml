@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Hàng đợi chờ biên mục chi tiết&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Tiếp tục biên mục chi tiết cho các tài liệu ấn phẩm mà bản ghi của chúng đã được bộ phận bổ sung cập nhật sơ lược vào cơ sở dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Tạo mới&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Biên mục từ đầu một tài liệu ấn phẩm.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;!-- old: WItemModify.aspx --&gt;                                    &lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Sửa bản ghi biên mục&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Sửa chữa thuộc tính của các tài liệu ấn phẩm đã được biên mục trong cơ sở dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Xem dạng danh sách&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Liệt kê danh sách bản ghi theo thứ tự nhập vào cơ sở dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Xem dạng lần lượt&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Liệt kê lần lượt các bản ghi theo thứ tự nhập vào cơ sở dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Xoá&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Xóa bản ghi của một tài liệu ấn phẩm đã được biên mục ra khỏi cơ sở dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Hàng đợi chờ duyệt&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Danh sách hàng đợi đã qua biên mục chi tiết chờ duyệt.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Import dữ liệu&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Import dữ liệu biên mục từ file excel&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Đặt giá trị ngầm định&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Thiết đặt giá trị ngầm định cho các trường thuộc tính của tài liệu ấn phẩm cần biên mục trong phiên làm việc.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Tìm kiếm ĐKCB&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Tìm kiếm để xem được tình trạng cho mỗi số ĐKCB.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Xuất khẩu bản ghi&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Xuất khẩu bản ghi ra file.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Nhập khẩu bản ghi qua Z39.50&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Nhập khẩu bản ghi biên mục từ nguồn bên ngoài (qua kết nối Z39.50).&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Nhập khẩu bản ghi từ tệp&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Nhập khẩu bản ghi biên mục từ nguồn bên ngoài (qua tệp ISO 2709).&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Truy vấn dữ liệu&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Truy vấn dữ liệu (chức năng của nhà cung cấp)&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;Mẫu biên mục/Trường biên mục&lt;/p&gt;                                    &lt;p class="desc-button"&gt;Tạo mới, sửa, gộp các mẫu biên mục và trường biên mục.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;p&gt;In mã vạch &lt;/p&gt;                                    &lt;p class="desc-button"&gt;In mã vạch cho các tư liệu trong cơ sở dữ liệu. &lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                     &lt;p&gt;In nhãn &lt;/p&gt;                                    &lt;p class="desc-button"&gt;In nhãn gáy ấn phẩm. &lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi</vie>
+<eng></eng>
+</data>
+</Head>

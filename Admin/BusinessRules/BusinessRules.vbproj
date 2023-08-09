@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <OwnerKey>{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}</OwnerKey>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0694C494-46FD-439B-B642-2A9E5C6A91ED}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>eMicLibAdmin.BusinessRules</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <SccAuxPath>
+    </SccAuxPath>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibAdmin.BusinessRules.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>eMicLibAdmin.BusinessRules.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Words, Version=11.5.0.0, Culture=neutral, PublicKeyToken=6df9b8117ff94198, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="BarcodeLib, Version=1.0.0.16, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WebUI\bin\BarcodeLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.BASP21Lib">
+      <Name>Interop.BASP21Lib</Name>
+      <HintPath>bin\Interop.BASP21Lib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DOC2HTMLLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.DOC2HTMLLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.GflAx193">
+      <Name>Interop.GflAx193</Name>
+      <HintPath>bin\Interop.GflAx193.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ILLCOMLib">
+      <Name>Interop.ILLCOMLib</Name>
+      <HintPath>bin\Interop.ILLCOMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Socket">
+      <Name>Interop.Socket</Name>
+      <HintPath>bin\Interop.Socket.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.TVCOMLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Interop.TVCOMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.ZCOMLib">
+      <Name>Interop.ZCOMLib</Name>
+      <HintPath>bin\Interop.ZCOMLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MLZ3950, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MLZ3950.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="XCrypt">
+      <Name>XCrypt</Name>
+      <HintPath>bin\XCrypt.dll</HintPath>
+    </Reference>
+    <COMReference Include="ChartDirector">
+      <Guid>{51719146-2FFF-447E-8BF7-48B5CAE3FA4F}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MSXML2">
+      <Guid>{F5078F18-C551-11D3-89B9-0000F81FE221}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="VBA">
+      <Guid>{000204EF-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>9</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <Reference Include="Zoom.Net, Version=1.0.2400.21838, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Zoom.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Zoom.Net.YazSharp, Version=1.0.2400.21838, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Bet88\TestZ3950\Z3950ClientWeb\Z3950ClientWeb\bin\Debug\Zoom.Net.YazSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="eMicLibAdmin.DataAccess" />
+    <Import Include="eMicLibAdmin.DataAccess.Acquisition" />
+    <Import Include="eMicLibAdmin.DataAccess.Admin" />
+    <Import Include="eMicLibAdmin.DataAccess.Catalogue" />
+    <Import Include="eMicLibAdmin.DataAccess.Circulation" />
+    <Import Include="eMicLibAdmin.DataAccess.Common" />
+    <Import Include="eMicLibAdmin.DataAccess.Edeliv" />
+    <Import Include="eMicLibAdmin.DataAccess.ILL" />
+    <Import Include="eMicLibAdmin.DataAccess.Patron" />
+    <Import Include="eMicLibAdmin.DataAccess.Serial" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acquisition\clsBAccounting.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBBudget.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBCheckExistItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBCopyNumber.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBHoldingRemove.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBInventory.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBItemOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBItemQueue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBLibrary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBMoveLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBOrdinalNumberChange.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBPurchaseOrder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBRateMan.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBSpendReceived.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBStatistic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Acquisition\clsBVendor.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBEventGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBLog.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBLogin.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBParameter.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBRole.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Admin\clsBUser.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\BibliographyTemplate\clsBCatalogueTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBFiche.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBGenIdx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBIDX.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBIDXGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBIdxIdx.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Bibliography\clsBIDXUpdate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsBCatalogueForm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsBExportRecord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsBImportRecord.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Catalogue\clsBZImport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBBiliographic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBBiliographyPart.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBCataDefault.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBCataLib.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBCataQueue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBCataScriptHelper.vb" />
+    <Compile Include="Catalogue\clsBCatCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBEData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBField.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBForm.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBHolding.vb" />
+    <Compile Include="Catalogue\clsBItem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBItemCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBItemDissertation.vb" />
+    <Compile Include="Catalogue\clsBTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsBValidate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\clsTempBItemCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBAuthority.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBCatAuthority.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBCatDicItemType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBCatDicKeyword.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsBCatDicList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBCatDicMedium.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBCatDicSH.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsBClassification.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBDictionary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBDictionarySelfMade.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Catalogue\Dictionaries\clsBDictionarySubject.vb" />
+    <Compile Include="Catalogue\Dictionaries\clsBLibraryDictionary.vb" />
+    <Compile Include="Circulation\clsBAccountTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBBaseTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBCirCommon.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBDHVLStatistic.vb" />
+    <Compile Include="Circulation\clsBHoldTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBLoanHistoryTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBLoanTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBLoanType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBLoanTypeOther.vb" />
+    <Compile Include="Circulation\clsBLoanTypeSemester.vb" />
+    <Compile Include="Circulation\clsBOverdueTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBOverdueTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBPatron.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBPhotocopyTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBPhotocopyType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBReservationTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBReserve.vb" />
+    <Compile Include="Circulation\clsBRooms.vb" />
+    <Compile Include="Circulation\clsBRoomsBooking.vb" />
+    <Compile Include="Circulation\clsBSchedule.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsBStatistic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Circulation\clsDRenew.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBBase.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="clsBHelp.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBCommonBusiness.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBCommonChart.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBCommonDBSystem.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBCommonStringProc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBCommonTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBFormingSQL.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBInput.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBReference.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBUserLocation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBZ3950.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\clsBExportHelper.vb" />
+    <Compile Include="Edeliv\clsBAccountTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBECustomer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBEData.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBEFile.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBERequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBERequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBERequestMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Edeliv\clsBETemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBCopyRightCompliance.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBDenyReason.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBElecDelMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLInRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLInRequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLLibrary.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLOutRequest.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLOutRequestCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBILLTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBPaymentType.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBPhyDelAddress.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBPhysDelMode.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBSaveMail.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ILL\clsBZ3950Server.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="News\clsBCAT_News.vb" />
+    <Compile Include="News\clsBCAT_Type.vb" />
+    <Compile Include="News\clsBCAT_WebsiteUseful.vb" />
+    <Compile Include="Patron\clsBCollege.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBEducation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBEthnic.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBFaculty.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBOccupation.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBOtherAddress.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBPatron.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBPatronCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBPatronGroup.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBPatronTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBProvince.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Patron\clsBRequestCataloguer.vb" />
+    <Compile Include="Patron\clsBUniversity.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBArticle.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBBindingVolume.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBClaimTemplate.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBCopy.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBIssue.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBMagazine.vb" />
+    <Compile Include="Serial\clsBPeriodical.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serial\clsBPeriodicalCollection.vb">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccess\DataAccess.vbproj">
+      <Project>{624ABDC8-7B12-4AA4-AC94-BBF88D0F286D}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\BarcodeLib.dll" />
+    <Content Include="bin\bin\BarcodeLib.dll" />
+    <Content Include="bin\bin\eMicLibAdmin.BusinessRules.dll" />
+    <Content Include="bin\bin\eMicLibAdmin.BusinessRules.pdb" />
+    <Content Include="bin\bin\eMicLibAdmin.BusinessRules.xml" />
+    <Content Include="bin\bin\eMicLibAdmin.DataAccess.dll" />
+    <Content Include="bin\bin\eMicLibAdmin.DataAccess.pdb" />
+    <Content Include="bin\bin\eMicLibAdmin.DataAccess.xml" />
+    <Content Include="bin\bin\iconv.dll" />
+    <Content Include="bin\bin\Interop.BASP21Lib.dll" />
+    <Content Include="bin\bin\Interop.ChartDirector.dll" />
+    <Content Include="bin\bin\Interop.DOC2HTMLLib.dll" />
+    <Content Include="bin\bin\Interop.GflAx193.dll" />
+    <Content Include="bin\bin\Interop.ILLCOMLib.dll" />
+    <Content Include="bin\bin\Interop.libolmisc.dll" />
+    <Content Include="bin\bin\Interop.MSXML2.dll" />
+    <Content Include="bin\bin\Interop.Socket.dll" />
+    <Content Include="bin\bin\Interop.TVCOMLib.dll" />
+    <Content Include="bin\bin\Interop.VBA.dll" />
+    <Content Include="bin\bin\Interop.ZCOMLib.dll" />
+    <Content Include="bin\bin\libxml2.dll" />
+    <Content Include="bin\bin\libxslt.dll" />
+    <Content Include="bin\bin\MLFonts.dll" />
+    <Content Include="bin\bin\MLZ3950.dll" />
+    <Content Include="bin\bin\msvcr100.dll" />
+    <Content Include="bin\bin\msvcr71.dll" />
+    <Content Include="bin\bin\XCrypt.dll" />
+    <Content Include="bin\bin\yaz.dll" />
+    <Content Include="bin\bin\zlib1.dll" />
+    <Content Include="bin\bin\Zoom.Net.YazSharp.dll" />
+    <Content Include="bin\eMicLibAdmin.BusinessRules.dll" />
+    <Content Include="bin\eMicLibAdmin.BusinessRules.pdb" />
+    <Content Include="bin\eMicLibAdmin.BusinessRules.xml" />
+    <Content Include="bin\eMicLibAdmin.DataAccess.dll" />
+    <Content Include="bin\eMicLibAdmin.DataAccess.pdb" />
+    <Content Include="bin\eMicLibAdmin.DataAccess.xml" />
+    <Content Include="bin\Interop.BASP21Lib.dll" />
+    <Content Include="bin\Interop.ChartDirector.dll" />
+    <Content Include="bin\Interop.GflAx193.dll" />
+    <Content Include="bin\Interop.ILLCOMLib.dll" />
+    <Content Include="bin\Interop.MSXML2.dll" />
+    <Content Include="bin\Interop.Socket.dll" />
+    <Content Include="bin\Interop.VBA.dll" />
+    <Content Include="bin\Interop.ZCOMLib.dll" />
+    <Content Include="bin\MLZ3950.dll" />
+    <Content Include="bin\XCrypt.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\bin\MLZ3950.dll.config" />
+    <None Include="bin\bin\Zoom.Net.Factory.config" />
+    <None Include="bin\vs7323.tmp" />
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties TDLELEMENTTYPE="BusinessRules" TDLFILE="DAP.tdl" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,104 @@
+﻿.inputField { width:406px;padding:10px 20px;margin:0;background:#fff; }
+	.inputField span.lbl { float:left;width:160px;line-height:24px;font-size:12px;padding:0 10px 0 0;text-align:right;cursor:default;color:#333; }
+
+	.inputField span input { width:190px;background:none;margin:0;padding:5px 5px 6px 5px;font:12px Tahoma,Verdana,Arial,Helvetica,sans-serif;border:none;position:absolute;top:0; }
+
+	.inputField span.empty { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3; }
+		.inputField span.empty input { color:#b7b7b7;font-style:italic; }
+	
+	.inputField span.required { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/question_icon.jpg") no-repeat right 4px; }
+		.inputField span.required input { color:#b7b7b7;font-style:italic; }
+
+	.inputField span.focused { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#fff; }
+		.inputField span.focused input { color:#333;font-style:normal; }
+
+	.inputField span.valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/static.png") no-repeat right 0; }
+		.inputField span.valid input { color:#333;font-style:normal; }
+
+	.inputField span.focused-valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid Black;background:White url("images/static.png") no-repeat right -23px; }
+		.inputField span.focused-valid input { color:Black;font-style:normal; }
+
+	.inputField span.invalid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #c00;border-color:#c00 #fc0000 #fc0000 #c00;background:#ffe1e1 url("images/static.png") no-repeat right -46px; }
+		.inputField span.invalid input { color:#d00;font-style:normal; }
+
+	.inputField span.disabled { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #ccc;background:#333 url("images/horizontal.png") repeat-x; }
+		.inputField span.disabled input { color:#ccc; }
+		
+.field { width:406px;height:25px;padding:10px 20px;margin:0;background:#fff; }
+	.field span.lbl { float:left;width:160px;height:25px;line-height:24px;font-size:12px;padding:0 10px 0 0;text-align:right;cursor:default;color:#333; }
+
+	.field span input { width:190px;background:none;margin:0;padding:5px 5px 6px 5px;font:12px Tahoma,Verdana,Arial,Helvetica,sans-serif;border:none;position:absolute;top:0; }
+
+	.field span.empty { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3; }
+		.field span.empty input { color:#b7b7b7;font-style:italic; }
+	
+	.fieldlogin span.required { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/question_icon.jpg") no-repeat right 4px; }
+		.fieldlogin span.required input { color:#b7b7b7;font-style:italic; }
+
+	.field span.focused { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#fff; }
+		.field span.focused input { color:#333;font-style:normal; }
+
+	.field span.valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/static.png") no-repeat right 0; }
+		.field span.valid input { color:#333;font-style:normal; }
+
+	.field span.focused-valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid Black;background:White url("images/static.png") no-repeat right -23px; }
+		.field span.focused-valid input { color:Black;font-style:normal; }
+
+	.field span.invalid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #c00;border-color:#c00 #fc0000 #fc0000 #c00;background:#ffe1e1 url("images/static.png") no-repeat right -46px; }
+		.field span.invalid input { color:#d00;font-style:normal; }
+
+	.field span.disabled { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #ccc;background:#333 url("images/horizontal.png") repeat-x; }
+		.field span.disabled input { color:#ccc; }
+
+
+.fieldlogin {height:25px;padding:5px 5px;margin:0;background:#fff; }
+	.fieldlogin span.lbl { float:left;width:160px;height:25px;line-height:24px;font-size:12px;padding:0 10px 0 0;text-align:right;cursor:default;color:#333; }
+
+	.fieldlogin span input { width:155px;background:none;margin:0;padding:5px 5px 6px 5px;font:12px Tahoma,Verdana,Arial,Helvetica,sans-serif;border:none;position:absolute;top:0; }
+
+	.fieldlogin span.empty { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3; }
+		.fieldlogin span.empty input { color:#b7b7b7;font-style:italic; }
+		
+	.fieldlogin span.required { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/question_icon.jpg") no-repeat right 4px; }
+		.fieldlogin span.required input { color:#b7b7b7;font-style:italic; }
+
+	.fieldlogin span.focused { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#fff; }
+		.fieldlogin span.focused input { color:#333;font-style:normal; }
+
+	.fieldlogin span.valid { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/static.png") no-repeat right 0; }
+		.fieldlogin span.valid input { color:#333;font-style:normal; }
+
+	.fieldlogin span.focused-valid { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid Black;background:White url("images/static.png") no-repeat right -23px; }
+		.fieldlogin span.focused-valid input { color:Black;font-style:normal; }
+
+	.fieldlogin span.invalid { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #c00;border-color:#c00 #fc0000 #fc0000 #c00;background:#ffe1e1 url("images/static.png") no-repeat right -46px; }
+		.fieldlogin span.invalid input { color:#d00;font-style:normal; }
+
+	.fieldlogin span.disabled { float:left;width:180px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #ccc;background:#333 url("images/horizontal.png") repeat-x; }
+		.fieldlogin span.disabled input { color:#ccc; }
+		
+.autofield {height:25px;padding:5px 5px;margin:0;background:#fff; }
+	.autofield span.lbl { float:left;width:560px;height:25px;line-height:24px;font-size:12px;padding:0 10px 0 0;text-align:right;cursor:default;color:#333; }
+
+	.autofield span input { width:555px;background:none;margin:0;padding:5px 5px 6px 5px;font:12px Tahoma,Verdana,Arial,Helvetica,sans-serif;border:none;position:absolute;top:0; }
+
+	.autofield span.empty { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3; }
+		.autofield span.empty input { color:#b7b7b7;font-style:italic; }
+		
+	.autofield span.required { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/question_icon.jpg") no-repeat right 4px; }
+		.autofield span.required input { color:#b7b7b7;font-style:italic; }
+
+	.autofield span.focused { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#fff; }
+		.autofield span.focused input { color:#333;font-style:normal; }
+
+	.autofield span.valid { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #666;border-color:#666 #999 #999 #666;background:#f3f3f3 url("images/static.png") no-repeat right 0; }
+		.autofield span.valid input { color:#333;font-style:normal; }
+
+	.autofield span.focused-valid { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid Black;background:White url("images/static.png") no-repeat right -23px; }
+		.autofield span.focused-valid input { color:Black;font-style:normal; }
+
+	.autofield span.invalid { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #c00;border-color:#c00 #fc0000 #fc0000 #c00;background:#ffe1e1 url("images/static.png") no-repeat right -46px; }
+		.autofield span.invalid input { color:#d00;font-style:normal; }
+
+	.autofield span.disabled { float:left;width:580px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #ccc;background:#333 url("images/horizontal.png") repeat-x; }
+		.autofield span.disabled input { color:#ccc; }

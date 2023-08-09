@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab Text="Trường biên mục" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Thư mục lưu tư liệu điện tử" Look-LeftIconUrl="folder-open.png" SelectedLook-LeftIconUrl="folder-open.png" />
+</tabs>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleSubjBrowse</name>
+<vie>DUYỆT ĐỀ MỤC</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSubheader</name>
+<vie>Bạn có thể lựa chọn duyệt xem theo một trong số các đề mục sau: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkAuthor</name>
+<vie>Tác giả</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkPublisher</name>
+<vie>Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkTitle</name>
+<vie>Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkKeyWord</name>
+<vie>Từ khóa</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkSeries</name>
+<vie>Tùng thư</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkSH</name>
+<vie>Tiêu đề, đề mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInfoSeleted</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDictionary</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblWordSelected</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNoBrowse</name>
+<vie>Số mục từ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPageNo</name>
+<vie>Số trang</vie>
+<eng></eng>
+</data>
+<data>
+<name>noInfomation</name>
+<vie>  Không tìm thấy thông tin.</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgSubjBrowse</name>
+<vie>Mục từ|+|Số lượng|+|ID</vie>
+<eng></eng>
+</data>
+</Head>

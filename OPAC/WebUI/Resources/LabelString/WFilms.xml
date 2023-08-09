@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleFilms</name>
+<vie>NGHE NHÌN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmSimple</name>
+<vie>Tìm đơn giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmDetail</name>
+<vie>Tìm chi tiết</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkfrmAdvance</name>
+<vie>Tìm nâng cao</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTitle</name>
+<vie>&lt;u&gt;N&lt;/u&gt;han đề: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAuthor</name>
+<vie>&lt;u&gt;T&lt;/u&gt;ác giả: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkAuthor</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPublisher</name>
+<vie>Nhà &lt;u&gt;x&lt;/u&gt;uất bản: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkPublisher</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPubYear</name>
+<vie>N&lt;u&gt;ă&lt;/u&gt;m xuất bản: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblIndexDDC</name>
+<vie>&lt;u&gt;C&lt;/u&gt;hỉ số DDC: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkIndexDDC</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLangague</name>
+<vie>N&lt;u&gt;g&lt;/u&gt;ôn ngữ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkLanguage</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblKeyWord</name>
+<vie>Từ &lt;u&gt;k&lt;/u&gt;hoá: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkKeyword</name>
+<vie>Từ điển</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSort</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ắp xếp theo: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSort</name>
+<vie>0|+|0|+|Title|+|Nhan đề chính|+|Author|+|Tác giả chính|+|Year|+|Năm xuất bản|+|Publish|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblView</name>
+<vie>Hiển thị: </vie>
+<eng></eng>
+</data>
+<data>
+<name>optISBD</name>
+<vie>ISB&lt;u&gt;D&lt;/u&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>optSimple</name>
+<vie>Đ&lt;u&gt;ơ&lt;/u&gt;n giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLimit</name>
+<vie>Giới &lt;u&gt;h&lt;/u&gt;ạn: </vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLimit</name>
+<vie>0|+|Toàn bộ|+|300|+|300|+|200|+|200|+|100|+|100|+|50|+|50</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRecord</name>
+<vie>Bản ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm (f)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Đặt lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItemType</name>
+<vie>Nghe nhìn (films)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsgNotFound</name>
+<vie>Không tìm thấy biểu ghi nào.</vie>
+<eng></eng>
+</data>
+</Head>

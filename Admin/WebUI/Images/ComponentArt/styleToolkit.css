@@ -1,0 +1,55 @@
+.btn {
+	 font-style:normal; font-size: 12px;color:#000000;cursor:pointer;
+	 background-image:url('MenuButton/images/btn8.png');
+	 padding-left: 0px; cursor: hand;
+	 text-align:center;	 
+	 border:0;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+
+.titleform {	
+	font-weight:bold; font-size: 18px; color: red;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlerowtextwhite {	
+	font-weight:bold; font-size: 16px; color: white;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlerowtextread {	
+	font-weight:bold; font-size: 16px; color: red;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.logon {
+BACKGROUND-IMAGE:url('Login/images/login.gif');
+}
+
+.textlogon {
+	font-style:normal; font-size: 11px; color: #000000;
+	padding-left:15px;padding-right:5px; 
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.backgroundbody {
+	background-color:#f3f3f3
+}
+
+.backgroundbodywhite {
+	background-color:White
+}
+
+.backgroundrow {
+	background-color:#009966
+}
+
+a:link { color:#dd3409;text-decoration:none; }
+a:visited { color:#a31515;text-decoration:none; }
+a:visited:hover { color:#a31515;text-decoration:underline; }
+a:hover { color:#dd3409;text-decoration:underline; }
+a:active { color:#f30;text-decoration:underline; }
+a:focus,a:active { outline:none; }
+

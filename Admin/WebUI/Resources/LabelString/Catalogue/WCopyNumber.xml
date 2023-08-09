@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblHeader</name>
+<vie>Dữ liệu xếp giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCode</name>
+<vie>&lt;U&gt;M&lt;/U&gt;ã tài liệu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAcqCode</name>
+<vie>Mã đơn đặt:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPosHolding</name>
+<vie>Thông tin vị trí xếp giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLibrary</name>
+<vie>&lt;u&gt;T&lt;/u&gt;hư viện</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLocation</name>
+<vie>Kh&lt;U&gt;o&lt;/U&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblShelf</name>
+<vie>G&lt;U&gt;i&lt;/U&gt;á sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNumberCopiesStart</name>
+<vie>Số bản bắt đầu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHolding</name>
+<vie>Đăng ký &lt;U&gt;c&lt;/U&gt;á biệt</vie>
+<eng></eng>
+</data>
+<data>
+<name>cbFreeText</name>
+<vie>Cho phép nhập DKCB tự do</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnGenHolding</name>
+<vie>Sinh giá trị(g)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblQuantity</name>
+<vie>Số &lt;U&gt;l&lt;/U&gt;ượng</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdate</name>
+<vie>Bổ sung(a)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInforHold</name>
+<vie>Thông tin xếp giá bổ sung</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblACQSource</name>
+<vie>Nguồn bổ s&lt;U&gt;u&lt;/U&gt;ng:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAdditionalBy</name>
+<vie>Lý do:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblACQDate</name>
+<vie>&lt;U&gt;N&lt;/U&gt;gày bổ sung:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkCalendar</name>
+<vie>Lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoanType</name>
+<vie>&lt;u&gt;K&lt;/u&gt;iểu tư liệu (lưu thông):</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPrice</name>
+<vie>Đơn &lt;u&gt;g&lt;/u&gt;iá (đ/bản):</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblStatus</name>
+<vie>Tình trạng:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCurrentInforHolding</name>
+<vie>Thông tin xếp giá hiện thời</vie>
+<eng></eng>
+</data>
+<data>
+<name>txtDeptTitle</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumCopyNum</name>
+<vie>Tổng số ĐKCB:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumCopyNumVal</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCopyData</name>
+<vie>Dữ liệu ĐKCB tổng hợp:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCopyDataVal</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFreeCopy</name>
+<vie>Tổng số bản rỗi:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumFreeCopy</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnBarCode</name>
+<vie>In mã vạch(v)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnLabel</name>
+<vie>In nhãn gáy(g)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkCheckAll</name>
+<vie>Chọn tất</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkUnCheckAll</name>
+<vie>Bỏ tất</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgLoan</name>
+<vie>../../Images/loan.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoan</name>
+<vie>Đang cho mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgLock</name>
+<vie>../../Images/lock.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLock</name>
+<vie>Đang khóa</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgProcess</name>
+<vie>../../Images/process.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblProcess</name>
+<vie>Chưa kiểm nhận tại kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgHoldingInfo</name>
+<vie>|+||+||+||+||+|Thư viện|+|Kho|+|Giá sách|+|Tập|+|Số phân loại|+|ĐKCB|+|Giá tiền|+|Ngày bổ sung|+|Nguồn bổ sung|+|Mã Vạch|+|Số bản|+|Trạng thái|+|Tình trạng|+|Lý do|+|Kiểu tư liệu|+|Ghi chú|+|</vie>
+<eng></eng>
+</data>
+<data>
+<name>chkAllinLoc</name>
+<vie>Thay đổi số định danh cho cả kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblReasonDel</name>
+<vie>Lý do loại &lt;u&gt;b&lt;/u&gt;ỏ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDeletePrevious</name>
+<vie>Xóa(x)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDelHoding</name>
+<vie>Loại bỏ(r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReceiveUnlock</name>
+<vie>Kiểm nhân/mở khóa(d)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReceiveDelivered</name>
+<vie>Ghi nhận chờ chuyển ra kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Dữ liệu không phải là kiểu số|+|3|+|Dữ liệu không phải kiểu ngày tháng|+|4|+|Bạn chưa nhập đủ thông tin cần thiết cho việc bổ sung ĐKCB!|+|5|+|Đăng ký cá biệt đang tồn tại !|+|6|+|Cập nhật thông tin đăng ký cá biệt|+|7|+|Xoá đăng ký cá biệt|+|8|+|Bổ sung đăng ký cá biệt|+|9|+|Kiểm nhận và mở khóa thành công !|+|10|+|Chưa chọn ĐKCB nào!|+|11|+|Số bản bắt đầu không hợp lệ|+|12|+|Cập nhật trạng thái thành công|+|13|+|Ghi nhận chuyển ra kho thành công|+|14|+|Ghi nhận chuyển ra kho không thành công</vie>
+<eng></eng>
+</data>
+</Head>

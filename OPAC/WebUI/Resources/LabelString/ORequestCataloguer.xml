@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMainTitle</name>
+<vie>Yêu cầu bổ sung tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFullName</name>
+<vie>Họ tên: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronCode</name>
+<vie>Số thẻ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblEmail</name>
+<vie>Email:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPhone</name>
+<vie>Số điện th&lt;u&gt;o&lt;/u&gt;ại: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFacebook</name>
+<vie>Facebook: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSupplier</name>
+<vie>Đơn vị: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAddress</name>
+<vie>&lt;b&gt;Thông tin yêu cầu cần bổ sung: &lt;/b&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdate</name>
+<vie>Cập nhật(c)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNotValidEmail</name>
+<vie>Email không hợp lệ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRequired</name>
+<vie>Thông tin bắt buộc không để trống</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSuccessRequest</name>
+<vie>Gửi yêu cầu thành công</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNoSuccessRequest</name>
+<vie>Gửi yêu cầu thất bại</vie>
+<eng></eng>
+</data>
+</Head>

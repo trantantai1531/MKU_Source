@@ -1,0 +1,138 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WAcqReportTemlateDisplay.aspx.vb" Inherits="eMicLibAdmin.WebUI.Acquisition.WAcqReportTemlateDisplay" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>WAcqReportTemlateDisplay</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+		<script language="JavaScript" src="../Js/ACQ/picker.js"></script>
+	</HEAD>
+	<body leftMargin="0" topMargin="0" rightMargin="0" MS_POSITIONING="GridLayout">
+		<form id="Form1" method="post" runat="server">
+			<table id="Request" width="100%" border="0">
+				<TBODY>
+					<tr>
+						<td width="40%" colSpan="7"><asp:label id="lblMainTitle" cssclass="lbPageTitle" Runat="server" Width="100%">SOẠN THẢO MẪU IN BÁO CÁO BỔ SUNG	</asp:label></td>
+					</tr>
+					<tr>
+						<td width="40%" colSpan="2"></td>
+						<td align="right" width="30%" colSpan="1"><asp:label id="Label2" Runat="server">Chọn <u>m</u>ẫu: </asp:label></td>
+						<td width="30%" colSpan="4"><asp:dropdownlist id="ddlID" tabIndex="1" Runat="server"></asp:dropdownlist></td>
+					</tr>
+					<tr>
+						<TD colSpan="1" align="right"><asp:label id="lblCaption" Runat="server">Tê<u>n</u> mẫu: </asp:label></TD>
+						<td colSpan="2"><asp:textbox id="txtCaption" Runat="server" Width="100%"></asp:textbox></td>
+						<td colSpan="4"><INPUT id="txtCollum" type="hidden" name="txtCollum" runat="server"></td>
+					</tr>
+					<tr>
+						<td colSpan="7"><asp:label id="lblHeader" Runat="server" Width="100%" CssClass="lbSubTitle">Phần đầu của đơn</asp:label></td>
+					</tr>
+					<tr>
+						<td width="10%" colSpan="1"></td>
+						<td width="80%" colSpan="5"><asp:textbox id="txtHeader" tabIndex="3" Runat="server" Width="100%" Height="60px" TextMode="MultiLine"
+								Wrap="true"></asp:textbox></td>
+						<td width="10%" colSpan="1"></td>
+					</tr>
+					<tr>
+						<td colSpan="1" align="right"><asp:label id="lblPageHeader" Runat="server">Đầ<u>u</u> trang</asp:label></td>
+						<td colSpan="5"><asp:textbox id="txtPageHeader" Runat="server" Width="100%"></asp:textbox></td>
+						<td colSpan="1"></td>
+					</tr>
+					<tr>
+						<td colSpan="7"><asp:label id="lblList" Runat="server" Width="100%" CssClass="lbSubTitle">Phần thân của đơn</asp:label></td>
+					</tr>
+					<TR>
+						<td width="10%" colSpan="1"><asp:listbox id="lsbTemp" Runat="server" Width="0" Height="0">
+								<asp:ListItem Value="<$SEQUENCY$>">Số thứ tự</asp:ListItem>
+								<asp:ListItem Value="<$DKCB$>">Đăng ký cá biệt</asp:ListItem>
+								<asp:ListItem Value="<$TITLE$>">Nhan đề</asp:ListItem>
+								<asp:ListItem Value="<$PLACE$>">Địa điểm xuất bản</asp:ListItem>
+								<asp:ListItem Value="<$YEAR$>">Năm xuất bản</asp:ListItem>
+								<asp:ListItem Value="<$ISSUEPRICE$>">Đơn giá</asp:ListItem>
+								<asp:ListItem Value="<$ACQUISITIONDATE$>">Ngày bổ sung</asp:ListItem>
+								<asp:ListItem Value="<$NOTE$>">Ghi chú</asp:ListItem>
+							</asp:listbox></td>
+						<TD colSpan="5">
+							<table cellSpacing="0" width="100%">
+								<tr>
+									<td align="center" width="20%"><asp:label id="lblAllCollums" Runat="server" Width="100%">Cột <u>k</u>hông hiển thị</asp:label></td>
+									<td width="7%"></td>
+									<td align="center" width="20%"><asp:label id="lblCollum" Runat="server" Width="100%">Cột <u>h</u>iển thị</asp:label></td>
+									<td align="center" width="23%"><asp:label id="lblCollumCaption" Runat="server" Width="100%">Tên hiển <u>t</u>hị</asp:label></td>
+									<td align="center" width="15%"><asp:label id="lblCollumWidth" Runat="server" Width="100%">Độ <u>r</u>ộng</asp:label>
+									<td align="center" width="15%"><asp:label id="lblAlign" Runat="server">Căn <u>l</u>ề</asp:label></td>
+									<td align="center" width="15%"><asp:label id="lblFormat" Runat="server">Đinh dạn<u>g</u></asp:label></td>
+								</tr>
+								<tr>
+									<td align="right" width="158"><asp:listbox id="lsbAllCollums" tabIndex="4" Runat="server" Width="100%" Height="140px" SelectionMode="Multiple">
+											<asp:ListItem Value="<$SEQUENCY$>">Số thứ tự</asp:ListItem>
+											<asp:ListItem Value="<$DKCB$>">Đăng ký cá biệt</asp:ListItem>
+											<asp:ListItem Value="<$TITLE$>">Nhan đề</asp:ListItem>
+											<asp:ListItem Value="<$PLACE$>">Địa điểm xuất bản</asp:ListItem>
+											<asp:ListItem Value="<$YEAR$>">Năm xuất bản</asp:ListItem>
+											<asp:ListItem Value="<$ISSUEPRICE$>">Đơn giá</asp:ListItem>
+											<asp:ListItem Value="<$ACQUISITIONDATE$>">Ngày bổ sung</asp:ListItem>
+											<asp:ListItem Value="<$NOTE$>">Ghi chú</asp:ListItem>
+										</asp:listbox></td>
+									<td width="8%">
+										<table cellSpacing="0" cellPadding="0" width="100%">
+											<tr>
+												<td><asp:button id="btnAdd" tabIndex="5" Runat="server" Width="100%" Text=">>"></asp:button></td>
+											</tr>
+											<tr>
+												<td><asp:button id="btnRemove" tabIndex="7" Runat="server" Width="100%" Text="<<"></asp:button></td>
+											</tr>
+										</table>
+									</td>
+									<td width="20%"><asp:listbox id="lsbCollum" tabIndex="6" Runat="server" Width="100%" Height="140px" SelectionMode="Multiple"></asp:listbox></td>
+									<td width="23%"><asp:textbox id="txtCollumCaption" tabIndex="8" cssclass="lbtextarea" Runat="server" Width="206px"
+											Height="140px" TextMode="MultiLine" Wrap="False" Columns="6" Rows="6"></asp:textbox></td>
+									<td width="15%"><asp:textbox id="txtCollumWidth" tabIndex="9" cssclass="lbtextarea" Runat="server" Width="96px"
+											Height="140px" TextMode="MultiLine" Wrap="False" Columns="6" Rows="6"></asp:textbox></td>
+									<td width="15%"><asp:textbox id="txtAlign" tabIndex="10" cssclass="lbtextarea" Runat="server" Width="88px" Height="140"
+											TextMode="MultiLine" Wrap="False"></asp:textbox></td>
+									<td width="15%"><asp:textbox id="txtFormat" cssclass="lbtextarea" Runat="server" Width="88" Height="140" TextMode="MultiLine"
+											Wrap="False" Columns="6" Rows="6"></asp:textbox></td>
+								</tr>
+							</table>
+						</TD>
+					</TR>
+				</TBODY>
+				<tr>
+					<td colSpan="1"></td>
+					<td colSpan="5"><asp:label id="lblTableColor" Runat="server">Mầu cho b<u>ả</u>ng: </asp:label><asp:textbox id="txtTableColor" Runat="server" Width="60" MaxLength="7"></asp:textbox><asp:label id="lblPickTableColor" Runat="server"><a href="javascript:TCP.popup(document.forms[0].elements['txtTableColor'], 1)" name="lnkTableColor"
+								id="lnkTableColor"><b>Chọn mầu</b></a></asp:label>&nbsp;&nbsp;
+						<asp:label id="lblOddColor" Runat="server">Mầu hàng l<u>ẻ</u>: </asp:label><asp:textbox id="txtOddColor" Runat="server" Width="60" MaxLength="7"></asp:textbox><asp:label id="lblPickOddColor" Runat="server"><a href="javascript:TCP.popup(document.forms[0].elements['txtOddColor'], 1)" name="lnkOddColor"
+								id="lnkOddColor"><b>Chọn mầu</b></a></asp:label>&nbsp;&nbsp;
+						<asp:label id="lblEventColor" Runat="server">Mầu hàng ch<u>ẵ</u>n: </asp:label><asp:textbox id="txtEventColor" Runat="server" Width="60" MaxLength="7"></asp:textbox><asp:label id="lblPickEventColor" Runat="server"><a href="javascript:TCP.popup(document.forms[0].elements['txtEventColor'], 1)" name="lnkEventColor"
+								id="lnkEventColor"><b>Chọn mầu</b></a></asp:label></td>
+					<td colSpan="1"></td>
+				</tr>
+				<tr>
+					<td colSpan="1" align="right"><asp:label id="lblPageFooter" Runat="server">Cuối tra<u>n</u>g: </asp:label></td>
+					<td colSpan="5"><asp:textbox id="txtPageFooter" Runat="server" Width="100%"></asp:textbox></td>
+					<td colSpan="1"></td>
+				</tr>
+				<tr>
+					<td  colSpan="7"><asp:label id="lblFoter" Runat="server" Width="100%" CssClass="lbSubTitle">Cuối đơn</asp:label></td>
+				</tr>
+				<tr>
+					<td width="10%" colSpan="1"></td>
+					<td width="80%" colSpan="5"><asp:textbox id="txtFooter" tabIndex="10" Runat="server" Width="100%" Height="60px" TextMode="MultiLine"
+							Wrap="true"></asp:textbox></td>
+					<td width="10%" colSpan="1"></td>
+				</tr>
+				<tr>
+					<td align="center" 
+					 colSpan="7"><asp:button id="btnUpdate" tabIndex="11" Runat="server" Text="Cập nhật(c)"></asp:button>&nbsp;<asp:button id="btnPreview" tabIndex="12" Runat="server" Text="Xem trước(t)"></asp:button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:button id="btnDelete" tabIndex="13" Runat="server" Text="Xoá (x)"></asp:button></td>
+				</tr>
+			</table>
+			<asp:label id="lblAddNew" Runat="server" Visible="False">------Tạo mới------</asp:label><asp:label id="lblDeleteConfirm" Runat="server" Visible="False">Nhấn OK nếu thực sự muốn xoá mẫu này!!!</asp:label><asp:label id="lblEmtyTitle" Runat="server" Visible="False">Tên mẫu là bắt buộc</asp:label>
+			<asp:Label ID="lblUpdateSuccessful" Runat="server" Visible="False">Cập nhật thành công</asp:Label>
+			<asp:Label ID="lblUpdateUnSuccessful" Runat="server" Visible="False">Cập nhật không thành công</asp:Label>
+			<input id="hdMax" type="hidden" name="hdMax" runat="server"> <input id="hdCollumCaptionText" type="hidden" name="hdCollumCaptionText" runat="server">
+		</form>
+	</body>
+</HTML>

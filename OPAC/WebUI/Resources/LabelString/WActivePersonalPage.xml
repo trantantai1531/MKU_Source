@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMainTitle</name>
+<vie>Tạo mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronCode</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ố thẻ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblValidDate</name>
+<vie>Ngày &lt;u&gt;c&lt;/u&gt;ấp:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDOB</name>
+<vie>Ngày s&lt;u&gt;i&lt;/u&gt;nh:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassword</name>
+<vie>&lt;u&gt;M&lt;/u&gt;ật khẩu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRetypePassword</name>
+<vie>&lt;u&gt;G&lt;/u&gt;õ lại mật khẩu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdate</name>
+<vie>Nhập (n)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Đặt lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg9</name>
+<vie>Thông tin nhập vào không chính xác. Tạo mật khẩu thất bại!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg1</name>
+<vie>Số thẻ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg2</name>
+<vie>Ngày cấp</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg3</name>
+<vie>Ngày sinh</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg4</name>
+<vie>Mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg5</name>
+<vie>Bạn chưa nhập</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg8</name>
+<vie>Ngày tháng không hợp lệ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg6</name>
+<vie>Mật khẩu không trùng nhau</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg10</name>
+<vie>Tạo mật khẩu thành công!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg11</name>
+<vie>Mật khẩu đã tồn tại!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg7</name>
+<vie>Mật khẩu phải dài hơn 4 kí tự!</vie>
+<eng></eng>
+</data>
+</Head>

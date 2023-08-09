@@ -1,0 +1,720 @@
+' Class: WContractDetail
+' Purpose: Show detail information of the selected contract
+' Creator: Oanhtn
+' CreatedDate: 31/03/2005
+' Modification history:
+
+Imports eMicLibAdmin.BusinessRules.Acquisition
+Imports eMicLibAdmin.BusinessRules.Common
+Imports eMicLibAdmin.WebUI
+
+Namespace eMicLibAdmin.WebUI.Serial
+    Partial Class WContractDetail
+        Inherits clsWBase
+
+#Region " Web Form Designer Generated Code "
+
+        'This call is required by the Web Form Designer.
+        <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+
+        End Sub
+        Protected WithEvents lblItem As System.Web.UI.WebControls.Label
+
+
+        Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init
+            'CODEGEN: This method call is required by the Web Form Designer
+            'Do not modify it using the code editor.
+            InitializeComponent()
+        End Sub
+
+#End Region
+
+        ' Declare variables
+        Private objBPO As New clsBPurchaseOrder
+        Private objBVendor As New clsBVendor
+        Private objBCB As New clsBCommonBusiness
+
+        Dim intPoType As Integer = 0
+        Private intContractID As Integer
+        Private intPOS As Integer
+
+        ' Page_Load event
+        Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+            Call CheckFormPermission()
+            Call Initialize()
+            If Not Page.IsPostBack Or Not txbFunc.Value = "" Then
+                Call BindData()
+            End If
+            Call BindJavascript()
+        End Sub
+
+        ' Method: CheckFormPermission
+        ' Purpose: Check form permission
+        Private Sub CheckFormPermission()
+            If Not CheckPemission(134) Then
+                Call WriteErrorMssg(ddlLabel.Items(19).Text)
+            End If
+        End Sub
+
+        ' Method: Initialize
+        ' Purpose: Init all objects
+        Private Sub Initialize()
+            ' Init objBPO object
+            objBPO.InterfaceLanguage = Session("InterfaceLanguage")
+            objBPO.DBServer = Session("DBServer")
+            objBPO.ConnectionString = Session("ConnectionString")
+            Call objBPO.Initialize()
+
+            ' Init objBVendor object
+            objBVendor.InterfaceLanguage = Session("InterfaceLanguage")
+            objBVendor.DBServer = Session("DBServer")
+            objBVendor.ConnectionString = Session("ConnectionString")
+            Call objBVendor.Initialize()
+
+            ' Init objBCB object
+            objBCB.InterfaceLanguage = Session("InterfaceLanguage")
+            objBCB.DBServer = Session("DBServer")
+            objBCB.ConnectionString = Session("ConnectionString")
+            Call objBCB.Initialize()
+        End Sub
+
+        ' BindJavascript method
+        ' Purpose: include all neccessary objects
+        Private Sub BindJavascript()
+            Page.RegisterClientScriptBlock("CommonJs", "<script language = 'javascript' src = '../../Common/eMicLibCommon.js?t=" & String.Format("{0}", Date.Now.Ticks) & "'></script>")
+            Page.RegisterClientScriptBlock("ContractJs", "<script language = 'javascript' src = '../Js/PAcquisition/WContract.js'></script>")
+
+            txbTotalAmount.Attributes.Add("OnChange", "if (!CheckNum(this)) {this.value = 0; alert('" & ddlLabel.Items(20).Text & "'); return false;}")
+            txbFixedRate.Attributes.Add("OnChange", "if (!CheckNum(this)) {this.value = 0; alert('" & ddlLabel.Items(20).Text & "'); return false;}")
+            txbPrepaidAmount.Attributes.Add("OnChange", "if (!CheckNum(this)) {this.value = 0; alert('" & ddlLabel.Items(20).Text & "'); return false;}")
+            txbDiscount.Attributes.Add("OnChange", "if (!CheckNum(this)) {this.value = 0; alert('" & ddlLabel.Items(20).Text & "'); return false;}")
+            txbValidDate.Attributes.Add("OnChange", "if (!CheckDate(this, 'dd/mm/yyyy', '" & ddlLabel.Items(21).Text & "')) {return false;}")
+            txbFilledDate.Attributes.Add("OnChange", "if (!CheckDate(this, 'dd/mm/yyyy', '" & ddlLabel.Items(21).Text & "')) {return false;}")
+
+            ddlCurrency.Attributes.Add("OnChange", "document.forms[0].txbFixedRate.value=document.forms[0].ddlCurrency.options[document.forms[0].ddlCurrency.selectedIndex].value;")
+
+            btnClose.Attributes.Add("OnClick", "self.close(); return false;")
+        End Sub
+
+        ' BindData method
+        ' Purpose: loadform
+        Private Sub BindData()
+            Dim tblTemp As DataTable
+            Dim intIndex As Integer
+            Dim dblDiscount As Double = 0
+            Dim intStatus As Integer
+
+            ' Get position of record
+            If Not Request("POS") = "" Then
+                txbPOS.Value = Request("POS")
+            Else
+                txbPOS.Value = 1
+            End If
+            intPOS = CInt(txbPOS.Value)
+
+            ' Get list of vendors
+            tblTemp = objBVendor.GetVendor
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBVendor.ErrorMsg, ddlLabel.Items(0).Text, objBVendor.ErrorCode)
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    ddlVendor.DataSource = tblTemp
+                    ddlVendor.DataTextField = "Name"
+                    ddlVendor.DataValueField = "ID"
+                    ddlVendor.DataBind()
+                    tblTemp.Clear()
+                End If
+            End If
+
+            ' Get list of vendors
+            tblTemp = objBCB.GetCurrency
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBCB.ErrorMsg, ddlLabel.Items(0).Text, objBCB.ErrorCode)
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    ddlCurrency.DataSource = tblTemp
+                    ddlCurrency.DataTextField = "CurrencyCode"
+                    ddlCurrency.DataValueField = "Rate"
+                    ddlCurrency.DataBind()
+                    tblTemp.Clear()
+                End If
+            End If
+
+            ' Get list of acqstatus
+            tblTemp = objBCB.GetAcqStatus
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBCB.ErrorMsg, ddlLabel.Items(0).Text, objBCB.ErrorCode)
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    ddlStatus.DataSource = tblTemp
+                    ddlStatus.DataTextField = "Status"
+                    ddlStatus.DataValueField = "ID"
+                    ddlStatus.DataBind()
+                    tblTemp.Clear()
+                End If
+            End If
+
+            ' Get information of the selected contract
+            If Not Session("FilterIDs") Is Nothing Then
+                intContractID = Session("FilterIDs")(intPOS - 1)
+            Else
+                If Not Request("ContractID") = "" Then
+                    intContractID = CInt(Request("ContractID"))
+                Else
+                    intContractID = objBPO.GetContractID(intPOS)
+                End If
+            End If
+
+            txbContractID.Value = intContractID
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            objBPO.AcqPOID = intContractID
+            tblTemp = objBPO.GetPO()
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    txbReceiptNo.Text = Trim(tblTemp.Rows(0).Item("ReceiptNo"))
+                    txbPOName.Text = Trim(tblTemp.Rows(0).Item("POName"))
+                    txbFixedRate.Text = Trim(tblTemp.Rows(0).Item("FixedRate"))
+                    If Not IsDBNull(tblTemp.Rows(0).Item("VALIDDATE")) Then
+                        txbValidDate.Text = Trim(tblTemp.Rows(0).Item("VALIDDATE"))
+                    End If
+
+                    intStatus = CInt(Trim(tblTemp.Rows(0).Item("StatusID")))
+                    For intIndex = 0 To ddlStatus.Items.Count - 1
+                        If CInt(ddlStatus.Items(intIndex).Value) = intStatus Then
+                            ddlStatus.SelectedIndex = intIndex
+                            Exit For
+                        End If
+                    Next
+
+                    If Not tblTemp.Rows(0).Item("Currency") Is Nothing Then
+                        Dim strCurrency As String = Trim(tblTemp.Rows(0).Item("Currency"))
+                        For intIndex = 0 To ddlCurrency.Items.Count - 1
+                            If ddlCurrency.Items(intIndex).Text = strCurrency Then
+                                ddlCurrency.SelectedIndex = intIndex
+                                Exit For
+                            End If
+                        Next
+                    End If
+
+
+
+                    Dim intVendorID As Integer = CInt(tblTemp.Rows(0).Item("VendorID"))
+                    For intIndex = 0 To ddlVendor.Items.Count - 1
+                        If CInt(ddlVendor.Items(intIndex).Value) = intVendorID Then
+                            ddlVendor.SelectedIndex = intIndex
+                            Exit For
+                        End If
+                    Next
+
+                    If Not IsDBNull(tblTemp.Rows(0).Item("FILLEDDATE")) Then
+                        txbFilledDate.Text = Trim(tblTemp.Rows(0).Item("FILLEDDATE"))
+                    End If
+
+                    If Not IsDBNull(tblTemp.Rows(0).Item("TotalAmount")) Then
+                        txbTotalAmount.Text = Trim(tblTemp.Rows(0).Item("TotalAmount"))
+                    End If
+
+                    If Not IsDBNull(tblTemp.Rows(0).Item("PrepaidAmount")) Then
+                        txbPrepaidAmount.Text = Trim(tblTemp.Rows(0).Item("PrepaidAmount"))
+                    End If
+
+                    If Not IsDBNull(tblTemp.Rows(0).Item("StatusNote")) Then
+                        txbNote.Text = Trim(tblTemp.Rows(0).Item("StatusNote"))
+                    End If
+
+                    If Not IsDBNull(tblTemp.Rows(0).Item("Discount")) Then
+                        txbDiscount.Text = Trim(tblTemp.Rows(0).Item("Discount"))
+                        dblDiscount = CDbl(tblTemp.Rows(0).Item("Discount"))
+                    End If
+
+                    If CInt(tblTemp.Rows(0).Item("POType")) = 0 Then
+                        lblMainTitle.Text = ddlLabel.Items(3).Text
+                    Else
+                        txbPoType.Value = 1
+                        lblMainTitle.Text = ddlLabel.Items(2).Text
+                    End If
+                End If
+            End If
+
+            ' Show selected items of this contract
+            tblTemp = objBPO.GetOrderedItems
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    Call ShowListOfItem(tblTemp, dblDiscount, intStatus)
+                End If
+            End If
+
+            ' Show status
+            tblTemp = objBPO.GetStatusLog
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    dtgStatus.DataSource = tblTemp
+                    dtgStatus.DataBind()
+                End If
+            End If
+
+            ' Show financial information
+            tblTemp = objBPO.GetFinacialInfor
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            If Not tblTemp Is Nothing Then
+                If tblTemp.Rows.Count > 0 Then
+                    dtgAccount.DataSource = tblTemp
+                    dtgAccount.DataBind()
+                End If
+            End If
+
+            If Not tblTemp Is Nothing Then
+                tblTemp = Nothing
+            End If
+
+            If Not txbFunc.Value = "" Then
+                txbFunc.Value = ""
+            End If
+        End Sub
+
+        ' ShowListOfItem method
+        ' Purpose: Show list items of contract
+        Private Sub ShowListOfItem(ByVal tblData As DataTable, ByVal dblDiscount As Double, ByVal intStatusID As Integer)
+            Dim tblRow As TableRow
+            Dim tblCell As TableCell
+            Dim chkTemp As CheckBox
+            Dim lblTemp As Label
+            Dim intIndex As Integer
+            Dim dblSumAmount1 As Double = 0
+            Dim dblSumAmount2 As Double = 0
+            Dim intTotalReqCopies As Integer = 0
+            Dim intTotalRecCopies As Integer = 0
+
+            ' Show header
+            tblRow = New TableRow
+            tblRow.CssClass = "lbGridHeader"
+
+            ' Select column
+            tblCell = New TableCell
+            tblCell.Width = Unit.Percentage(5)
+            tblRow.Controls.Add(tblCell)
+
+            ' Title column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(7).Text
+            tblCell.Controls.Add(lblTemp)
+            tblRow.Controls.Add(tblCell)
+
+            ' ItemType column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(8).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(8)
+            tblRow.Controls.Add(tblCell)
+
+            ' Medium column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(9).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(8)
+            tblRow.Controls.Add(tblCell)
+
+            ' Price Unit column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(10).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(7)
+            tblRow.Controls.Add(tblCell)
+
+            ' RequestedCopies column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(11).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(8)
+            tblRow.Controls.Add(tblCell)
+
+            ' Price column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(12).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(10)
+            tblRow.Controls.Add(tblCell)
+
+            ' ReceivedCopies column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(13).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(8)
+            tblRow.Controls.Add(tblCell)
+
+            ' PaidAmount column
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(14).Text
+            tblCell.Controls.Add(lblTemp)
+            tblCell.Width = Unit.Percentage(9)
+            tblRow.Controls.Add(tblCell)
+
+            ' Add this column to this row
+            tblItemInfor.Rows.Add(tblRow)
+
+            ' Show content
+            For intIndex = 0 To tblData.Rows.Count - 1
+                ' New row
+                tblRow = New TableRow
+                If (intIndex Mod 2) = 1 Then
+                    tblRow.CssClass = "lbGridCell"
+                Else
+                    tblRow.CssClass = "lbGridAlterCell"
+                End If
+
+                tblCell = New TableCell
+                If intStatusID < 3 Then
+                    chkTemp = New CheckBox
+                    chkTemp.Attributes.Add("OnClick", "if (this.checked) {AddThis('" & tblData.Rows(intIndex).Item("ID") & "');} else {RemoveThis('" & tblData.Rows(intIndex).Item("ID") & "');}")
+                    tblCell.Controls.Add(chkTemp)
+                    tblCell.HorizontalAlign = HorizontalAlign.Center
+                End If
+                tblRow.Controls.Add(tblCell)
+
+                Dim strTitle As String
+
+                strTitle = Trim(tblData.Rows(intIndex).Item("Title"))
+
+                If Not IsDBNull(tblData.Rows(intIndex).Item("Author")) Then
+                    strTitle = strTitle & " /" & Trim(tblData.Rows(intIndex).Item("Author"))
+                End If
+                If Not IsDBNull(tblData.Rows(intIndex).Item("Edition")) Then
+                    strTitle = strTitle & ". -" & Trim(tblData.Rows(intIndex).Item("Edition"))
+                End If
+                If Not IsDBNull(tblData.Rows(intIndex).Item("Publisher")) Then
+                    strTitle = strTitle & ". -" & Trim(tblData.Rows(intIndex).Item("Publisher"))
+                End If
+                If Not IsDBNull(tblData.Rows(intIndex).Item("PubYear")) Then
+                    strTitle = strTitle & " , " & Trim(tblData.Rows(intIndex).Item("PubYear"))
+                End If
+                If Not IsDBNull(tblData.Rows(intIndex).Item("ISBN")) Then
+                    strTitle = strTitle & "<BR>" & Trim(tblData.Rows(intIndex).Item("ISBN"))
+                End If
+                If Not IsDBNull(tblData.Rows(intIndex).Item("ISSN")) Then
+                    strTitle = strTitle & "<BR>" & Trim(tblData.Rows(intIndex).Item("ISSN"))
+                End If
+
+                ' Title column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = strTitle
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblRow.Controls.Add(tblCell)
+
+                ' ItemType column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("ItemType")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Center
+                tblRow.Controls.Add(tblCell)
+
+                ' Medium column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("Medium")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Center
+                tblRow.Controls.Add(tblCell)
+
+                ' UnitPrice column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("UnitPrice")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' RequestedCopies column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("RequestedCopies")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Amount1 column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("Amount1")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' ReceivedCopies column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("ReceivedCopies")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Amount2 column
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = tblData.Rows(intIndex).Item("Amount2")
+                lblTemp.CssClass = "lbLabel"
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                dblSumAmount1 = dblSumAmount1 + CDbl(tblData.Rows(intIndex).Item("Amount1"))
+                dblSumAmount2 = dblSumAmount2 + CDbl(tblData.Rows(intIndex).Item("Amount2"))
+                intTotalReqCopies = intTotalReqCopies + CInt(tblData.Rows(intIndex).Item("RequestedCopies"))
+                intTotalRecCopies = intTotalRecCopies + CInt(tblData.Rows(intIndex).Item("ReceivedCopies"))
+
+                ' Add this row to table
+                tblItemInfor.Rows.Add(tblRow)
+            Next
+
+            ' Show sumary amount row
+            tblRow = New TableRow
+            tblRow.CssClass = "lbGridHeader"
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = ddlLabel.Items(15).Text
+            lblTemp.Font.Bold = True
+            tblCell.Controls.Add(lblTemp)
+            tblCell.ColumnSpan = 5
+            tblCell.HorizontalAlign = HorizontalAlign.Right
+            tblRow.Controls.Add(tblCell)
+
+            ' Sumary TotalReqCopies
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = intTotalReqCopies
+            lblTemp.Font.Bold = True
+            tblCell.Controls.Add(lblTemp)
+            tblCell.HorizontalAlign = HorizontalAlign.Right
+            tblRow.Controls.Add(tblCell)
+
+            ' Sumary amount1
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = dblSumAmount1
+            lblTemp.Font.Bold = True
+            tblCell.Controls.Add(lblTemp)
+            tblCell.HorizontalAlign = HorizontalAlign.Right
+            tblRow.Controls.Add(tblCell)
+
+            ' Sumary TotalRecCopies
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = intTotalRecCopies
+            lblTemp.Font.Bold = True
+            tblCell.Controls.Add(lblTemp)
+            tblCell.HorizontalAlign = HorizontalAlign.Right
+            tblRow.Controls.Add(tblCell)
+
+            ' Sumary amount2
+            tblCell = New TableCell
+            lblTemp = New Label
+            lblTemp.Text = dblSumAmount2
+            lblTemp.Font.Bold = True
+            tblCell.Controls.Add(lblTemp)
+            tblCell.HorizontalAlign = HorizontalAlign.Right
+            tblRow.Controls.Add(tblCell)
+
+            ' Add this row to table
+            tblItemInfor.Rows.Add(tblRow)
+
+            If dblDiscount > 0 Then
+                ' Show discount amount
+                tblRow = New TableRow
+                tblRow.CssClass = "lbGridHeader"
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Font.Bold = True
+                lblTemp.Text = ddlLabel.Items(16).Text
+                tblCell.Controls.Add(lblTemp)
+                tblCell.ColumnSpan = 5
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary TotalReqCopies
+                tblCell = New TableCell
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary amount1
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = dblSumAmount1 * dblDiscount / 100
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary TotalRecCopies
+                tblCell = New TableCell
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary amount2
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = dblSumAmount2 * dblDiscount / 100
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Add this row to table
+                tblItemInfor.Rows.Add(tblRow)
+
+                ' Show sumary (real) amount
+                tblRow = New TableRow
+                tblRow.CssClass = "lbGridHeader"
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = ddlLabel.Items(17).Text
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.ColumnSpan = 5
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary TotalReqCopies
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = intTotalReqCopies
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary amount1
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = dblSumAmount1 * (100 - dblDiscount) / 100
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary TotalRecCopies
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = intTotalRecCopies
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Sumary amount2
+                tblCell = New TableCell
+                lblTemp = New Label
+                lblTemp.Text = dblSumAmount2 * (100 - dblDiscount) / 100
+                lblTemp.Font.Bold = True
+                tblCell.Controls.Add(lblTemp)
+                tblCell.HorizontalAlign = HorizontalAlign.Right
+                tblRow.Controls.Add(tblCell)
+
+                ' Add this row to table
+                tblItemInfor.Rows.Add(tblRow)
+            End If
+            tblData.Clear()
+        End Sub
+
+        ' btnUpdate_Click event
+        ' Purpose: Update selected contract record
+        Private Sub btnUpdate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+            Dim intRetVal As Integer
+
+            objBPO.PoType = txbPoType.Value
+            objBPO.AcqPOID = txbContractID.Value
+            objBPO.ReceiptNo = txbReceiptNo.Text
+            objBPO.PoName = txbPOName.Text
+            objBPO.VendorID = ddlVendor.SelectedValue
+            objBPO.PoType = intPoType
+            objBPO.ValidDate = txbValidDate.Text
+            objBPO.FilledDate = txbFilledDate.Text
+            objBPO.StatusID = ddlStatus.SelectedValue
+
+            If Not Trim(txbTotalAmount.Text) = "" Then objBPO.TotalAmount = txbTotalAmount.Text
+            If Not Trim(txbPrepaidAmount.Text) = "" Then objBPO.PrepaidAmount = txbPrepaidAmount.Text
+            If Not Trim(txbFixedRate.Text) = "" Then objBPO.FixedRate = CDbl(txbFixedRate.Text)
+            If Not Trim(txbDiscount.Text) = "" Then objBPO.Discount = txbDiscount.Text
+            objBPO.Currency = ddlCurrency.SelectedItem.Text
+
+            intRetVal = objBPO.Update(txbNote.Text.Trim)
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            If Not intRetVal = 0 Then ' Exist code 
+                Page.RegisterClientScriptBlock("AlertJs", "<script language = 'javascript'>" & ddlLabel.Items(6).Text & "</script>")
+            Else
+                ' WriteLog
+                Call WriteLog(38, ddlLabel.Items(4).Text & ": " & txbReceiptNo.Text, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+            End If
+            Call BindData()
+        End Sub
+
+        ' btnDelete_Click event
+        ' Purpose: delete selected contract record
+        Private Sub btnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+            Dim intRetVal As Integer
+            objBPO.AcqPOID = txbContractID.Value
+            intRetVal = objBPO.Delete()
+
+            Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+
+            If Not intRetVal = 0 Then ' Delete success
+                Page.RegisterClientScriptBlock("AlterJs", "<script language = 'javascript'>" & ddlLabel.Items(5).Text & "</script>")
+                ' WriteLog
+                Call WriteLog(38, ddlLabel.Items(5).Text & ": " & txbReceiptNo.Text, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+            End If
+            Call BindData()
+        End Sub
+
+        ' btnRemoveItems_Click event
+        ' Purpose: remove item
+        Private Sub btnRemoveItems_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+            Dim strItemIDs As String = Trim(txbItemIDs.Value)
+
+            If Len(strItemIDs) > 1 Then
+                strItemIDs = Left(strItemIDs, Len(strItemIDs) - 1)
+                strItemIDs = Right(strItemIDs, Len(strItemIDs) - 1)
+                Call objBPO.RemoveItems(strItemIDs)
+                ' CheckError
+                Call WriteErrorMssg(ddlLabel.Items(1).Text, objBPO.ErrorMsg, ddlLabel.Items(0).Text, objBPO.ErrorCode)
+                ' Writelog
+                Call WriteLog(38, ddlLabel.Items(18).Text & ": " & txbReceiptNo.Text, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+            End If
+            Call BindData()
+        End Sub
+
+        ' Page_Unload event
+        Private Sub Page_UnLoad(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Unload
+            Call Dispose(True)
+        End Sub
+
+        ' Dispose method
+        ' Release all objects
+        Public Overridable Overloads Sub Dispose(ByVal isDisposing As Boolean)
+            Try
+                Call objBPO.Dispose(True)
+                Call objBVendor.Dispose(True)
+                Call objBCB.Dispose(True)
+            Finally
+                MyBase.Dispose()
+                Me.Dispose()
+            End Try
+        End Sub
+    End Class
+End Namespace

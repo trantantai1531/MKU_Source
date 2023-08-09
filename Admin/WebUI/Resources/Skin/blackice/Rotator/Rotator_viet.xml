@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<News>
+  <NewsItem>
+    <Title>Mobile Tương lai</Title>
+     <Image>mobile2.gif</Image>
+     <Text>Mạng không dây sẽ phổ biến khắp nơi...</Text>
+   </NewsItem>
+  <NewsItem>
+    <Title>Y Trang</Title>
+    <Image>tivo.gif</Image>
+    <Text>Công ty chuyên thiết kế phần mềm quản lý công nghệ cao..</Text>
+</NewsItem>
+
+  <NewsItem>
+    <Title>Sun Shifting</Title>
+    <Image>sun.gif</Image>
+    <Text>Hãng Sun Microsystems ..tương thích với Linux...</Text>
+  </NewsItem>
+</News>
+

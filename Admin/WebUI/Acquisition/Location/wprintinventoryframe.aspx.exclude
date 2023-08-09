@@ -1,0 +1,11 @@
+<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WPrintInventoryFrame.aspx.vb" Inherits="eMicLibAdmin.WebUI.Acquisition.WPrintInventoryFrame" %>
+<HTML>
+	<HEAD>
+		<TITLE>Emiclib</TITLE>
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<frameset border="0" frameSpacing="0" rows="80,*,0" frameBorder="0">
+		<frame name="MenuInventory" marginWidth="0" marginHeight="0" src="" noResize scrolling="yes">
+		<frame name="ContentInvenroty" marginWidth="0" marginHeight="0" src="" scrolling="yes">
+	</frameset>
+</HTML>

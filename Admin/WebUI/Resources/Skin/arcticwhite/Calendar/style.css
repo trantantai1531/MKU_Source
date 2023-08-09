@@ -1,0 +1,35 @@
+.cal { width:333px;height:249px;background:transparent url("images/static.png") no-repeat;color:#333;font-weight:bold;font-family:Arial,Helvetica,sans-serif;font-size:12px;text-align:top; }
+
+.hdr { width:318px;height:30px;padding:0;margin:1px 0 0 12px;cursor:default;color:#333; }
+	.hdr-d { width:110px;height:28px;float:left;margin:0;line-height:28px;margin-top:1px;text-align:center; }
+	.sep { width:8px;height:30px;float:left;background:#fff url("images/static.png") no-repeat -24px -249px; }
+
+	.hdr a { display:block;height:22px;width:12px;margin:4px 0;float:left;cursor:default;background:transparent url("images/static.png") no-repeat; }
+	.hdr a.prev { background-position:0 -249px; }
+	.hdr a.prev:active { background-position:0 -293px !important;outline:none; }
+	.hdr a.prev:hover { background-position:0 -271px; }
+	.hdr a.next { background-position:-12px -249px; }
+	.hdr a.next:active { background-position:-12px -293px !important;outline:none; }
+	.hdr a.next:hover { background-position:-12px -271px; }
+
+	.hdr-m { width:104px;height:100%;float:left;margin:0; }
+		.hdr-m .month { display:block;height:28px;width:80px;float:left;line-height:28px;text-align:center;margin-top:1px; }
+
+	.hdr-y { width:84px;height:100%;float:left;margin:0; }
+		.hdr-y .year { display:block;height:28px;width:60px;float:left;line-height:28px;text-align:center;margin-top:1px; }
+
+.con { width:319px;height:208px;margin:2px 7px 8px 7px; }
+
+.ftr { width:100%;height:15px; }
+
+.select-month { cursor:default;color:#333;text-align:center;width:40px;height:26px; }
+.select-week { cursor:default;text-align:center;width:40px;height:30px;color:#333; }
+.day-hdr { cursor:default;color:#333;text-align:center;width:40px;height:26px; }
+
+a:active,a:focus { outline:none; }
+
+.day { cursor:default;text-align:center;width:40px;height:30px;color:#333; }
+.day-h { cursor:default;text-align:center;width:40px;height:30px;color:#c00; }
+.day-s { cursor:default;text-align:center;width:40px;height:30px;color:#000;text-decoration:underline; }
+.day-s-h { cursor:default;text-align:center;width:40px;height:30px;color:#c00;text-decoration:underline; }
+.other { cursor:default;color:#ccc; }

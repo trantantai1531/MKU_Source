@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblLanguage</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblUserName</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassword</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnLogin</name>
+<vie>Images/10_search.jpg</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chi tiết lỗi|+|1|+|Mã lỗi|+|2|+|Cặp tên và mật khẩu không hợp lệ!|+|3|+|Bạn chưa nhập tên đăng nhập!|+|4|+|Tiếng Việt|+|5|+|Tiếng Việt - TCVN|+|6|+|Tiếng Việt - VNI|+|7|+|Tiếng Anh|+|8|+|Tiếng Pháp|+|9|+|Tiếng Trung|+|10|+|Tiếng Ý|+|11|+|Thư viện điện tử eMicLib|+|12|+|Không kết nối được với cơ sở dữ liệu đã chọn !|+|13|+|Đăng nhập hệ thống</vie>
+<eng></eng>
+</data>
+</Head>

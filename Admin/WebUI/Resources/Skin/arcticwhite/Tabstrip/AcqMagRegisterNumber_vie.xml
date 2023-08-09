@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab Text="Đăng ký số" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Gắn tệp tư liệu điện tử" Look-LeftIconUrl="attachment.png" SelectedLook-LeftIconUrl="attachment.png" />
+</tabs>

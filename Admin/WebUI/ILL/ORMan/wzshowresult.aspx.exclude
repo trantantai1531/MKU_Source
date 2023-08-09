@@ -1,0 +1,66 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Codebehind="WZShowResult.aspx.vb" Inherits="eMicLibAdmin.WebUI.ILL.WZShowResult" enableViewState="True" EnableViewStateMAC="False" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>WZFind</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+	</HEAD>
+	<body leftMargin="0" topMargin="0" MS_POSITIONING="GridLayout">
+		<form id="Form1" method="post" runat="server">
+			<table width="100%" border="0">
+				<TR>
+					<TD class="lbPageTitle" colSpan="2"><asp:label id="lblHeader" runat="server" CssClass="lbPageTitle">Libol - Z39.50 Gateway</asp:label></TD>
+				</TR>
+				<TR>
+					<TD colSpan="2">
+						<P><asp:label id="lblFound" runat="server" CssClass="lbLabel">Tìm thấy:</asp:label>&nbsp;
+							<asp:label id="lblSumrec" runat="server" ForeColor="Maroon" Font-Bold="True"></asp:label>&nbsp;
+							<asp:label id="lblRec" runat="server" CssClass="lbLabel">biểu ghi</asp:label></P>
+						<P><asp:label id="lblStatus" runat="server"></asp:label></P>
+					</TD>
+				</TR>
+				<TR>
+					<TD><asp:label id="lblNext" runat="server" CssClass="lbLabel">Xem 10 kết qủa tiếp kể từ biểu ghi số:</asp:label><asp:textbox id="txtStart" runat="server" Width="56px"></asp:textbox>&nbsp;
+						<asp:button id="btnView" runat="server" CssClass="lbButton" Width="57" Text="Xem (m)"></asp:button>&nbsp;</TD>
+					<TD align="right"><asp:label id="lblForm" Runat="server">Sử dụng mẫu: </asp:label>&nbsp;
+						<asp:dropdownlist id="ddlForm" runat="server"></asp:dropdownlist>&nbsp;
+					</TD>
+				</TR>
+				<TR>
+					<TD width="100%" colSpan="2">
+						<asp:datagrid id="dtgShowResult" runat="server" Width="100%" AutoGenerateColumns="False" AlternatingItemStyle-CssClass="lbGridAlterCell"
+							ItemStyle-CssClass="lbGridCell" HeaderStyle-CssClass="lbGridHeader" HeaderStyle-HorizontalAlign="Center">
+							<Columns>
+								<asp:BoundColumn DataField="ValueField" HeaderText="Các bản ghi tìm được">
+									<HeaderStyle Width="80%"></HeaderStyle>
+								</asp:BoundColumn>
+								<asp:BoundColumn DataField="TextField" Visible="False" HeaderText="">
+									<HeaderStyle Width="10%"></HeaderStyle>
+								</asp:BoundColumn>
+								<asp:TemplateColumn>
+									<HeaderStyle Width="10%"></HeaderStyle>
+									<ItemTemplate>
+										<asp:HyperLink ID="lnkReuse" CssClass="lbLinkFunction" text="Dùng lại" Runat="server"></asp:HyperLink>
+									</ItemTemplate>
+								</asp:TemplateColumn>
+							</Columns>
+							<PagerStyle Position="TopAndBottom" Mode="NumericPages"></PagerStyle>
+						</asp:datagrid></TD>
+				</TR>
+			</table>
+			<asp:label id="lblAuthor" runat="server" Visible="False">Tác giả</asp:label>
+			<asp:label id="lblOtherInfor" runat="server" Visible="False">Thông tin khác</asp:label>
+			<asp:label id="lblPublisher" runat="server" Visible="False">Nhà xuất bản</asp:label>
+			<asp:label id="lblTitle" runat="server" Visible="False">Nhan đề</asp:label>
+			<INPUT id="ddlFieldName1" type="hidden" size="2" name="ddlFieldName1" runat="server">&nbsp;
+			<INPUT id="txtFieldValue1" type="hidden" size="2" name="txtFieldValue1" runat="server">&nbsp;
+			<INPUT id="ddlFieldName2" type="hidden" size="2" name="ddlFieldName2" runat="server">&nbsp;
+			<INPUT id="txtFieldValue2" type="hidden" size="2" name="txtFieldValue2" runat="server">&nbsp;
+			<INPUT id="ddlFieldName3" type="hidden" size="2" name="ddlFieldName3" runat="server"><INPUT id="txtFieldValue3" type="hidden" size="2" name="txtFieldValue3" runat="server"><INPUT id="ddlOperator2" type="hidden" size="2" name="ddlOperator2" runat="server"><INPUT id="ddlOperator3" type="hidden" size="2" name="ddlOperator3" runat="server">&nbsp;
+			<INPUT id="txtImportedID" type="hidden" size="2" name="txtImportedID" runat="server">
+		</form>
+	</body>
+</HTML>

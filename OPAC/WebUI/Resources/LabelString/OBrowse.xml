@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spFilterBy</name>
+<vie>DUYỆT ĐỀ MỤC</vie>
+<eng>BROWSE TO</eng>
+</data>
+<data>
+<name>spChooseTopic</name>
+<vie>Bạn có thể lựa chọn duyệt xem theo một trong số các đề mục sau: </vie>
+<eng>You can choose to browse in one of the following topics</eng>
+</data>
+<data>
+<name>spCollectionLink</name>
+<vie>Bộ sưu tập</vie>
+<eng>Colletion</eng>
+</data>
+<data>
+<name>spCatalogyLink</name>
+<vie>Danh mục</vie>
+<eng>Categories</eng>
+</data>
+<data>
+<name>spSubjectheadingLink</name>
+<vie>Tiêu đề đề mục</vie>
+<eng>Subject heading</eng>
+</data>
+<data>
+<name>spKeyWordLink</name>
+<vie>Từ khóa</vie>
+<eng>Keyword</eng>
+</data>
+<data>
+<name>spTitleLink</name>
+<vie>Nhan đề</vie>
+<eng>Title</eng>
+</data>
+<data>
+<name>spAuthorLink</name>
+<vie>Tác giả</vie>
+<eng>Author</eng>
+</data>
+<data>
+<name>spPublisherYearLink</name>
+<vie>Năm xuất bản</vie>
+<eng>Publication year</eng>
+</data>
+<data>
+<name>spPublisherLink</name>
+<vie>Nhà xuất bản</vie>
+<eng>Publisher</eng>
+</data>
+<data>
+  <name>spDocType</name>
+  <vie>Dạng tài liệu</vie>
+  <eng>Document type</eng>
+</data>
+<data>
+  <name>spElectronicData</name>
+  <vie>Tài liệu điện tử</vie>
+  <eng>Electronic data</eng>
+</data>
+<data>
+<name>divSearchBrowse</name>
+<vie>
+                            &lt;div class="input-control text" data-role="input-control"&gt;
+                                    &lt;input type="text" placeholder="Nhập thông tin duyệt đề mục của bạn ở đây" id="txtSearchBrowse" name="txtSearchBrowse" value="" onkeypress="keySearchBrowse(event);"/&gt;
+                                    &lt;button class="btn-search" id="btSearchBrowse" onclick="searchBrowse()" type="button"&gt;&lt;/button&gt;
+			                &lt;/div&gt;
+		                </vie>
+<eng>
+                            &lt;div class="input-control text" data-role="input-control"&gt;
+                                    &lt;input type="text" placeholder="Enter your browser here" id="txtSearchBrowse" name="txtSearchBrowse" value="" onkeypress="keySearchBrowse(event);"/&gt;
+                                    &lt;button class="btn-search" id="btSearchBrowse" onclick="searchBrowse()" type="button"&gt;&lt;/button&gt;
+			                &lt;/div&gt;
+		                </eng>
+</data>
+<data>
+<name>spOrderBy</name>
+<vie>Sắp xếp</vie>
+<eng>Order by</eng>
+</data>
+<data>
+<name>ltrOrderBy</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>spCollection</name>
+<vie>Bộ sưu tập</vie>
+<eng>Colletion</eng>
+</data>
+<data>
+<name>spCatalogy</name>
+<vie>Danh mục</vie>
+<eng>Categories</eng>
+</data>
+<data>
+<name>spMsgNotFound</name>
+<vie>Không tìm thấy thông tin.</vie>
+<eng>No results were found for your search.</eng>
+</data>
+<data>
+<name>spTitle</name>
+<vie>Nhan đề</vie>
+<eng>Title</eng>
+</data>
+<data>
+<name>spAuthor</name>
+<vie>Tác giả</vie>
+<eng>Author</eng>
+</data>
+<data>
+<name>spPublisher</name>
+<vie>Nhà xuất bản</vie>
+<eng>Publisher</eng>
+</data>
+<data>
+<name>spKeyWord</name>
+<vie>Từ khóa</vie>
+<eng>Keyword</eng>
+</data>
+<data>
+<name>spSeries</name>
+<vie>Tuyển tập (Series)</vie>
+<eng>Series</eng>
+</data>
+<data>
+<name>spSubjectheading</name>
+<vie>Tiêu đề đề mục</vie>
+<eng>Subject heading</eng>
+</data>
+<data>
+<name>spPublisherYear</name>
+<vie>Năm xuất bản</vie>
+<eng>Publication year</eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng>Item</eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng>to</eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng>of</eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng>Previous page</eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng>Next page</eng>
+</data>
+<data>
+<name>spInputEmptyBrowse</name>
+<vie>Bạn vui lòng nhập thông tin duyệt đề mục.</vie>
+<eng>You enter information browse</eng>
+</data>
+<data>
+<name>spOrderAZ</name>
+<vie>A-Z (Tăng dần)</vie>
+<eng>A-Z (Ascending)</eng>
+</data>
+<data>
+<name>spOrderZA</name>
+<vie>Z-A (Giảm dần)</vie>
+<eng>Z-A (Descending)</eng>
+</data>
+<data>
+<name>spOrderAZRQ</name>
+<vie>Số lượng tham chiếu (Tăng dần)</vie>
+<eng>Hits (Ascending)</eng>
+</data>
+<data>
+<name>spOrderZARQ</name>
+<vie>Số lượng tham chiếu (Giảm dần)</vie>
+<eng>Hits (Descending)</eng>
+</data>
+<data>
+<name>btSubmitBrowse</name>
+<vie>raiseSubmitBrowse</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseOrderBy</name>
+<vie>raiseOrderBy</vie>
+<eng></eng>
+</data>
+</Head>

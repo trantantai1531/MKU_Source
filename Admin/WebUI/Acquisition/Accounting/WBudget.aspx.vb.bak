@@ -1,0 +1,240 @@
+Imports eMicLibAdmin.BusinessRules.Common
+Imports eMicLibAdmin.BusinessRules.Acquisition
+
+Namespace eMicLibAdmin.WebUI.Acquisition
+    Partial Class WBudget
+        Inherits clsWBase
+
+#Region " Web Form Designer Generated Code "
+
+        'This call is required by the Web Form Designer.
+        <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
+
+        End Sub
+        Protected WithEvents Button1 As System.Web.UI.WebControls.Button
+
+
+        Private Sub Page_Init(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Init
+            'CODEGEN: This method call is required by the Web Form Designer
+            'Do not modify it using the code editor.
+            InitializeComponent()
+        End Sub
+
+#End Region
+
+        ' Declare variables
+        Private objBBudget As New clsBBudget
+        Private objBCommonBusiness As New clsBCommonBusiness
+
+        ' Page_load event
+        Private Sub Page_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+            Call CheckFormPermission()
+            Call Initialize()
+            Call BindJS()
+            If Not Page.IsPostBack Then
+                Call BindData()
+            End If
+        End Sub
+
+        ' Initialize method
+        ' Purpose: Init all object
+        Private Sub Initialize()
+            ' Init for objBBudget
+            objBBudget.InterfaceLanguage = Session("InterfaceLanguage")
+            objBBudget.DBServer = Session("DBServer")
+            objBBudget.ConnectionString = Session("ConnectionString")
+            Call objBBudget.Initialize()
+
+            ' Init for objBCommonBusiness
+            objBCommonBusiness.InterfaceLanguage = Session("InterfaceLanguage")
+            objBCommonBusiness.DBServer = Session("DBServer")
+            objBCommonBusiness.ConnectionString = Session("ConnectionString")
+            Call objBCommonBusiness.Initialize()
+        End Sub
+
+        ' CheckFormPermission method
+        ' Purpose: Check the permision of user
+        Private Sub CheckFormPermission()
+            If Not CheckPemission(112) Then
+                btnUpdate.Enabled = False
+                btnDelete.Enabled = False
+                lstBudget.Enabled = False
+            End If
+            If CheckPemission(109) Then
+                btnUpdate.Enabled = True
+            End If
+        End Sub
+
+        ' BindJS method
+        Private Sub BindJS()
+            Page.RegisterClientScriptBlock("CommonJs", "<script language = 'javascript' src = '../../Common/LibolCommon.js'></script>")
+            Page.RegisterClientScriptBlock("SelfJs", "<script language = 'javascript' src = '../js/Accounting/WBudget.js'></script>")
+
+            lstBudget.Attributes.Add("OnChange", "if (this.options[this.options.selectedIndex].value != 0){document.forms[0].txtAmount.disabled=true;parent.hiddenbase.location.href='WBudgetLoadInfor.aspx?intBudgetID=' + this.options[this.options.selectedIndex].value;document.forms[0].hidBudgetId.value=this.options[this.options.selectedIndex].value; return false;}else{ClearContent();document.forms[0].txtAmount.disabled=false; return false;}")
+            Me.SetCheckNumber(txtAmount, ddlLabel.Items(6).Text)
+            btnUpdate.Attributes.Add("OnClick", "return CheckValid('" & ddlLabel.Items(2).Text & "','" & ddlLabel.Items(3).Text & "','" & ddlLabel.Items(4).Text & "','" & ddlLabel.Items(1).Text & "','" & ddlLabel.Items(5).Text & "');")
+            btnReset.Attributes.Add("OnClick", "ClearContent(); return false;")
+            btnDelete.Attributes.Add("OnClick", "if (document.forms[0].lstBudget.options[document.forms[0].lstBudget.options.selectedIndex].value == '0') {alert('" & ddlLabel.Items(16).Text.Trim & "'); return false;}")
+        End Sub
+
+        ' BindData method
+        ' Purpose: Get the list of budget
+        Private Sub BindData()
+            ' Declare variables
+            Dim tblBudget As DataTable
+            Dim tblCurrency As DataTable
+            Dim inti As Integer
+
+            ' Get budget
+            Dim lsItem As New ListItem
+
+            objBBudget.PoID = 0
+            objBBudget.BudID = 0
+            tblBudget = objBBudget.GetBudget
+
+            If Not tblBudget Is Nothing AndAlso tblBudget.Rows.Count > 0 Then
+                If CheckPemission(109) Then
+                    lstBudget.DataSource = InsertOneRow(tblBudget, ddlLabel.Items(0).Text)
+                Else
+                    lstBudget.DataSource = tblBudget
+                End If
+                lstBudget.DataTextField = "BudgetName"
+                lstBudget.DataValueField = "ID"
+                lstBudget.DataBind()
+            Else
+                ' If select but no data Return then load "---Them moi--"
+                lstBudget.Items.Clear()
+                If CheckPemission(109) Then
+                    lsItem.Text = ddlLabel.Items(0).Text
+                Else
+                    lsItem.Text = ""
+                End If
+                lsItem.Value = 0
+                lstBudget.Items.Add(lsItem)
+            End If
+            lstBudget.SelectedIndex = 0
+            rdoOpenStat.Checked = True
+
+            ' Get Currency
+            tblCurrency = objBCommonBusiness.GetCurrency()
+
+            If Not tblCurrency Is Nothing AndAlso tblCurrency.Rows.Count > 0 Then
+                ddlCurrency.DataSource = tblCurrency
+                ddlCurrency.DataTextField = "CurrencyCode"
+                ddlCurrency.DataValueField = "CurrencyCode"
+                ddlCurrency.DataBind()
+                For inti = 0 To tblCurrency.Rows.Count - 1
+                    If CStr(tblCurrency.Rows(inti).Item("CurrencyCode")).ToLower = "vnd" Then
+                        ddlCurrency.SelectedIndex = inti
+                        Exit For
+                    End If
+                Next
+            End If
+        End Sub
+
+        ' UpdateClick_event
+        Private Sub btnUpdate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnUpdate.Click
+            Dim intRetVal As Integer
+            If hidBudgetId.Value = 0 Then
+                intRetVal = AddNewBudget()
+            Else
+                intRetVal = UpdateBudget()
+            End If
+            If intRetVal > 0 Then
+                Page.RegisterClientScriptBlock("Success", "<script>alert('" & ddlLabel.Items(10).Text & "')</script>")
+            Else
+                Page.RegisterClientScriptBlock("UnSuccess", "<script>alert('" & ddlLabel.Items(11).Text & "')</script>")
+            End If
+            Call BindJS()
+            Call BindData()
+        End Sub
+
+        ' AddNewBudget event
+        Private Function AddNewBudget() As Integer
+            If CDbl(txtAmount.Text.Trim) > CDbl(1000000000) Then
+                Page.RegisterClientScriptBlock("UnSuccess", "<script>alert('" & ddlLabel.Items(17).Text & "')</script>")
+            Else
+                Dim strLog As String
+                objBBudget.BudgetName = txtBudgetName.Text.Trim
+                objBBudget.BudgetCode = txtBudgetCode.Text.Trim
+                objBBudget.Purpose = txtPurpose.Text.Trim
+                objBBudget.Balance = CDbl(txtAmount.Text.Trim)
+                objBBudget.Currency = ddlCurrency.SelectedValue
+                If rdoOpenStat.Checked = True Then
+                    objBBudget.Status = 0
+                End If
+                If rdoCloseStat.Checked = True Then
+                    objBBudget.Status = 1
+                End If
+                If rdoEnding.Checked = True Then
+                    objBBudget.Status = 2
+                End If
+                AddNewBudget = objBBudget.CreateBudget()
+                ' Write Log
+                strLog = ddlLabel.Items(13).Text & ": " & ddlLabel.Items(2).Text & ": " & txtBudgetName.Text
+                strLog = strLog & ", " & ddlLabel.Items(3).Text & ": " & txtBudgetCode.Text
+                Call WriteLog(40, strLog, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+            End If
+        End Function
+
+        ' UpdateBudget event
+        Private Function UpdateBudget() As Integer
+            Dim strLog As String
+            objBBudget.BudID = hidBudgetId.Value
+            objBBudget.BudgetName = txtBudgetName.Text.Trim
+            objBBudget.BudgetCode = txtBudgetCode.Text.Trim
+            objBBudget.Purpose = txtPurpose.Text.Trim
+            objBBudget.Currency = ddlCurrency.SelectedValue
+            If rdoOpenStat.Checked = True Then
+                objBBudget.Status = 0
+            End If
+            If rdoCloseStat.Checked = True Then
+                objBBudget.Status = 1
+            End If
+            If rdoEnding.Checked = True Then
+                objBBudget.Status = 2
+            End If
+            UpdateBudget = objBBudget.UpdateBudget()
+            ' Write Log
+            strLog = ddlLabel.Items(14).Text & ": " & ddlLabel.Items(2).Text & ": " & txtBudgetName.Text
+            strLog = strLog & ", " & ddlLabel.Items(3).Text & ": " & txtBudgetCode.Text
+            Call WriteLog(40, strLog, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+        End Function
+
+        ' btnDelete_Click event
+        Private Sub btnDelete_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDelete.Click
+            Dim strLog As String
+            objBBudget.BudID = hidBudgetId.Value
+            objBBudget.DeleteBudget()
+            Call BindJS()
+            Call BindData()
+            ' Write Log
+            strLog = ddlLabel.Items(15).Text & ": " & ddlLabel.Items(2).Text & ": " & txtBudgetName.Text
+            strLog = strLog & ", " & ddlLabel.Items(3).Text & ": " & txtBudgetCode.Text
+            Call WriteLog(40, strLog, Request.ServerVariables("SCRIPT_NAME"), Request.ServerVariables("REMOTE_ADDR"), clsSession.GlbUserFullName)
+        End Sub
+
+        ' Page UnLoad event
+        Private Sub Page_Unload(ByVal sender As Object, ByVal e As System.EventArgs) Handles MyBase.Unload
+            Call Me.Dispose(True)
+        End Sub
+
+        ' Dispose method
+        ' Purpose: release all objects
+        Public Overridable Overloads Sub Dispose(ByVal isDisposing As Boolean)
+            Try
+                If Not objBBudget Is Nothing Then
+                    objBBudget.Dispose(True)
+                    objBBudget = Nothing
+                End If
+                If Not objBCommonBusiness Is Nothing Then
+                    objBCommonBusiness.Dispose(True)
+                    objBCommonBusiness = Nothing
+                End If
+            Finally
+                MyBase.Dispose()
+                Me.Dispose()
+            End Try
+        End Sub
+    End Class
+End Namespace

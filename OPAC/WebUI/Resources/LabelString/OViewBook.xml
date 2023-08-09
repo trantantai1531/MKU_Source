@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>divSearchContent</name>
+<vie>
+		                                &lt;a class="heading bg-lightBlue fg-white collapsed" href="#"&gt;Tìm tài liệu này&lt;/a&gt;
+		                                &lt;div class="content" style="display: none;"&gt;
+			                                &lt;iframe id="frmSearchContent" src="" style="width:100%;height:320px;border:0px;" class="frame"&gt;&lt;/iframe&gt;
+		                                &lt;/div&gt;
+	                                </vie>
+<eng></eng>
+</data>
+<data>
+<name>ltrTableOfContent</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ltrBookList</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ltrRelationAuthor</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>divHeaderView</name>
+<vie>
+                            &lt;label class="inline-block"&gt;
+	                            &lt;input type="checkbox" checked="" id="chkHighlight" name="chkHighlight" onclick="CheckHighlight(this);" disabled&gt;
+	                            &lt;span class="check"&gt;&lt;/span&gt;
+	                            Hiển thị mục từ tìm kiếm
+                            &lt;/label&gt;
+                        </vie>
+<eng></eng>
+</data>
+<data>
+<name>ltrComment</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>spCapchaInfo</name>
+<vie>Mã xác nhận chọn không đúng. Bạn vui lòng chọn lại.</vie>
+<eng></eng>
+</data>
+<data>
+<name>spCommentSuccess</name>
+<vie>Gửi bình luận thành công.</vie>
+<eng></eng>
+</data>
+<data>
+<name>spCommentFail</name>
+<vie>Gửi bình luận không thành công.</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEDATAContent</name>
+<vie>Đọc nội dung</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEDATA</name>
+<vie>Dữ liệu điện tử</vie>
+<eng></eng>
+</data>
+<data>
+<name>spItemType</name>
+<vie>Dạng tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>spISSN</name>
+<vie>ISSN</vie>
+<eng></eng>
+</data>
+<data>
+<name>spAuthor</name>
+<vie>Tác giả</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPublisher</name>
+<vie>Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPhysicalInfo</name>
+<vie>Mô tả vật lý</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPublisherInfo</name>
+<vie>Thông tin xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>spAddToMyList</name>
+<vie>Thêm vào danh sách của tôi</vie>
+<eng></eng>
+</data>
+<data>
+<name>spInMyList</name>
+<vie>Đã trong danh sách của tôi</vie>
+<eng></eng>
+</data>
+<data>
+<name>spMyListTitle</name>
+<vie>Tiêu đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>spCommentEmpty</name>
+<vie>Đánh giá là rỗng. Vui lòng đánh dấu chọn biểu tượng ngôi sao để đánh giá về tài liệu này.</vie>
+<eng></eng>
+</data>
+<data>
+<name>spCommentContentEmpty</name>
+<vie>Bình luận là rỗng. Vui lòng chia sẻ vài dòng suy nghĩ của bạn về tài liệu này.</vie>
+<eng></eng>
+</data>
+<data>
+<name>spKeyword</name>
+<vie>Từ khóa</vie>
+<eng></eng>
+</data>
+<data>
+<name>spSubjectHeading</name>
+<vie>Tiêu đề đề mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spDDC</name>
+<vie>DDC</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNLM</name>
+<vie>NLM</vie>
+<eng></eng>
+</data>
+<data>
+<name>spSeries</name>
+<vie>Tuyển tập (Series)</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRelatedWord</name>
+<vie>Mục từ truy cập</vie>
+<eng></eng>
+</data>
+<data>
+<name>Span1</name>
+<vie>Danh sách của tôi</vie>
+<eng></eng>
+</data>
+<data>
+<name>spMyList</name>
+<vie>&lt;strong&gt;Tiêu đề: 0&lt;/strong&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>spAlert</name>
+<vie>Đăng nhập</vie>
+<eng></eng>
+</data>
+</Head>

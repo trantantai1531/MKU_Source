@@ -1,0 +1,19 @@
+<items>
+  <item Text="Quản lý" NavigateUrl="../Admin/AdmIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook" >
+    <item Text="Người dùng" NavigateUrl="AdmUser.aspx?page=AdmUser" target="main" />
+    <item Text="Nhật ký hệ thống" NavigateUrl="AdmLog.aspx?page=AdmLog" target="main" />
+    <item Text="Tham số hệ thống" NavigateUrl="AdmParameter.aspx?page=AdmParameter" target="main" />
+    <item Text="Ngôn ngữ" NavigateUrl="AdmLanguage.aspx?page=AdmLanguage" target="main" />
+  </item>
+
+  <item Text="Biên mục" NavigateUrl="../Acquisition/AcqHeader.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Bổ sung" NavigateUrl="AcqAcquisition.aspx?page=AcqAcquisition" target="main" />
+    <item Text="Hệ thống lưu trữ" NavigateUrl="AcqStoredSystem.aspx?page=AcqStoredSystem" target="main" />
+    <item Text="Thống kê" NavigateUrl="AcqStatistic.aspx?page=AcqStatistic" target="main"/>
+  </item>
+
+  <item Text="Tra cứu" NavigateUrl="../Patron/PatIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Hồ sơ" NavigateUrl="PatDocument.aspx?page=PatDocument" />
+   </item>
+
+</items>

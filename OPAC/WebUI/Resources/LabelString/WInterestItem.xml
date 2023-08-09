@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblSessionExprie</name>
+<vie>Xin lỗi phiên làm việc hiện tại đã bị hết hiệu lực, cần đăng nhập lại</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblInterestedSubject</name>
+<vie>Lĩnh vực mà bạn quan tâm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDisplay</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnUpdate</name>
+<vie>Cập nhật(c)</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                         &lt;span class="txtbox"&gt;Biên mục sơ lược &lt;/span&gt;                                        &lt;span class="desc-button"&gt;Biên mục các ấn phẩm mới được bổ sung vào thư viện. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Xếp giá &lt;/span&gt;                                        &lt;span class="desc-button"&gt;Thay đổi dữ liệu xếp giá của các ấn phẩm trong cơ sở dữ liệu. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Thiết đặt số thứ tự &lt;/span&gt;                                        &lt;span class="desc-button"&gt;Thiết đặt giá trị của số thứ tự xuất phát (theo từng kho) để làm căn cứ cho việc sinh tự động ĐKCB. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                     &lt;span class="txtbox"&gt;Khuôn dạng ĐKCB &lt;/span&gt;                                    &lt;span class="desc-button"&gt;Mô tả khuôn dạng của một đăng ký cá biệt để chương trình có thể tự động phát sinh đăng ký cá biệt mới. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Khuôn dạng nhãn gáy / nhãn bìa &lt;/span&gt;                                    &lt;span class="desc-button"&gt;Định dạng nhãn gáy / nhãn bìa bằng các mẫu (template). &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>HyperLink1</name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Định dạng cho mã vạch &lt;/span&gt;                                    &lt;span class="desc-button"&gt;Soạn thảo các định dạng mã vạch cho máy in mã vạch. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>HyperLink2</name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Khuôn dạng báo cáo bổ sung &lt;/span&gt;                                    &lt;span class="desc-button"&gt;Định dạng Báo cáo bổ sung bằng các mẫu (template) &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                     &lt;span class="txtbox"&gt;In mã vạch &lt;/span&gt;                                    &lt;span class="desc-button"&gt;In mã vạch cho các tư liệu trong cơ sở dữ liệu. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;In nhãn &lt;/span&gt;                                    &lt;span class="desc-button"&gt;In nhãn gáy ấn phẩm. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt; &lt;span class="txtbox"&gt;Báo cáo bổ sung &lt;/span&gt;                                    &lt;span class="desc-button"&gt;In danh sách các đăng ký cá biệt được bổ sung vào cơ sở dữ liệu trong một khoảng thời gian. &lt;/span&gt;</vie>
+<eng></eng>
+</data>
+</Head>

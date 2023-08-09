@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>ddlSex</name>
+<vie>2|+|-------- Chọn --------|+|1|+|Nam|+|0|+|Nữ</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkValidDate</name>
+<vie>Lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlSelectTop</name>
+<vie>300|+|300|+|500|+|500|+|0|+|Toàn bộ</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlTypeShow</name>
+<vie>0|+|Hồ sơ|+|1|+|Bảng</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSetFieldShow</name>
+<vie>Đặt tham số(s)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkDOB</name>
+<vie>Lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkExpiredDate</name>
+<vie>Lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOrderBy</name>
+<vie>0|+|Không sắp xếp|+|1|+|Ngày cấp thẻ|+|2|+|Ngày hết hạn thẻ|+|4|+|Số thẻ|+|5|+|Họ|+|6|+|Tên</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm(m)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Làm lại(i)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearchAdv</name>
+<vie>Tìm nâng cao(a)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chi tiết lỗi: |+|1|+|Mã lỗi: |+|2|+|Bạn không có quyền thực hiện chức năng này.|+|3|+|-------Chọn-------|+|4|+|Tra cứu bạn đọc đơn giản|+|5|+|Khuôn dạng ngày tháng không hợp lệ|+|6|+|Chỉ đặt tham số khi kết quả hiển thị là bảng!|+|7|+|Không có hồ sơ bạn đọc thoả mãn điều kiện tìm kiếm!</vie>
+<eng></eng>
+</data>
+</Head>

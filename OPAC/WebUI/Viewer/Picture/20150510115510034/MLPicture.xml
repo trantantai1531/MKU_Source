@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<slideshow>
+  <!--
+	
+		WS-Slideshow 2 
+		@see: http://www.ws-slideshow.com
+	
+		Standard configuration / Standard Konfiguration
+	
+	-->
+  <preferences thumbSize="50" slideEffect="random" soundPath="http://localhost:47504/Viewer/Music/Loving you.mp3" />
+  <texts>
+    <!-- 
+            description of all icons and buttons
+            
+            Beschreibung der Icons bzw. Button
+        -->
+    <text id="openHelp"><![CDATA[Mở cửa sổ trợ giúp]]></text>
+    <text id="closeHelp"><![CDATA[Đóng của sổ trợ giúp]]></text>
+    <text id="openAlbums"><![CDATA[Mở albums]]></text>
+    <text id="closeAlbums"><![CDATA[Đóng albums]]></text>
+    <text id="openSlidesOverview"><![CDATA[Mở các silde tổng quan]]></text>
+    <text id="closeSlidesOverview"><![CDATA[Đóng các silde tổng quan]]></text>
+    <text id="playSound"><![CDATA[Mở nhạc]]></text>
+    <text id="stopSound"><![CDATA[Tắt nhạc]]></text>
+    <text id="openFullscreenMode"><![CDATA[Mở toàn màn hình]]></text>
+    <text id="exitFullscreenMode"><![CDATA[Thoát toàn màn hình]]></text>
+    <text id="startSlideshow"><![CDATA[Bắt đầu chạy slide tự động]]></text>
+    <text id="pauseSlideshow"><![CDATA[Tạm dừng slide tự động]]></text>
+    <text id="scrollAlbumsOrOverviewToLeft"><![CDATA[Thanh cuộn albums / Cuộn các slides sang bên trái]]></text>
+    <text id="scrollAlbumsOrOverviewToRight"><![CDATA[Thanh cuộn albums / Cuộn các slides sang bên phải]]></text>
+    <text id="saveSlide"><![CDATA[Lưu slide]]></text>
+    <text id="nextSlide"><![CDATA[Slide tiếp theo]]></text>
+    <text id="previousSlide"><![CDATA[Slide trước]]></text>
+    <!-- 
+            keyboard short cuts 
+            
+            Beschreibungen der Tastaturkürzel.          
+        -->
+    <text id="key_openHelp"><![CDATA[H]]></text>
+    <text id="key_closeHelp"><![CDATA[ESC or  ↓]]></text>
+    <text id="key_openAlbums"><![CDATA[A]]></text>
+    <text id="key_closeAlbums"><![CDATA[ESC  or  ↓]]></text>
+    <text id="key_openSlidesOverview"><![CDATA[O  or  ↑]]></text>
+    <text id="key_closeSlidesOverview"><![CDATA[ESC  or  ↓]]></text>
+    <text id="key_playSound"><![CDATA[M]]></text>
+    <text id="key_stopSound"><![CDATA[M]]></text>
+    <text id="key_openFullscreenMode"><![CDATA[F]]></text>
+    <text id="key_exitFullscreenMode"><![CDATA[ESC]]></text>
+    <text id="key_startSlideshow"><![CDATA[SPACE]]></text>
+    <text id="key_pauseSlideshow"><![CDATA[SPACE]]></text>
+    <text id="saveSlide"><![CDATA[S]]></text>
+    <text id="key_nextSlide"><![CDATA[→]]></text>
+    <text id="key_previousSlide"><![CDATA[←]]></text>
+    <!-- 
+            error messages
+            
+            Fehlermeldungen. 
+        -->
+    <text id="securityRestriction"><![CDATA[Do hạn chế bảo mật của Flash player, các phím tắt bàn phím không có hiệu lực trong chế độ toàn màn hình.]]></text>
+    <text id="slideNotFound"><![CDATA[Slide không tìm thấy.]]></text>
+    <text id="errorXMLParsing"><![CDATA[Lỗi trong khi phân tích các tập tin XML. Kiểm tra cấu trúc XML của bạn để xác định album và slide.]]></text>
+  </texts>
+  <albums>
+    <album slidePath="" thumbPath="">
+      <description>
+      </description>
+      <slides>
+        <slide name="http://localhost/ebooks/2015/5/20150510115510034/Buddish.jpg" thumbName="http://localhost/ebooks/2015/5/20150510115510034/Buddish.jpg">
+        </slide>
+      </slides>
+    </album>
+  </albums>
+</slideshow>

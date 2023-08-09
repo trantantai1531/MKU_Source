@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblGroupBy</name>
+<vie>Nhóm theo:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkGroup</name>
+<vie>Nhóm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkFunction</name>
+<vie>Chức năng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkShowFieldName</name>
+<vie>Hiện tên trường</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkShowGroupName</name>
+<vie>Hiện tên nhóm</vie>
+<eng></eng>
+</data>
+<data>
+<name>optNew</name>
+<vie>Mớ&lt;U&gt;i&lt;/U&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>optRenew</name>
+<vie>&lt;U&gt;H&lt;/U&gt;ồi cố</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnChangeWS</name>
+<vie>Chuyển(c)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblContent</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Hiện tên trường|+|3|+|Tắt tên trường|+|4|+|Hiện tên vùng|+|5|+|Tắt tên vùng|+|6|+|Giá trị trường phải là số|+|7|+|Ngày tháng nhập vào không hợp lệ (khuôn dạng đúng dd/mm/yyyy)|+|8|+|Bạn đang ở bản ghi đầu tiên|+|9|+|Bạn đang ở bản ghi cuối cùng|+|10|+|Chọn tệp|+|11|+|Chỉ dẫn đầu biểu ghi|+|12|+|Từ điển|+|13|+|Trợ giúp|+|14|+|Gắn tệp|+|15|+|Sinh giá trị|+|16|+|Từ chuẩn|+|17|+|TVQG Cutter (Nhan đề)|+|18|+|TVQG Cutter (Tác giả)|+|19|+|Dịch chuyển tới thẻ|+|20|+|Trường bắt buộc phải nhập dữ liệu|+|21|+|Liên kết|+|22|+|Phân loại</vie>
+<eng></eng>
+</data>
+</Head>

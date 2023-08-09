@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblHeader</name>
+<vie>Số liệu xếp giá trong kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapLib</name>
+<vie>Thư viện:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLib</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapLoc</name>
+<vie>Kho:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoc</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapShelf</name>
+<vie>Giá sách:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblShelf</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapSumItem</name>
+<vie>Số đầu ấn phẩm:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumItem</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapCountInUsed</name>
+<vie>Số bản đang cho mượn:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkInUsed</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapSumCopy</name>
+<vie>Số bản ấn phẩm:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumCopy</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapCountLocked</name>
+<vie>Số bản đang khóa:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkLocked</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCapLastLiquid</name>
+<vie>Lần kiểm kê cuối:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLastLiquid</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkCheckAll</name>
+<vie>Chọn tất</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkUnCheckAll</name>
+<vie>Bỏ tất</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgLocked</name>
+<vie>../../Images/lock.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLocked</name>
+<vie>Đang khoá</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgOnhold</name>
+<vie>../../Images/loan.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblOnHold</name>
+<vie>Đang cho mượn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblExisting</name>
+<vie>Đăng ký cá biệt đang tồn tại !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblJS</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Mã lỗi|+|1|+|Chi tiết lỗi|+|2|+|Khoá thành công!|+|3|+|Mở khoá thành công!|+|4|+|Đã ghi nhận việc huỷ bỏ ĐKCB!|+|5|+|Bạn không đựơc cấp quyền sử dụng tính năng này|+|6|+|Khoá đăng ký cá biệt|+|7|+|Mở khoá đăng ký cá biệt|+|8|+|Huỷ đăng ký cá biệt|+|9|+|Cập nhật đăng ký cá biệt|+|10|+|Thư viện|+|11|+|Kho|+|12|+|ĐKCB</vie>
+<eng></eng>
+</data>
+</Head>

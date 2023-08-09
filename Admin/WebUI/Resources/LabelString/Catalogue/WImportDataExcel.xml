@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>btnImportData</name>
+<vie>Import data</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnDownloadFile</name>
+<vie>Download file mẫu</vie>
+<eng></eng>
+</data>
+<data>
+<name>LabelUpdateProgress</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>3|+|Cả hai chỉ thị dữ liệu không hợp lệ|+|5|+|Mã lỗi|+|6|+|Chi tiết lỗi|+|7|+|Không tồn tại|+|8|+|Bạn không được cấp quyền sử dụng tính năng này!|+|9|+|Cập nhật dữ liệu thành công!</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleZ3950Client</name>
+<vie>Z3950</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkOneSearch</name>
+<vie>Tìm trên một thư viện </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblnkspace</name>
+<vie> | </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkMultiSearch</name>
+<vie>Tìm trên nhiều thư viện </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblzServer</name>
+<vie>&lt;u&gt;T&lt;/u&gt;ên máy chủ Z39.50:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkZServerList</name>
+<vie>Danh sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblZPort</name>
+<vie>&lt;u&gt;C&lt;/u&gt;ổng dịch vụ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblZDatabase</name>
+<vie>Tên cơ sở &lt;u&gt;d&lt;/u&gt;ữ liệu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSubTitle</name>
+<vie>Điều kiện tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>chkVietUSMARC</name>
+<vie>&lt;u&gt;M&lt;/u&gt;áy chủ Z39.50 sử dụng bảng mã tiếng Việt theo chuẩn USMARC</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName1</name>
+<vie>@attr 1=1016|+|Mọi trường|+|@attr 1=1|+|Tác giả|+|@attr 1=2|+|Tác giả tập thể|+|@attr 1=4|+|Nhan đề|+|@attr 1=5|+|Nhan đề tùng thư|+|@attr 1=7|+|ISBN|+|@attr 1=8|+|ISSN|+|@attr 1=13|+|Chỉ số DDC|+|@attr 1=14|+|Chỉ số UDC|+|@attr 1=16|+|Chỉ số LC|+|@attr 1=21|+|Chủ đề|+|@attr 1=29|+|Từ khoá|+|@attr 1=31|+|Năm xuất bản|+|@attr 1=30|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator2</name>
+<vie>@and|+|AND|+|@or|+|OR|+|@not|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName2</name>
+<vie>@attr 1=1016|+|Mọi trường|+|@attr 1=1|+|Tác giả|+|@attr 1=2|+|Tác giả tập thể|+|@attr 1=4|+|Nhan đề|+|@attr 1=5|+|Nhan đề tùng thư|+|@attr 1=7|+|ISBN|+|@attr 1=8|+|ISSN|+|@attr 1=13|+|Chỉ số DDC|+|@attr 1=14|+|Chỉ số UDC|+|@attr 1=16|+|Chỉ số LC|+|@attr 1=21|+|Chủ đề|+|@attr 1=29|+|Từ khoá|+|@attr 1=31|+|Năm xuất bản|+|@attr 1=30|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlOperator3</name>
+<vie>@and|+|AND|+|@or|+|OR|+|@not|+|NOT</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlFieldName3</name>
+<vie>@attr 1=1016|+|Mọi trường|+|@attr 1=1|+|Tác giả|+|@attr 1=2|+|Tác giả tập thể|+|@attr 1=4|+|Nhan đề|+|@attr 1=5|+|Nhan đề tùng thư|+|@attr 1=7|+|ISBN|+|@attr 1=8|+|ISSN|+|@attr 1=13|+|Chỉ số DDC|+|@attr 1=14|+|Chỉ số UDC|+|@attr 1=16|+|Chỉ số LC|+|@attr 1=21|+|Chủ đề|+|@attr 1=29|+|Từ khoá|+|@attr 1=31|+|Năm xuất bản|+|@attr 1=30|+|Nhà xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDisplay</name>
+<vie>Hiển thị:</vie>
+<eng></eng>
+</data>
+<data>
+<name>optMARC</name>
+<vie>M&lt;u&gt;A&lt;/u&gt;RC</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISBD</name>
+<vie>IS&lt;u&gt;B&lt;/u&gt;D</vie>
+<eng></eng>
+</data>
+<data>
+<name>optSimple</name>
+<vie>Đơn &lt;u&gt;g&lt;/u&gt;iản</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm kiếm (f)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Làm lại (r)</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Trường tìm kiếm còn rỗng !|+|1|+|Cổng dịch vụ phải là số !</vie>
+<eng></eng>
+</data>
+</Head>

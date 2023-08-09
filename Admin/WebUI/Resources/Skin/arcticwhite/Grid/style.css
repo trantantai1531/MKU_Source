@@ -1,0 +1,229 @@
+.Grid 
+{ 
+  border: 1px solid #57566F; 
+  border-bottom: 1px solid #57566F; 
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.GridFooternew { background:#eee url("images/vertical.png") repeat-y;border-top:1px solid #9db6c5;color:#000;height:22px; }
+
+.GridTree 
+{ 
+  border: 0px solid #57566F; 
+  border-bottom: 0px solid #57566F; 
+  background-color: #FFFFFF;
+  cursor: pointer;
+}
+
+.GridHeader
+{
+  background-image: url(images/header_rowBg.gif); 
+  background-color: #e6e6e6; 
+  border-bottom: 1px solid #57566F; 
+  height: 28px;
+  padding-left: 3px;
+  cursor: default; 
+}
+
+.GridHeaderText
+{
+  color: #FFFFFF;  
+  font-family: verdana,Arial Unicode MS; 
+  font-size: 10px;
+}
+
+.GridFooter
+{
+  cursor: default; 
+  padding: 5px;
+  vertical-align: bottom;
+}
+
+.GridFooterText
+{
+  color: #000000;  
+  font-family: verdana,Arial Unicode MS; 
+  font-size: 11px;
+}
+
+.HeadingRow 
+{ 
+  background-color: #E9E9EB; 
+  background-image: url(images/header_rowBg.gif);   
+}
+
+.HeadingCell 
+{ 
+  background-image: url(images/header_bg.gif);   
+  background-color: #E9E9EB; 
+  padding: 3px; 
+  padding-top: 2px; 
+  padding-bottom: 2px; 
+}
+
+.HeadingCellHover
+{ 
+  background-image: url(images/header_hoverBg.gif);   
+  background-color: #F6F6F7; 
+}
+
+.HeadingCellActive
+{ 
+  background-image: url(images/header_activeBg.gif);   
+  background-color: #F6F6F7; 
+  
+}
+
+.HeadingRow td.FirstHeadingCell
+{ 
+  background-image: url(images/header_bg.gif); 
+}
+
+.HeadingCellText
+{
+  font-family: verdana,Arial Unicode MS; 
+  font-size: 10px; 
+  font-weight: bold; 
+  text-align: left;
+  padding-top: 3px;
+  padding-bottom: 5px;
+}
+
+.Row 
+{ 
+  background-color: #FFFFFF; 
+  cursor: default;
+}
+
+.Row td.DataCell 
+{ 
+  padding: 3px; 
+  padding-top: 2px; 
+  padding-bottom: 1px; 
+  border-bottom: 1px solid #EAE9E1; 
+  font-family: verdana,Arial Unicode MS; 
+  font-size: 10px; 
+} 
+
+.SortedDataCell 
+{ 
+  background-color: #F5F5F5; 
+} 
+
+
+.Row td.LastDataCell 
+{ 
+  background-color: #EFEFF4; 
+} 
+
+.SelectedRow 
+{ 
+}
+
+.SelectedRow td.DataCell 
+{ 
+  background-color: #e6e6e6; 
+  padding: 2px; 
+  padding-left: 3px; 
+  padding-top: 1px; 
+  padding-bottom: 1px; 
+  font-family: verdana,Arial Unicode MS; 
+  font-size: 10px; 
+  border-bottom: 1px solid #4B4B6F; 
+  border-top: 1px solid #4B4B6F; 
+  border-right: 0px; 
+}
+
+.SelectedRow td.FirstDataCell 
+{ 
+  background-color: #e6e6e6; 
+  border-left: 1px solid #4B4B6F; 
+  border-right: 0px; 
+  padding-left: 2px; 
+  padding-right: 3px; 
+}
+
+.SelectedRow td.LastDataCell 
+{ 
+  background-color: #e6e6e6; 
+  border-right: 1px solid #4B4B6F; 
+}
+
+.GroupHeading
+{
+  color: #706F91; 
+  background-color: #FFFFFF; 
+  font-family: verdana,Arial Unicode MS; 
+  font-weight: bold;
+  font-size: 11px; 
+  border-bottom: 1px solid #A5A4BD; 
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
+
+.GroupByCell
+{
+  cursor: pointer;
+}
+
+.GroupByText
+{
+  color: #FFFFFF; 
+  font-size: 11px;   
+  font-weight: bold; 
+  padding-right: 5px;
+}
+
+
+.SliderPopup
+{
+  background-color: #e6e6e6; 
+  border: 1px solid #4B4B6F; 
+  border-top-color: #9495A2; 
+  border-left-color: #9495A2; 
+  width: 288px;
+  height: 60px;
+}
+
+.searchbox
+{
+  background-color: #ffffff; 
+  padding-right: 1px;
+  padding-left:1px;
+  width: 98%;
+}
+
+.searchboxtreeview
+{
+  background-color: #ffffff; 
+  padding-right: 1px;
+  padding-left:1px;
+  width: 40%;
+}
+
+.ScrollBar
+{
+  background-image: url(images/scroller/scroller_bg.gif); 
+}
+
+.ScrollGrip
+{
+  background-image: url(images/scroller/scroll_gripBg.gif); 
+}
+.ScrollPopup
+{
+  background-color: #FFFFFF; 
+  border: 1px solid #666666;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  height: 23px;
+}
+/* Header styles Vista */
+.row-hd { height:22px !important;cursor:default; }
+	.row-hd .ind { border:1px solid #d5d5d5;border-color:#fff #d5d5d5 #d5d5d5 #fff;background:#eee url("images/horizontal.png") repeat-x 0 -30px;text-align:center; }
+	.row-hd .cell { border:1px solid #d5d5d5;border-color:#fff #d5d5d5 #d5d5d5 #fff;background:#eee url("images/horizontal.png") repeat-x 0 -30px;text-align:center; }
+	.row-hd .cell-h { border:1px solid #69bbe3;border-color:#fff #69bbe3 #93c9e3 #69bbe3;background:#e3f7ff url("images/horizontal.png") repeat-x 0 -52px;text-align:center; }
+	.row-hd .cell-d { border:1px solid #69bbe3;border-color:#fff #69bbe3 #93c9e3 #69bbe3;background:#eee url("images/horizontal.png") repeat-x 0 -30px;text-align:center; }
+	.row-hd .txt { color:#000;line-height:22px;padding:0 0 0 8px; }
+	.row-hd .sort { border:1px solid #96d9f9;background:#f2f9fc  url("images/horizontal.png") repeat-x 0 -74px; }

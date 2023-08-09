@@ -1,0 +1,97 @@
+.TopGroup
+{
+  background-color:#757495; 
+  background-image: url(images/top_groupBg.gif);
+  border: 0px solid #57566F;
+}
+
+.Level2Group
+{
+  background-color:silver; 
+  background-image: url(images/level2_group_bg.gif);
+  border: 0px solid #999999; 
+  border-top-width: 0px;
+}
+
+.TopLevelTab 
+{
+  color:#FFFFFF; 
+  font-family:tahoma; 
+  font-size:11px; 
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.TopLevelTabHover 
+{
+  color:#FFFFFF; 
+  background-image: url(images/top_itemHoverBg.gif);
+  font-family:tahoma; 
+  font-size:11px; 
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.SelectedTopLevelTab
+{
+  background-color: silver; 
+  background-image: url(images/top_item_selected_bg.gif);
+  color: #333333; 
+  font-family:tahoma; 
+  font-size:11px; 
+  font-weight: bold;
+  cursor: default;
+  border: 0px solid #807F9A;
+  border-right-color: #FFFFFF;  
+  border-bottom-width: 0px;  
+  position: relative;
+  top: 1px;
+}
+
+.Level2Tab 
+{
+  font-family:tahoma; 
+  font-size:11px; 
+  cursor:pointer;
+}
+
+.Level2TabHover 
+{
+  font-family:tahoma; 
+  font-size:11px; 
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.SelectedLevel2Tab 
+{
+  font-family:tahoma; 
+  font-size:11px; 
+  text-decoration:underline;
+}
+
+
+.LinkLanguage
+{
+  color :white;
+  font-size:11px;
+  font-family: Verdana; 
+  background-color:#3F3F3F; 
+  background-image: url(images/bg_header_new.JPG);
+  border: 0px solid black;
+  border-bottom-color: #CCCCCC;
+  border-left:0px; 
+}
+
+.LinkIntroduce
+{
+  color :white;
+  font-size:11px;
+  font-family: Verdana; 
+  background-color:#3F3F3F; 
+  background-image: url(images/top_group_bg.gif);
+  border: 0px solid black;
+  border-bottom-color: #CCCCCC;
+  border-right:0px; 
+  height:47px;
+}

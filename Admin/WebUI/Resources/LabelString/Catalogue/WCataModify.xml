@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>btnUpdate</name>
+<vie>Cập nhật</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnPreview</name>
+<vie>Xem</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnOverlay</name>
+<vie>Nhập đè</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnValidate</name>
+<vie>Hợp lệ</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnAddFields</name>
+<vie>Thêm trường</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSpellCheck</name>
+<vie>Chính tả</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnHolding</name>
+<vie>Xếp giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnCatalogue</name>
+<vie>Biên mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnMoveFirst</name>
+<vie>|&lt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnMovePrev</name>
+<vie>&lt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnMoveNext</name>
+<vie>&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnMoveLast</name>
+<vie>&gt;|</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnNew</name>
+<vie>&gt;*</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnFilter</name>
+<vie>...</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|0|+|1|+|Emiclib -- Xem trước dữ liệu bản ghi|+|2|+|Xem trước dữ liệu bản ghi|+|3|+|Đóng|+|4|+|Bạn không có quyền sửa bản ghi do người khác nhập.|+|5|+|Bạn đang biên mục dở dang. Chuyển chức năng làm việc có thể làm mất những dữ liệu đã sửa đổi cho bản ghi này. Bấm Cancel để tiếp tục sửa chữa biểu ghi hoặc bấm OK để khẳng định quyết định của mình|+|6|+|Bạn đang ở bản ghi đầu tiên|+|7|+|Bạn đang ở bản ghi cuối cùng|+|8|+|Dữ liệu nhập vào không thuộc phạm vi kiểm tra|+|9|+|Bạn hãy kiểm tra giá trị của trường|+|10|+|Bản ghi này không được cập nhật nếu trường này trống hoặc không hợp lệ|+|11|+|Mã lỗi|+|12|+|Chi tiết lỗi|+|12|+|12</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblHiddenField</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMyJS</name>
+<vie></vie>
+<eng></eng>
+</data>
+</Head>

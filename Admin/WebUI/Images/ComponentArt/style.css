@@ -1,0 +1,154 @@
+.btn {
+	 font-style:normal; font-size: 12px;color:#000000;cursor:pointer;
+	 background-image:url('MenuButton/images/btn8.png');
+	 padding-left: 0px; cursor: hand;
+	 text-align:center;	 
+	 border:0;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif;
+}
+
+.titleform {	
+	font-weight:bold; font-size: 18px; color: red;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlecontrol {	
+	font-weight:bold; font-size: 12px; font-style:italic;
+	padding:0px 0px 0px 0px ;text-align:left;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlerowtextwhite {	
+	font-weight:bold; font-size: 16px; color: white;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.titlerowtextread {	
+	font-weight:bold; font-size: 16px; color: red;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.logon {
+BACKGROUND-IMAGE:url('Login/images/login.gif');
+}
+
+.textlogon {
+	font-style:normal; font-size: 11px; color: #000000;
+	padding-left:15px;padding-right:5px; 
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+
+.backgroundbody {
+	background-color:#f3f3f3
+}
+
+.backgroundbodywhite {
+	background-color:White
+}
+
+.backgroundrow {
+	background-color:#009966
+}
+
+a:link { color:#dd3409;text-decoration:none; }
+a:visited { color:#a31515;text-decoration:none; }
+a:visited:hover { color:#a31515;text-decoration:underline; }
+a:hover { color:#dd3409;text-decoration:underline; }
+a:active { color:#f30;text-decoration:underline; }
+a:focus,a:active { outline:none; }
+
+td { font-size:12px; }
+
+.MultiFont
+{ 
+  font-family: Arial Unicode MS, Arial,Tahoma, Verdana; 
+} 
+
+#loginstatus
+{
+    width:275px;
+    top:0px;
+    right:0px;
+    float:right;
+    position:fixed;
+    background-color:Transparent;            
+    height:30px;
+    padding-top:5px;
+    z-index:10000;
+    text-align:right;
+    padding-right:10px;    
+}
+#language
+{
+    width:80px;
+    top:30px;
+    right:0px;
+    float:right;
+    position:fixed;
+    background-color:Transparent;            
+    height:30px;
+    padding-top:5px;
+    z-index:10000;
+    text-align:right;
+    padding-right:10px;       
+}
+.imageHandle
+{         
+    cursor: hand; 
+	cursor: pointer; 
+}
+
+#toolbar {
+    background-color: #fdfdc9;
+    height: 45px;
+}
+.ca_tb_img {
+    display: none;
+}
+#toolbar .item {
+   
+    border: none;
+   
+    background-image: none;
+}
+#toolbar .itemHover {
+     background-color: #aacfea;
+     border: none;
+     color: #2088d1;
+    background-image: none;
+    border-radius: 7px;
+}
+
+#toolbar .ca_tb_txt nobr {
+   background-color: #f0a30a;
+    border: 1px solid #f0a30a;
+    border-radius: 10px;
+    color: #fff;
+    font-family: WebFont !important;
+    padding: 10px 10px 12px 12px;
+    text-align: center;
+    font-size: 13px;
+}
+
+#toolbar .ca_tb_txt nobr:hover {
+    background-color: #f0a30a;
+     border: 1px solid #f0a30a;
+    border-radius: 10px;
+    color: white;
+    font-family: WebFont !important;
+    padding: 10px 10px 12px 12px;
+    text-align: center;
+    box-shadow: 0 2px 0 #f63;
+}
+#toolbar .ca_tb_txt {
+    padding: 0 !important;
+}
+#toolbar {
+    background-color: #fdfdc9;
+    height: 45px;
+}
+#ToolBar > table {
+    height: 34px;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lnkFeedBack</name>
+<vie>Góp ý</vie>
+<eng>Feedback</eng>
+</data>
+<data>
+<name>lnkHomePage</name>
+<vie>Trang chủ</vie>
+<eng>Home page</eng>
+</data>
+<data>
+<name>lnkPersonalPage</name>
+<vie>Trang riêng</vie>
+<eng>Patron page</eng>
+</data>
+<data>
+<name>lnkHelp</name>
+<vie>Trợ giúp</vie>
+<eng>Help</eng>
+</data>
+<data>
+<name>lnkLogin</name>
+<vie></vie>
+<eng> </eng>
+</data>
+<data>
+<name>lnkFound</name>
+<vie>[Đã tìm]</vie>
+<eng>[Searched]</eng>
+</data>
+<data>
+<name>lblTyping</name>
+<vie>&lt;U&gt;K&lt;/U&gt;iểu gõ:</vie>
+<eng>&lt;U&gt;T&lt;/U&gt;yping:</eng>
+</data>
+<data>
+<name>ddlTyping</name>
+<vie>0|+|Tắt|+|1|+|Telex|+|2|+|VNI</vie>
+<eng>0|+|Turn off|+|1|+|Telex|+|2|+|VNI</eng>
+</data>
+<data>
+<name>lblFontType</name>
+<vie>&lt;U&gt;N&lt;/U&gt;gôn ngữ:</vie>
+<eng>&lt;U&gt;L&lt;/U&gt;anguage:</eng>
+</data>
+<data>
+<name>ddlFontType</name>
+<vie>utf8|+|Tiếng Việt|+|eng|+|Tiếng Anh</vie>
+<eng>utf8|+|Vietnamese|+|eng|+|English</eng>
+</data>
+<data>
+<name>lblLogout</name>
+<vie>Thoát</vie>
+<eng>Log out</eng>
+</data>
+<data>
+<name>lblLogin</name>
+<vie>Đăng nhập</vie>
+<eng>Log on</eng>
+</data>
+</Head>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>infoPage</name>
+<vie>Tr.</vie>
+<eng></eng>
+</data>
+<data>
+<name>infoSubject</name>
+<vie>Tổng hợp</vie>
+<eng></eng>
+</data>
+<data>
+<name>infoTime</name>
+<vie>Năm</vie>
+<eng></eng>
+</data>
+<data>
+<name>span_SercretLevel</name>
+<vie>Tài liệu hạn chế</vie>
+<eng></eng>
+</data>
+</Head>

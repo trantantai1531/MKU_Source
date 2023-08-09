@@ -1,0 +1,791 @@
+﻿
+@charset "utf-8";
+html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, header, footer {
+    line-height: inherit !important;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: WebFont;
+    font-size: 14px;
+    overflow-x: hidden;
+    position: relative;
+    background-color: white;
+}
+.main-img-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: outside none none;
+}
+@font-face {
+    font-family: "WebFont";
+    src: url("fonts/segoeui.ttf");
+}
+@font-face {
+    font-family: "HeadFont";
+    src: url("fonts/UTMBebas.ttf");
+}
+@font-face {
+    font-family: "BoldFont";
+    src: url("fonts/seguisb.ttf");
+}
+.HeadStyles {
+    font-family: HeadFont;
+    text-transform: uppercase;
+}
+.ClearFix {
+}
+.menus_left ol {
+    border: 5px outset #f0a30a;
+    padding: 10px;
+}
+.menus_left ol > li {
+    color: #333;
+    font-size: 18px;
+}
+.menus_left ol > li > a {
+    color: #f0a30a;
+    font-weight: 600;
+}
+.menus_left ol > li > ol {
+    border: 0 none;
+}
+.menus_left ol > li > ol > a {
+}
+.column-item-2 {
+}
+.ClearFix::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.fade-text {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1)) repeat scroll 0 0;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+}
+#toTop {
+    background: rgba(0, 0, 0, 0) url("../images/design/totop.png") no-repeat scroll left top;
+    bottom: 50px;
+    display: none;
+    height: 18px;
+    position: fixed;
+    right: 50px;
+    text-indent: -9999px;
+    width: 34px;
+}
+#toTop:hover {
+    background-position: right 0;
+    outline: medium none;
+}
+.blank-div {
+    height: 30px;
+    width: 100%;
+}
+.divPage {
+    clear: both;
+    padding-top: 50px;
+}
+.divPage ul {
+    display: inline-block;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.divPage ul li {
+    border: medium none !important;
+    float: left;
+    height: inherit !important;
+    list-style: outside none none;
+    margin: 5px !important;
+    padding: 0 !important;
+    width: inherit !important;
+}
+.divPage ul li a {
+    background: #ececec none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 90%;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.divPage ul li a:hover, .divPage .PageSeleted {
+    background: #069 none repeat scroll 0 0 !important;
+    color: #fff !important;
+}
+.btn-menu {
+    margin-bottom: 10px;
+}
+.btn-menu a {
+    background: #f0a30a none repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 120%;
+    padding: 8px 15px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.btn-menu a:hover {
+    background: #b57a02 none repeat scroll 0 0;
+}
+.btn-menu a span {
+    margin-right: 10px;
+}
+.row-detail {
+    font-size: 110%;
+    padding: 10px;
+}
+.inline-box p {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.inline-box .input-control {
+    display: inline-block !important;
+    vertical-align: bottom;
+    /* width: inherit !important; */
+}
+.row-detail .checkbox-control {
+}
+.row-detail .checkbox-control p {
+    display: block !important;
+    margin-bottom: 20px !important;
+    width: inherit !important;
+}
+.row-detail .checkbox-control p:last-child {
+    margin-bottom: 0;
+}
+.row-detail p, .lbLabel {
+    margin-bottom: 5px;
+    display: block;
+}
+
+#lblNote2,#lblNote {
+    font-style: italic;
+}
+.row-detail .input-control .img-form {
+    border: 1px solid #ccc;
+    padding: 1px;
+    width: 20%;
+}
+.row-detail .input-control .img-form img {
+    width: 100%;
+}
+.row-detail .inline-box p {
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.row-detail .inline-box > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.row-detail .text-checbox {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: right;
+    vertical-align: middle;
+}
+.row-detail .input-control {
+    position: relative;
+    width: 100%;
+}
+
+.language-manage .row-detail .input-control{max-width:200px;    display: inline-block;
+}
+
+.language-manage .row-detail span {
+    display: inline-block;
+}
+.input-control
+    max-width: 20;
+-control {
+    font-size: 90%;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
+.unit-2 {
+    float: left;
+    width: 50% !important;
+}
+.unit-3 {
+    float: left;
+    width: 33% !important;
+}
+.unit-4 {
+    float: left;
+    width: 25% !important;
+}
+.unit-5 {
+    float: left;
+    width: 20% !important;
+}
+.unit-6 {
+    float: left;
+    width: 17% !important;
+}
+.row-group {
+    padding: 20px 0;
+}
+.col-left {
+    float: left;
+}
+.col-left-1 {
+    float: left;
+    width: 17%;
+}
+.col-left-2 {
+    float: left;
+    width: 25%;
+}
+.col-left-3 {
+    float: left;
+    width: 30%;
+}
+.col-left-7 {
+    float: left;
+    width: 67%;
+}
+.col-left-8 {
+    float: left;
+    width: 72%;
+}
+.col-right-7 {
+    float: right;
+    width: 67%;
+}
+
+.userinfo .row-detail span {
+    display: inline-block;
+    padding-right: 12px;
+}
+.col-right-8 {
+    float: right;
+    width: 71%;
+}
+.col-right-2 {
+    float: right;
+    width: 25%;
+}
+.col-right-3 {
+    float: right;
+    width: 30%;
+}
+.col-left-4 {
+    float: left;
+    width: 40%;
+}
+.col-left-6 {
+    float: left;
+    width: 57%;
+}
+.col-right {
+    float: right;
+}
+.col-right-6 {
+    float: right;
+    width: 57%;
+}
+.col-right-4 {
+    float: right;
+    width: 40%;
+}
+.span1 {
+    float: left;
+    width: 10%;
+}
+.span2 {
+    float: left;
+    width: 20%;
+}
+.span3 {
+    float: left;
+    width: 30%;
+}
+.span4 {
+    float: left;
+    width: 40%;
+}
+.span45 {
+    float: left;
+    width: 45%;
+}
+.span5 {
+    float: left;
+    width: 50%;
+}
+.span6 {
+    float: left;
+    width: 60%;
+}
+.span7 {
+    float: left;
+    width: 70%;
+}
+.span8 {
+    float: left;
+    width: 80%;
+}
+.pad5 {
+    padding: 5px;
+}
+.pad10 {
+    padding: 10px;
+}
+.pad15 {
+    padding: 15px;
+}
+.pad20 {
+    padding: 20px;
+}
+.mar5 {
+    margin: 5px;
+}
+.mar10 {
+    margin: 10px;
+}
+.mar15 {
+    margin: 15px;
+}
+.mar20 {
+    margin: 20px;
+}
+@media only screen and (max-width: 980px) {
+.unit-2 {
+    float: left;
+    width: 50% !important;
+}
+.unit-3 {
+    float: left;
+    width: 33% !important;
+}
+.unit-4 {
+    float: left;
+    width: 25% !important;
+}
+.unit-5 {
+    float: left;
+    width: 20% !important;
+}
+.unit-6 {
+    float: left;
+    width: 17% !important;
+}
+.row-group {
+    padding: 20px 0;
+}
+.col-left {
+    float: left;
+}
+.col-left-1 {
+    float: left;
+    width: 17%;
+}
+.col-left-2 {
+    float: left;
+    width: 25%;
+}
+.col-left-3 {
+    float: left;
+    width: 30%;
+}
+.col-left-7 {
+    float: left;
+    width: 67%;
+}
+.col-left-8 {
+    float: left;
+    width: 100%;
+}
+.col-right-7 {
+    float: right;
+    width: 100%;
+}
+.col-right-8 {
+    float: right;
+    width: 100%;
+}
+.col-right-2 {
+    float: right;
+    width: 100%;
+}
+.col-right-3 {
+    float: right;
+    width: 100%;
+}
+.col-left-4 {
+    float: left;
+    width: 100%;
+}
+.col-left-6 {
+    float: left;
+    width: 100%;
+}
+.col-right {
+    float: right;
+}
+.col-right-6 {
+    float: right;
+    width: 100%;
+}
+.col-right-4 {
+    float: right;
+    width: 100%;
+}
+.span1 {
+    float: left;
+    width: 100%;
+}
+.span2 {
+    float: left;
+    width: 100%;
+}
+.span3 {
+    float: left;
+    width: 100%;
+}
+.span4 {
+    float: left;
+    width: 100%;
+}
+.span45 {
+    float: left;
+    width: 100%;
+}
+.span5 {
+    float: left;
+    width: 100%;
+}
+.span6 {
+    float: left;
+    width: 100%;
+}
+.span7 {
+    float: left;
+    width: 100%;
+}
+.span8 {
+    float: left;
+}
+.pad5 {
+    padding: 5px;
+}
+.pad10 {
+    padding: 10px;
+}
+.pad15 {
+    padding: 15px;
+}
+.pad20 {
+    padding: 20px;
+}
+.mar5 {
+    margin: 5px;
+}
+.mar10 {
+    margin: 10px;
+}
+.mar15 {
+    margin: 15px;
+}
+.mar20 {
+    margin: 20px;
+}
+}
+.control-disabled .dropdown-form, .control-disabled .input-form {
+    background: #ececec none repeat scroll 0 0 !important;
+    border: 1px solid #ccc !important;
+    color: #999 !important;
+}
+.input-control .dropdown-form {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    padding: 2px 5px;
+}
+.input-control .dropdown-form select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    font-size: 110%;
+    height: 25px;
+    width: 100%;
+}
+.input-form , input.lbTextBox {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    /* padding: 2px 5px; */
+}
+input.lbTextBox {
+    padding: 2px 5px;
+    font:14px Arial;
+}t-form textarea {
+    border: medium none;
+    color: #333;
+    font-size: 100%;
+    height: 100px;
+    width: 100%;
+}
+.input-control *:focus {
+    outline: medium none;
+}
+.input-form .text-input {
+     border: medium none; 
+    color: #333;
+    font-size: 120%;
+     height: 25px; 
+     width: 100%; 
+}
+.input-form .text-input,.lbTextBox {
+    border: medium none;
+    color: #333;
+    font-size: 110%;
+    height: 25px;
+    width: 100%;
+}
+.input-control .listbox-form {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    height: 100px !important;
+    padding: 2px 5px;
+    overflow: hidden;
+}
+
+.listbox-form {}
+.listbox-form select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    font-size: 110%;
+    min-height: 200px;
+    width: 100%;
+}
+.input-form .area-input {
+    border: medium none;
+    color: #666;
+    font-size: 110%;
+    height: 100px;
+    width: 100%;
+}
+.button-control {
+    min-height: 30px;
+}
+.button-control .button-form{
+    display: inline-block;
+}
+.button-control .button-form input {
+    background: #f0a30a none repeat scroll 0 0;
+    border: 1px solid #f0a30a !important;
+    color: #fff;
+    display: inline-block;
+    min-height: 30px;
+    position: relative;
+    vertical-align: top;
+}
+.button-list {
+    margin-top: 40px;
+}
+.button-list .button-form {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+.button-control .button-form .icon-btn {
+    font-size: 150%;
+    padding: 10px 30px;
+}
+.button-control .control-disabled {
+    background: #ccc none repeat scroll 0 0 !important;
+    border: 1px solid #999;
+    color: #999 !important;
+}
+.button-form .form-btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 10px;
+    vertical-align: top;
+}
+.button-control .button-form:hover {
+    box-shadow: 0 2px 0 #f63;
+}
+.button-control .control-disabled:hover {
+    box-shadow: none !important;
+}
+.button-control .button-form .btn-icon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.button-control .button-form .btn-icon-blank {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.button-control .button-form .btn-value {
+    padding: 5px 10px 5px 35px;
+}
+.button-control .btn-icon-blank + .btn-value {
+    padding: 5px 10px 5px 30px;
+}
+.button-control .button-form .btn-value span {
+    font-size: 120%;
+    left: 10px;
+    position: absolute;
+    top: 5px;
+}
+.button-control .btn-icon-blank + .btn-value span {
+    font-size: 150%;
+    left: 10px;
+    position: absolute;
+    top: 5px;
+}
+.checkbox-control {
+    position: relative;
+}
+.error-text .text-error {
+    border: medium none;
+    color: red;
+    font-size: 110%;
+    font-style: italic;
+    width: 100%;
+}
+.radio-control label {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 90%;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding-left: 25px;
+    position: relative;
+}
+input[type="checkbox"] {
+    /* display: none; */
+    -webkit-appearance: none !important;    
+    -moz-appearance: none !important;    
+    -ms-appearance: none !important;    
+    -o-appearance: none !important;    
+    appearance: none !important;
+    width: 16px;    
+    height: 16px;    position: absolute;    z-index: 2;
+}
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"] ~ label::before {
+    background-color: #ececec;
+    bottom: 1px;
+    content: "";
+    display: inline-block;
+    height: 15px;
+    left: 0;
+    margin-right: 10px;
+    position: absolute;
+    top: 0;
+    width: 15px;
+}
+input[type="radio"] ~ label::before {
+    border: 1px solid #ccc;
+    border-radius: 50%;
+}
+input[type="radio"]:checked + input[type="hidden"] + label::before {
+    color: #666;
+    content: "•";
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+}
+input[type="radio"]:checked + label::before {
+    color: #666;
+    content: "•";
+    font-size: 30px;
+    line-height: 10px;
+    text-align: center;
+}
+input[type="checkbox"] ~ label  {
+    cursor: pointer;
+    font-size: 90%;
+    padding-left: 25px;
+    position: relative;
+    z-index: 1;
+}
+input[type="checkbox"] ~ label::before {
+    background-color: #ececec;
+    border: 1px solid #999;
+    bottom: 1px;
+    content: "";
+    display: inline-block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+}
+.checkbox-control label::before {
+    border: 1px solid #ccc;
+}
+input[type="checkbox"]:checked + input[type="hidden"] + label::before {
+    color: #666;
+    content: "✓";
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+input[type="checkbox"]:checked + label::before {
+    color: #666;
+    content: "✓";
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#Refernce,#imgRect{
+    visibility:hidden;
+}
+.chart-form{
+    margin-right: 22px;
+
+}
+.menu-form .top-menu {
+
+}
+.RadRibbonBar_Silk .rrbTabs{
+     
+}
+/*indexuser*/
+.row-detail .lbLinkFunction{
+    color: #f0a30a !important;    font-style: italic;
+}
+
+a#lnkCatalogue {}

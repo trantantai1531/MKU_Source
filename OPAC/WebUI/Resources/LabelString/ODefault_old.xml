@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>navHeader</name>
+<vie>
+        &lt;div class="navigation-bar-content container"&gt;
+            &lt;div class="grid fluid"&gt;
+                &lt;div class="row"&gt; &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+     </vie>
+<eng></eng>
+</data>
+<data>
+<name>spLanguage</name>
+<vie>Ngôn ngữ:</vie>
+<eng>Language</eng>
+</data>
+<data>
+<name>divWelcome</name>
+<vie>&lt;h3&gt;&lt;img src="images/Imgviet/blueLogo.png" border="0" /&gt; Chào mừng đến với thư viện điện tử - thư viện số eMicLib&lt;/h3&gt;</vie>
+<eng>&lt;h3&gt;&lt;img src="images/Imgviet/blueLogo.png" border="0" /&gt; Welcome to electronic library - digital library eMicLib&lt;/h3&gt;</eng>
+</data>
+<data>
+<name>spLanguageVietNamese</name>
+<vie>Tiếng Việt</vie>
+<eng>Vietnamese</eng>
+</data>
+<data>
+<name>spLanguageEnglish</name>
+<vie>Tiếng Anh</vie>
+<eng>English</eng>
+</data>
+</Head>

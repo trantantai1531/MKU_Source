@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblHeader</name>
+<vie>Danh sách Z39.50 Server</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgZDbs</name>
+<vie>Tên thư viện|+|</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnClose</name>
+<vie>Ðóng</vie>
+<eng></eng>
+</data>
+</Head>

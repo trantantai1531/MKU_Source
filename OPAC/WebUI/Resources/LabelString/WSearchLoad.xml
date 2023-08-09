@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblHeader</name>
+<vie>Những tra cứu đã thực hiện trong phiên làm việc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLabel1</name>
+<vie>Bạn có thể thực hiện lại một trong số các yêu cầu tìm kiếm đã thực hiện</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSearchLoad</name>
+<vie>Hiện tại chưa có kết quả của tra cứu nào !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblError</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblAdvSearch</name>
+<vie>Tìm kiếm nâng cao: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSearchZ3950</name>
+<vie>Tìm kiếm qua cổng Z3950: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSearchFull</name>
+<vie>Tìm kiếm toàn văn: </vie>
+<eng></eng>
+</data>
+</Head>

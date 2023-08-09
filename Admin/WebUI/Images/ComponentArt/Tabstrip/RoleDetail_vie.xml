@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab Text="Truy cập nghiệp vụ" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Truy cập OPAC" Look-LeftIconUrl="attribute.png" SelectedLook-LeftIconUrl="attribute.png" />
+</tabs>

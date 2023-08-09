@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lnkRoot1</name>
+<vie>Trang tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbspace</name>
+<vie>&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRoot2</name>
+<vie>Danh sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnAction</name>
+<vie>Chọn(c)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbDocFormat</name>
+<vie>Khuôn dạng dữ liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbDestination</name>
+<vie>Đích</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISBD</name>
+<vie>&lt;u&gt;I&lt;/u&gt;SBD</vie>
+<eng></eng>
+</data>
+<data>
+<name>optMARC</name>
+<vie>&lt;u&gt;M&lt;/u&gt;ARC</vie>
+<eng></eng>
+</data>
+<data>
+<name>optXML</name>
+<vie>&lt;u&gt;X&lt;/u&gt;ML (MARC 21)</vie>
+<eng></eng>
+</data>
+<data>
+<name>optDCXML</name>
+<vie>&lt;u&gt;X&lt;/u&gt;ML (DCMI)</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISO</name>
+<vie>IS&lt;u&gt;O&lt;/u&gt; 2709</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISOUNIMARC</name>
+<vie>&lt;u&gt;U&lt;/u&gt;NIMARC</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISOUSMARC</name>
+<vie>U&lt;u&gt;S&lt;/u&gt;MARC</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISOTVQG</name>
+<vie>CDS/ISIS (&lt;u&gt;T&lt;/u&gt;VQG)</vie>
+<eng></eng>
+</data>
+<data>
+<name>optISONACESTID</name>
+<vie>CDS/ISIS (&lt;u&gt;N&lt;/u&gt;ACESTID)</vie>
+<eng></eng>
+</data>
+<data>
+<name>optDesEmail</name>
+<vie>&lt;u&gt;E&lt;/u&gt;mail</vie>
+<eng></eng>
+</data>
+<data>
+<name>optDesFile</name>
+<vie>&lt;u&gt;F&lt;/u&gt;ile</vie>
+<eng></eng>
+</data>
+<data>
+<name>optDesScreen</name>
+<vie>Màn &lt;u&gt;h&lt;/u&gt;ình</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Trường Email còn rỗng !|+|1|+|Khuông dạng Email không chính xác ! (ví dụ: infor@tinhvan.com).</vie>
+<eng></eng>
+</data>
+</Head>

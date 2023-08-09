@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<options>
+		<playerSize autoResize="true" width="500" height="350" />
+
+		<controlsBar hide="true" hideDelay="10" space="10"	display="|playPause|stop|progress,time|volume|fullScreen|" sound="false" showMiddlePlayBtn="true" time="type1" timeToolTip="true"/>
+
+		<videos buffer="10" keepAspectRatio="true" autoLoad="true" autoPlay="true" playContinuously="true" jumpToNextCategory="true" loop="false" random="false" />
+
+		<volume default="70" format="vertical" />
+
+		<watermark visible="true" position="BR" />
+
+		<toolTip visible="true" hideDelay="2" />
+
+		<listeners spaceKey="true" click="true" doubleClick="true" />
+
+		<cursor hide="true" hideDelay="5" />
+
+		<playlist size="0" thumbWidth="0" thumbHeight="0" thumbPadding="0" />
+
+		<description visible="false" size="75" />
+
+		<youTube defaultQuality="hd720" />
+	</options>
+
+	<colors>
+		<playerBackground value="0x000000" />
+		<preloader background="0x000000" bckAlpha="70" text="0xCCCCCC"	circle="0xFFFFFF" />
+		<middlePlayBtn arrowNormal="0xFFFFFF" bckNormal="0x000000"	alphaNormal="60" arrowOver="0xFFFFFF" bckOver="0x000000" alphaOver="80" arrowDown="0xFFFFFF" bckDown="0x000000"	alphaDown="100" />
+		<controlsBar background="0x000000" buttonsNormal="0xBBBBBB"	buttonsOver="0xFFFFFF" buttonsDown="0xBBBBBB" />
+		<volume border="0x666666" background="0x000000"	speaker="0xCCCCCC" bar="0x559BB5" />
+		<volumeScrubBtn brdNormal="0xCCCCCC" bckNormal="0x000000"	brdOver="0xFFFFFF" bckOver="0x000000" brdDown="0xFFFFFF" bckDown="0x000000" />
+		<progressBar border="0x666666" background="0x000000" elapse="0x559BB5" download="0x999999" />
+		<progressScrubBtn brdNormal="0xCCCCCC" bckNormal="0x000000"	brdOver="0xFFFFFF" bckOver="0x000000" brdDown="0xFFFFFF" bckDown="0x000000" />
+		<share background="0x000000" bckAlpha="60" boxBck="0x000000" boxBckAlpha="40" labels="0xFFFFFF" errorText="0xFF0000" text="0x000000" textBck="0xFFFFFF" textBrd="0x000000" btnsNormal="0xCCCCCC" btnsOver="0xFFFFFF" btnsDown="0xFFFFFF" />
+		<playlist background="0x151515" line="0x202020"	thumbBck="0x000000" thumbNormalAlpha="30" thumbOverAlpha="70" thumbSelectedAlpha="100" title="0x559BB5" description="0xCCCCCC" />
+		<category bckNormal="0x101010" titleNormal="0xCCCCCC" bckOver="0x000000" titleOver="0xFFFFFF" bckSelected="0x559BB5" titleSelected="0x000000" />
+		<description background="0x151515" line="0x202020"	title="0xFFFFFF" description="0xCCCCCC" />
+		<scrollBar trackBar="0xCCCCCC" scrubBrdNormal="0xCCCCCC" scrubBckNormal="0x000000" scrubBrdOver="0xFFFFFF"	scrubBckOver="0x000000" scrubBrdDown="0xFFFFFF"	scrubBckDown="0x000000" />
+		<caption size="14" color="0xFFFFFF" glowColor="0x000000" />
+		<toolTip bckColor="0xFFFFFF" txtColor="0x000000" alpha="80" />
+	</colors>
+
+	<videos>
+    		 <video>
+				<videoPath value="AVSEQ01.flv" />
+				<previewImage value="" />
+				<thumbImage value="" />
+				<watermarkPath value="" />
+				<watermarkLink value="" />
+				<title>
+					<![CDATA[AVSEQ01]]>
+				</title>
+				<description>
+					<![CDATA[]]>
+				</description>
+				<caption value="" />
+			</video>			
+  </videos>	
+</settings>

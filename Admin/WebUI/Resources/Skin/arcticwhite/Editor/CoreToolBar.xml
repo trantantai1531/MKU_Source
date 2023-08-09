@@ -1,0 +1,225 @@
+   <Items>
+            
+              <ToolBarItem ImageUrl="grip.png" ImageWidth="6" ImageHeight="24" CssClass="toolbar-grip" />            
+            
+              <ToolBarItem
+                EditorCommandType="FormatStyle"
+                CustomContentId="FontStylesContent"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatFontFace"
+                CustomContentId="FontFamilyContent"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatFontSize"
+                CustomContentId="FontSizeContent"
+              />
+
+              <ToolBarItem ItemType="Separator" ImageWidth="10" ImageUrl="_blank.png" CssClass="sep" />
+
+              <ToolBarItem
+                EditorCommandType="FormatFontColor"
+                ItemType="SplitDropDown"
+                ToolTip="Font Color"
+                ImageUrl="_blank.png"
+                ImageWidth="24"
+                CssClass="item split font-color"
+                HoverCssClass="item split-h font-color font-color-h"
+                ActiveCssClass="item split-a font-color font-color-a"
+                CheckedCssClass="item split-c font-color font-color-c"
+                CheckedHoverCssClass="item split-c-h font-color font-color-c-h"
+                CheckedActiveCssClass="item split-c-a font-color font-color-c-a"
+                DisabledCssClass="item split-d font-color font-color-d"
+                DisabledCheckedCssClass="item split-d-c font-color font-color-d-c"
+                ExpandedCssClass="item split-a font-color font-color-a"
+                DropDownImageWidth="15"
+                DropDownImageHeight="25"
+                DropDownImageUrl="_blank.png"
+                Id="FontColorItem"
+              />
+
+              <ToolBarItem ItemType="Separator" ImageWidth="10" ImageUrl="_blank.png" CssClass="sep" />
+
+              <ToolBarItem
+                EditorCommandType="FormatBold"
+                ItemType="ToggleCheck"
+                ToolTip="Bold"
+                ImageUrl="_blank.png"
+                CssClass="item bold"
+                HoverCssClass="item bold-h"
+                ActiveCssClass="item bold-a"
+                CheckedCssClass="item bold-c"
+                CheckedHoverCssClass="item bold-c-h"
+                CheckedActiveCssClass="item bold-c-a"
+                DisabledCssClass="item bold-d"
+                DisabledCheckedCssClass="item bold-d-c"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatItalic"
+                ItemType="ToggleCheck"
+                ToolTip="Italic"
+                ImageUrl="_blank.png"
+                CssClass="item italic"
+                HoverCssClass="item italic-h"
+                ActiveCssClass="item italic-a"
+                CheckedCssClass="item italic-c"
+                CheckedHoverCssClass="item italic-c-h"
+                CheckedActiveCssClass="item italic-c-a"
+                DisabledCssClass="item italic-d"
+                DisabledCheckedCssClass="item italic-d-c"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatUnderline"
+                ItemType="ToggleCheck"
+                ToolTip="Underline"
+                ImageUrl="_blank.png"
+                CssClass="item underline"
+                HoverCssClass="item underline-h"
+                ActiveCssClass="item underline-a"
+                CheckedCssClass="item underline-c"
+                CheckedHoverCssClass="item underline-c-h"
+                CheckedActiveCssClass="item underline-c-a"
+                DisabledCssClass="item underline-d"
+                DisabledCheckedCssClass="item underline-d-c"
+              />
+
+              <ToolBarItem ItemType="Separator" ImageWidth="10" ImageUrl="_blank.png" CssClass="sep" />
+
+              <ToolBarItem
+                EditorCommandType="FormatAlignLeft"
+                ItemType="ToggleRadio"
+                ToggleGroupId="TextAlign"
+                ToolTip="Align Left"
+                ImageUrl="_blank.png"
+                CssClass="item align-left"
+                HoverCssClass="item align-left-h"
+                ActiveCssClass="item align-left-a"
+                CheckedCssClass="item align-left-c"
+                CheckedHoverCssClass="item align-left-c-h"
+                CheckedActiveCssClass="item align-left-c-a"
+                DisabledCssClass="item align-left-d"
+                DisabledCheckedCssClass="item align-left-d-c"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatAlignCenter"
+                ItemType="ToggleRadio"
+                ToggleGroupId="TextAlign"
+                ToolTip="Center"
+                ImageUrl="_blank.png"
+                CssClass="item align-center"
+                HoverCssClass="item align-center-h"
+                ActiveCssClass="item align-center-a"
+                CheckedCssClass="item align-center-c"
+                CheckedHoverCssClass="item align-center-c-h"
+                CheckedActiveCssClass="item align-center-c-a"
+                DisabledCssClass="item align-center-d"
+                DisabledCheckedCssClass="item align-center-d-c"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatAlignRight"
+                ItemType="ToggleRadio"
+                ToggleGroupId="TextAlign"
+                ToolTip="Align Right"
+                ImageUrl="_blank.png"
+                CssClass="item align-right"
+                HoverCssClass="item align-right-h"
+                ActiveCssClass="item align-right-a"
+                CheckedCssClass="item align-right-c"
+                CheckedHoverCssClass="item align-right-c-h"
+                CheckedActiveCssClass="item align-right-c-a"
+                DisabledCssClass="item align-right-d"
+                DisabledCheckedCssClass="item align-right-d-c"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatAlignJustify"
+                ItemType="ToggleRadio"
+                ToggleGroupId="TextAlign"
+                ToolTip="Justify"
+                ImageUrl="_blank.png"
+                CssClass="item align-justify"
+                HoverCssClass="item align-justify-h"
+                ActiveCssClass="item align-justify-a"
+                CheckedCssClass="item align-justify-c"
+                CheckedHoverCssClass="item align-justify-c-h"
+                CheckedActiveCssClass="item align-justify-c-a"
+                DisabledCssClass="item align-justify-d"
+                DisabledCheckedCssClass="item align-justify-d-c"
+              />
+
+              <ToolBarItem ItemType="Separator" ImageWidth="10" ImageUrl="_blank.png" CssClass="sep" />
+
+              <ToolBarItem
+                EditorCommandType="FormatBullets"
+                ToolTip="Bullets"
+                ImageUrl="_blank.png"
+                ImageWidth="24"
+                CssClass="item split bullets"
+                HoverCssClass="item split-h bullets-h"
+                ActiveCssClass="item split-a bullets-a"
+                CheckedCssClass="item split-c bullets-c"
+                CheckedHoverCssClass="item split-c-h bullets-c-h"
+                CheckedActiveCssClass="item split-c-a bullets-c-a"
+                DisabledCssClass="item split-d bullets-d"
+                DisabledCheckedCssClass="item split-d-c bullets-d-c"
+                ExpandedCssClass="item split-a bullets-a"
+                DropDownImageWidth="15"
+                DropDownImageHeight="25"
+                DropDownImageUrl="_blank.png"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatNumbering"
+                ToolTip="Numbering"
+                ImageUrl="_blank.png"
+                ImageWidth="24"
+                CssClass="item split numbering"
+                HoverCssClass="item split-h numbering-h"
+                ActiveCssClass="item split-a numbering-a"
+                CheckedCssClass="item split-c numbering-c"
+                CheckedHoverCssClass="item split-c-h numbering-c-h"
+                CheckedActiveCssClass="item split-c-a numbering-c-a"
+                DisabledCssClass="item split-d numbering-d"
+                DisabledCheckedCssClass="item split-d-c numbering-d-c"
+                ExpandedCssClass="item split-a numbering-a"
+                DropDownImageWidth="15"
+                DropDownImageHeight="25"
+                DropDownImageUrl="_blank.png"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatIncreaseIndent"
+                ToolTip="Increase Indent"
+                ImageUrl="_blank.png"
+                CssClass="item increase-indent"
+                HoverCssClass="item increase-indent-h"
+                ActiveCssClass="item increase-indent-a"
+                DisabledCssClass="item increase-indent-d"
+              />
+
+              <ToolBarItem
+                EditorCommandType="FormatDecreaseIndent"
+                ToolTip="Decrease Indent"
+                ImageUrl="_blank.png"
+                CssClass="item decrease-indent"
+                HoverCssClass="item decrease-indent-h"
+                ActiveCssClass="item decrease-indent-a"
+                DisabledCssClass="item decrease-indent-d"
+              />
+
+              <ToolBarItem
+                EditorCommandType="InsertHorizontalRule"
+                ToolTip="Insert horizontal line"
+                ImageUrl="_blank.png"
+                CssClass="item insert-hr"
+                HoverCssClass="item insert-hr-h"
+                ActiveCssClass="item insert-hr-a"
+                DisabledCssClass="item insert-hr-d"
+              />
+            </Items>

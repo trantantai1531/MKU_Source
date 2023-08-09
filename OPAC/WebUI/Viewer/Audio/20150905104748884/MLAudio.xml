@@ -1,0 +1,11 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/">
+  <channel>
+    <title>MRSS Playlist</title>
+    <item>
+      <id>1</id>
+      <title> Test Audio</title>
+      <media:content url="/2015/9/20150905104748884/20121130224131428.mp3" xmlns:media="schema" />
+      <order>1</order>
+    </item>
+  </channel>
+</rss>

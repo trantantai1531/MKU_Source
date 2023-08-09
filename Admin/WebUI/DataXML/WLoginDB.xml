@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+	<data>
+    <ID>1</ID>
+    <UserName>lib</UserName>
+    <PassWord>qF5Yfgk3VdsZZcQkHB8jfw==</PassWord>
+    <DataSource>EMICLIB_MKU</DataSource>
+    <ServerName>SONPHAN</ServerName>
+    <ServerIP>SONPHAN</ServerIP>
+    <DBServer>SQLSERVER</DBServer>
+    <ConnectionName>eMicLib60 SQLServer 1M Records</ConnectionName>
+    <ConnectionCode>eMicLib60SQL</ConnectionCode>
+    <Run>1</Run>
+	</data>
+</Head>

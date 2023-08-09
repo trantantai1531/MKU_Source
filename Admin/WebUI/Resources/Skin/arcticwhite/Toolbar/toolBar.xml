@@ -1,0 +1,22 @@
+<Items>
+  <item ToolTip="Cut" ImageUrl="cut.gif" />
+  <item ToolTip="Copy" ImageUrl="copy.gif" />
+  <item ToolTip="Paste" ImageUrl="wordpress_button.png"  ImageHeight="32" ImageWidth="64" />
+  <item ItemType="ToggleCheck" ToolTip="Format Painter" ImageUrl="formatpainter.gif" />
+  <item ItemType="Separator" ImageUrl="break.gif" ImageHeight="16" ImageWidth="2" />
+  <item ToolTip="Microsoft Office Word Help" ImageUrl="help.gif" />
+  <item ItemType="Separator" ImageUrl="break.gif" ImageHeight="16" ImageWidth="2" />
+  <item Text="&lt;u>R&lt;/u>ead" ToolTip="Read" ImageUrl="read.gif" />
+  <item ItemType="Separator" ImageUrl="break.gif" ImageHeight="16" ImageWidth="2" />
+  <item ItemType="ToggleCheck" ToolTip="Bold" ImageUrl="bold.gif" />
+  <item ItemType="ToggleCheck" ToolTip="Italic" ImageUrl="italic.gif" />
+  <item ItemType="ToggleCheck" ToolTip="Underline" ImageUrl="underline.gif" />
+  <item ItemType="Separator" ImageUrl="break.gif" ImageHeight="16" ImageWidth="2" />
+  <item ItemType="ToggleRadio" ToggleGroupId="align" ToolTip="Align Left" ImageUrl="alignleft.gif" Checked="true" />
+  <item ItemType="ToggleRadio" ToggleGroupId="align" ToolTip="Center" ImageUrl="aligncenter.gif" />
+  <item ItemType="ToggleRadio" ToggleGroupId="align" ToolTip="Align Right" ImageUrl="alignright.gif" />
+  <item ItemType="ToggleRadio" ToggleGroupId="align" ToolTip="Justify" ImageUrl="alignjustify.gif" />
+  <item ItemType="Separator" ImageUrl="break.gif" ImageHeight="16" ImageWidth="2" />
+  <item ItemType="ToggleRadioCheck" ToggleGroupId="bulleting" ToolTip="Numbering" ImageUrl="numbering.gif" />
+  <item ItemType="ToggleRadioCheck" ToggleGroupId="bulleting" ToolTip="Bullets" ImageUrl="bullets.gif" />
+</Items>

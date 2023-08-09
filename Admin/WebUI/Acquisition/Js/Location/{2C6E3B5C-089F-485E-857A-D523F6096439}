@@ -1,0 +1,132 @@
+function ShowHideTable(val) {
+	if (val==0) {
+		tblFormLiquidate.style.display="";
+		tblResultLiqudate.style.display="none";
+	}
+	else {
+		tblResultLiqudate.style.display="";
+		tblFormLiquidate.style.display="none";	
+	}
+}
+
+function CheckDate(f,strNoteEmpty,strNoteErrDate) {
+	//document.forms[0].txtDateRemove
+	var val;
+	val=f.value;
+	if (val=="") {
+		alert(strNoteEmpty);
+		f.focus();		
+		return false;
+	}			
+	iday = val.substring(0, val.indexOf("/"));
+	imon = val.substring(val.indexOf("/") + 1, val.lastIndexOf("/"));
+	iyear = val.substring(val.lastIndexOf("/") + 1, val.length);
+	mDate = new Date(imon + "/" + iday + "/" + iyear);
+	if (mDate.getDate() != iday || mDate.getMonth() != imon - 1) {
+		alert(strNoteErrDate);		
+		f.focus();
+		return false;
+	}
+	return false;		
+}
+function SwitchEnable(val) {
+	if(val==0) {
+		document.forms[0].txtCodeDoc.disabled=false;
+		document.forms[0].btnFindCode.disabled=false;
+		document.forms[0].ddlLibSource.disabled=true;
+		document.forms[0].ddlLocSource.disabled=true;
+		document.forms[0].txtShelfSource.disabled=true;
+		document.forms[0].rdbCopyNumFile.disabled=true;
+		document.forms[0].FileCopyNum.disabled=true;
+		document.forms[0].rdbCopyNumManual.disabled=true;
+		document.forms[0].txtCopyNumManual.disabled=true;
+		document.forms[0].txtCodeDoc.focus();
+	}
+	else {
+		document.forms[0].txtCodeDoc.disabled=true;
+		document.forms[0].btnFindCode.disabled=true;
+		document.forms[0].ddlLibSource.disabled=false;
+		document.forms[0].ddlLocSource.disabled=false;
+		document.forms[0].txtShelfSource.disabled=false;
+		document.forms[0].rdbCopyNumFile.disabled=false;
+		document.forms[0].FileCopyNum.disabled=false;
+		document.forms[0].rdbCopyNumManual.disabled=false;
+		document.forms[0].txtCopyNumManual.disabled=false;			
+		if (document.forms[0].rdbCopyNumFile.checked) {
+			document.forms[0].txtCopyNumManual.disabled=true;						
+		}
+		else {
+			document.forms[0].FileCopyNum.disabled=true;
+		}
+	}
+}
+function SwitchCopyNum(val) {
+	if (val==0) {
+		document.forms[0].txtCopyNumManual.disabled=true;
+		document.forms[0].FileCopyNum.disabled=false;
+		document.forms[0].FileCopyNum.focus();		
+	}
+	else {
+		document.forms[0].txtCopyNumManual.disabled=false;
+		document.forms[0].FileCopyNum.disabled=true;	
+		document.forms[0].txtCopyNumManual.focus();
+	}
+}
+function CheckReMoveLoc(strNote) {
+	if (document.forms[0].rdbCodeDoc.checked) {
+		if (document.forms[0].txtCodeDoc.value=="") {
+			alert(strNote);			
+			document.forms[0].txtCodeDoc.focus();			
+			return false;
+		}
+	}	
+	else {
+		if (document.forms[0].rdbCopyNumFile.checked) {
+			if (document.forms[0].FileCopyNum.value=="") {
+				alert(strNote);
+				document.forms[0].FileCopyNum.focus();
+				return false;
+			}
+		}
+		else {
+			if (document.forms[0].txtCopyNumManual.value=="") {
+				alert(strNote);
+				document.forms[0].txtCopyNumManual.focus();
+				return false;
+			}		
+		}
+	}	
+	document.forms[0].hidLocSourceName.value=document.forms[0].ddlLocSource.options[document.forms[0].ddlLocSource.options.selectedIndex].text;
+	return true;		
+}
+function SetReason() {
+	document.forms[0].hidReasonDes.value=document.forms[0].ddlReason.options[document.forms[0].ddlReason.options.selectedIndex].text;	
+}
+function LoadLocation(){
+	parent.hiddenbase.location='WMoveLocationHidden.aspx?Action=Source&LibID=' + document.forms[0].ddlLibSource.options[document.forms[0].ddlLibSource.options.selectedIndex].value;
+	return false;
+}
+function OpenSearchForm() {
+	var url;
+	url='../ACQ/WSearchItem.aspx?ControlName=txtCodeDoc';
+	openModal(url,'SearchItemID',500,350,150,100,'yes','',0);
+	return false;
+}
+function ShowCopyNumber(strNote) {	
+	SwitchEnable(1);
+	SwitchCopyNum(1);		
+	document.forms[0].rdbCopyNum.checked=true;	
+	document.forms[0].rdbCopyNumManual.checked=true;
+	if (document.forms[0].ddlLibSource.options[document.forms[0].ddlLibSource.options.selectedIndex].value==0) {
+		alert(strNote);
+		return false;
+		}
+	var LibID=document.forms[0].ddlLibSource.options[document.forms[0].ddlLibSource.options.selectedIndex].value;
+	var LocID=document.forms[0].ddlLocSource.options[document.forms[0].ddlLocSource.options.selectedIndex].value;
+	var LibName=Esc(document.forms[0].ddlLibSource.options[document.forms[0].ddlLibSource.options.selectedIndex].text,1);
+	var LocName=Esc(document.forms[0].ddlLocSource.options[document.forms[0].ddlLocSource.options.selectedIndex].text,1);
+	var Shelf=document.forms[0].txtShelfSource.value;
+	var strURL='WListCopyNumber.aspx?LibID='+LibID+'&LocID='+LocID+'&Shelf='+Shelf+'&LibName='+LibName+'&LocName='+LocName;
+	OpenWindow(strURL,'ListCopyNumber',500,400,50,50);
+	return false;
+}

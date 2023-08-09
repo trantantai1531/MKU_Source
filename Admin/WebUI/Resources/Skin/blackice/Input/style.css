@@ -1,0 +1,22 @@
+﻿.field { width:406px;height:25px;padding:10px 20px;margin:0;background:#000; }
+	.field span.lbl { float:left;width:160px;height:25px;line-height:24px;font-size:12px;padding:0 10px 0 0;text-align:right;cursor:default;color:#fff; }
+
+	.field span input { width:190px;background:none;margin:0;padding:5px 5px 6px 5px;font:12px Tahoma,Verdana,Arial,Helvetica,sans-serif;border:none;position:absolute;top:0; }
+
+	.field span.empty { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#333 #999 #999 #333;background:#333; }
+		.field span.empty input { color:#b7b7b7;font-style:italic; }
+
+	.field span.focused { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#333 #999 #999 #333;background:#333; }
+		.field span.focused input { color:#fff;font-style:normal; }
+
+	.field span.valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#333 #999 #999 #333;background:#333 url("images/static.png") no-repeat right 0; }
+		.field span.valid input { color:#0f0;font-style:normal; }
+
+	.field span.focused-valid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#333 #999 #999 #333;background:#007400 url("images/static.png") no-repeat right 0; }
+		.field span.focused-valid input { color:#0f0;font-style:normal; }
+
+	.field span.invalid { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#666 #999 #999 #666;background:#600 url("images/static.png") no-repeat right -23px; }
+		.field span.invalid input { color:#f00;font-style:normal; }
+
+	.field span.disabled { float:left;width:226px;height:23px;line-height:23px;padding:0;margin:0;position:relative;border:1px solid #333;border-color:#444 #666 #666 #444;background:#333 url("images/horizontal.png") repeat-x; }
+		.field span.disabled input { color:#ccc; }

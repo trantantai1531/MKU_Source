@@ -1,0 +1,163 @@
+﻿<%@ Page Language="vb" AutoEventWireup="false" Inherits="eMicLibAdmin.WebUI.Catalogue.WIndexCata" CodeFile="WIndexCata2.aspx.vb" CodeFileBaseClass="eMicLibAdmin.WebUI.clsWBase" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+	<HEAD>
+		<title>WIndexBibliography</title>
+		<meta content="Microsoft Visual Studio .NET 7.1" name="GENERATOR">
+		<meta content="Visual Basic .NET 7.1" name="CODE_LANGUAGE">
+		<meta content="JavaScript" name="vs_defaultClientScript">
+		<meta content="http://schemas.microsoft.com/intellisense/ie5" name="vs_targetSchema">
+
+	</HEAD>
+	<body class="backgroundbody" style="margin-top:0px;margin-left:0px;margin-right:0px;margin-bottom:0px;" onload="parent.document.getElementById('frmMain').setAttribute('rows','*,0');">
+		<form id="Form1" method="post" runat="server">
+			<TABLE width="100%" cellpadding="4" cellspacing="1">
+				<TR class="lbPageTitle">
+					<TD width="33%" colSpan="2">
+						<asp:label id="lblCapBib" runat="server" CssClass="lbGroupTitle">Biên mục</asp:label></TD>
+					<TD width="33%" colSpan="2">
+						<asp:label id="lblCapTranfer" runat="server" CssClass="lbGroupTitle">Trao đổi dữ liệu</asp:label></TD>
+					<TD width="34%" colSpan="2">
+						<asp:label id="lblCapTemplate" runat="server" CssClass="lbGroupTitle">Khung biên mục</asp:label></TD>
+				</TR>
+				<TR class="lbFunctionTR">
+					<TD align="center" colSpan="1" height="50" rowSpan="1" vAlign="middle">
+						<asp:hyperlink id="imgSetDefault" runat="server" NavigateUrl="Catalogue/WMarcFieldsDefault.aspx">
+							<img border="0" src="images/dat_gia_tri_ngam_dinh.gif">
+						</asp:hyperlink></TD>
+					<TD height="50">
+						<asp:hyperlink id="lnkSetDefaultValue" runat="server" NavigateUrl="Catalogue/WMarcFieldsDefault.aspx">Đặt giá trị ngầm định</asp:hyperlink><br />
+						<asp:label id="lblSetDefaultValue" runat="server" CssClass="lbFunctionDetail">Thiết đặt giá trị ngầm định cho các trường thuộc tính của tài liệu ấn phẩm cần biên mục trong phiên làm việc.</asp:label>
+					</TD>
+					<TD align="center" height="50">
+						<asp:hyperlink id="imgExport" runat="server" NavigateUrl="Catalogue/WExportRecordToFile.aspx">
+							<img border="0" src="images/xuat_khau_ban_ghi.gif">
+						</asp:hyperlink></TD>
+					<TD height="50">
+						<asp:hyperlink id="lnkExpData" runat="server" NavigateUrl="Catalogue/WExportRecordToFile.aspx">Xuất khẩu bản ghi</asp:hyperlink><br />
+						<asp:label id="lblExpData" runat="server" CssClass="lbFunctionDetail">Xuất khẩu bản ghi ra file.</asp:label>
+					</TD>
+					<TD align="center" height="50">
+						<asp:hyperlink id="imgBibTemplate" runat="server" NavigateUrl="BibliographyTemplate/WIndexTemplate.aspx">
+							<img border="0" src="images/mau_bien_muc.gif">
+						</asp:hyperlink></TD>
+					<TD align="left" colSpan="1" height="50" rowSpan="1">
+						<asp:hyperlink id="lnkBibTemplate" runat="server" NavigateUrl="BibliographyTemplate/WIndexTemplate.aspx">Mẫu biên mục/Trường biên mục</asp:hyperlink><br />
+						<asp:label id="Label1" runat="server" CssClass="lbFunctionDetail">Tạo mới, sửa, gộp các mẫu biên mục và trường biên mục.</asp:label>
+<%--
+                        <br />
+                        <br />
+                        <asp:hyperlink id="Hyperlink1" runat="server" NavigateUrl="Catalogue/AcqImportByTemplate.aspx">Import du lieu</asp:hyperlink><br />
+                        <asp:label id="Label2" runat="server" CssClass="lbFunctionDetail">Import du lieu ban doc/ban ghi</asp:label>--%>
+					</TD>
+				</TR>
+				<TR class="lbFunctionTR">
+					<TD align="center" height="50">
+						<asp:hyperlink id="imgCataQueue" runat="server" NavigateUrl="javascript:parent.Sentform.location.href='Catalogue/WCataDetailTaskbar.aspx';parent.Workform.location.href = 'WNothing.htm';">
+							<img border="0" src="images/hang_doi.gif">
+						</asp:hyperlink></TD>
+					<td colSpan="1" height="50" rowSpan="1" valign="top">
+						<asp:hyperlink id="lnkCatalogue" runat="server" NavigateUrl="javascript:parent.Sentform.location.href='Catalogue/WCataDetailTaskbar.aspx';parent.Workform.location.href = 'WNothing.htm';">Hàng đợi chờ biên mục chi tiết</asp:hyperlink><br />
+						<asp:label id="lblCatalogue" runat="server" CssClass="lbFunctionDetail">Tiếp tục biên mục chi tiết cho các tài liệu ấn phẩm mà bản ghi của chúng đã được bộ phận bổ sung cập nhật sơ lược vào cơ sở dữ liệu.</asp:label>
+					</td>
+					<TD align="center" height="50">
+						<asp:hyperlink id="imgZ3950Import" runat="server" NavigateUrl="Catalogue/WZForm.aspx">
+							<img border="0" src="images/nhap_khau_ban_ghi_qua_Z3950.gif">
+						</asp:hyperlink></TD>
+					<td colSpan="1" height="50" rowSpan="1">
+						<asp:hyperlink id="lnkImpFromZ3950" runat="server" NavigateUrl="Catalogue/WZForm.aspx">Nhập khẩu bản ghi qua Z39.50</asp:hyperlink><br />
+						<asp:label id="lblImpFromZ3950" runat="server" CssClass="lbFunctionDetail">Nhập khẩu bản ghi biên mục từ nguồn bên ngoài (qua kết nối Z39.50).</asp:label>
+					</td>
+					<TD align="center" colSpan="1" height="50" rowSpan="1"></TD>
+					<td colSpan="1" height="50" rowSpan="1"><br />
+					</td>
+				</TR>
+				<tr class="lbFunctionTR">
+					<TD align="center" height="50">
+						<asp:hyperlink id="imgCataQueueRenew" runat="server" NavigateUrl="javascript:parent.Sentform.location.href='Catalogue/WCataDetailRenewTaskbar.aspx';parent.Workform.location.href = 'WNothing.htm';">
+							<img border="0" src="images/hang_doi_cho_duyet.gif">
+						</asp:hyperlink></TD>
+					<td colSpan="1" height="50" rowSpan="1">
+						<asp:hyperlink id="lnkCatalogueRenew" runat="server" NavigateUrl="javascript:parent.Sentform.location.href='Catalogue/WCataDetailRenewTaskbar.aspx';parent.Workform.location.href = 'WNothing.htm';">Hàng đợi chờ duyệt</asp:hyperlink><br />
+						<asp:label id="lblCatalogueRenew" runat="server" CssClass="lbFunctionDetail">Danh sách hàng đợi đã qua biên mục chi tiết chờ duyệt.</asp:label>
+					</td>
+					<td align="center" colSpan="1" height="50" rowSpan="1" style="HEIGHT: 50px">
+						<asp:hyperlink id="imgImport" runat="server" NavigateUrl="Catalogue/WImportFromFile.aspx">
+							<img border="0" src="images/nhap_khau_ban_ghi.gif">
+						</asp:hyperlink></td>
+					<td colSpan="1" height="50" rowSpan="1" style="HEIGHT: 50px">
+						<asp:hyperlink id="lnkImpFromFile" runat="server" NavigateUrl="Catalogue/WImportFromFile.aspx">Nhập khẩu bản ghi từ tệp</asp:hyperlink><br />
+						<asp:label id="lblImpFromFile" runat="server" CssClass="lbFunctionDetail">Nhập khẩu bản ghi biên mục từ nguồn bên ngoài (qua tệp ISO 2709).</asp:label>
+					</td>
+					<td align="center" height="50" style="HEIGHT: 50px"></td>
+					<td colSpan="1" height="50" rowSpan="1" style="HEIGHT: 50px"><br />
+					</td>
+				</tr>
+				<tr class="lbFunctionTR">
+					<td align="center" height="50">
+						<asp:hyperlink id="ImgCreateNew" runat="server" NavigateUrl="Catalogue/WMarcFormSelect.aspx">
+							<img border="0" src="images/tao_moi.gif">
+						</asp:hyperlink></td>
+					<td colSpan="1" height="50" rowSpan="1" style="HEIGHT: 50px">
+						<asp:hyperlink id="lnkNew" runat="server" NavigateUrl="Catalogue/WMarcFormSelect.aspx">Tạo mới</asp:hyperlink><br />
+						<asp:label id="lblNew" runat="server" CssClass="lbFunctionDetail">Biên mục từ đầu một tài liệu ấn phẩm.</asp:label>
+					</td>
+					<td height="50" align="center"></td>
+					<td height="50"><br />
+					</td>
+					<td align="center" height="50"></td>
+					<td colSpan="1" height="50" rowSpan="1"><br />
+					</td>
+				</tr>
+				<tr class="lbFunctionTR">
+					<td colSpan="1" height="50" rowSpan="1" align="center">
+						<asp:hyperlink id="imgModify" runat="server" NavigateUrl="Catalogue/WItemModify.aspx">
+							<img border="0" src="images/sua_ban_ghi_bien_muc.gif">
+						</asp:hyperlink></td>
+					<td height="50">
+						<asp:hyperlink id="lnkUpdate" runat="server" NavigateUrl="Catalogue/WItemModify.aspx">Sửa bản ghi biên mục</asp:hyperlink><br />
+						<asp:label id="lblUpdate" runat="server" CssClass="lbFunctionDetail">Sửa chữa thuộc tính của các tài liệu ấn phẩm đã được biên mục trong cơ sở dữ liệu.</asp:label></td>
+					<td height="50" align="center"></td>
+					<td height="50"><br />
+					</td>
+					<td align="center" height="50"></td>
+					<td colSpan="1" height="50" rowSpan="1"><br />
+					</td>
+				</tr>
+				<TR class="lbFunctionTR">
+					<td height="50" align="center">
+						<asp:hyperlink id="imgDeleteItem" runat="server" NavigateUrl="Catalogue/WDeleteItem.aspx">
+							<img border="0" src="images/xoa.gif">
+						</asp:hyperlink></td>
+					<td height="50">
+						<asp:hyperlink id="lnkDelete" runat="server" NavigateUrl="Catalogue/WDeleteItem.aspx">Xoá</asp:hyperlink><br />
+						<asp:label id="lblDelete" runat="server" CssClass="lbFunctionDetail">Xóa bản ghi của một tài liệu ấn phẩm đã được biên mục ra khỏi cơ sở dữ liệu.</asp:label></td>
+					<td height="50" align="center"></td>
+					<td height="50"><br />
+					</td>
+					<td align="center" height="50"></td>
+					<td colSpan="1" height="50" rowSpan="1"><br />
+						<P></P>
+					</td>
+				</TR>
+				<TR class="lbFunctionTR">
+					<TD height="50" align="center" colSpan="1" rowSpan="1">
+						<asp:hyperlink id="imgViewItem" runat="server" NavigateUrl="javascript:location.href='WNothing.htm'; parent.Sentform.location.href='Catalogue/WControlBar.aspx'">
+							<img border="0" src="images/xem.gif">
+						</asp:hyperlink></TD>
+					<TD height="50">
+						<asp:hyperlink id="lnkBrowse" runat="server" NavigateUrl="javascript:location.href='WNothing.htm'; parent.Sentform.location.href='Catalogue/WControlBar.aspx'">Xem</asp:hyperlink><br />
+						<asp:label id="lblBrowse" runat="server" CssClass="lbFunctionDetail">Liệt kê lần lượt các bản ghi theo thứ tự nhập vào cơ sở dữ liệu.</asp:label></TD>
+					<TD height="50" align="center"></TD>
+					<TD height="50"><br />
+					</TD>
+					<TD align="center" height="50"></TD>
+					<TD height="50"></TD>
+				</TR>
+			</TABLE>
+			<asp:dropdownlist id="ddlLabel" Visible="False" Width="0px" Runat="server">
+				<asp:ListItem Value="0">Mã lỗi</asp:ListItem>
+				<asp:ListItem Value="1">Chi tiết lỗi</asp:ListItem>
+			</asp:dropdownlist></form>
+	</body>
+</HTML>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMainTitle</name>
+<vie>PHIẾU GÓP Ý</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFeedBack</name>
+<vie>Xin hãy đóng góp ý kiến cho hoạt động của thư viện bằng cách điền vào phiếu đóng 
+góp bên dưới. Xin chân thành cảm ơn những nhận xét của bạn </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFullName</name>
+<vie>Họ &lt;u&gt;t&lt;/u&gt;ên: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNumber</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ố thẻ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblEmailAddress</name>
+<vie>Địa chỉ &lt;u&gt;E&lt;/u&gt;mail: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTitle</name>
+<vie>Góp ý về &lt;u&gt;v&lt;/u&gt;iệc: </vie>
+<eng></eng>
+</data>
+<data>
+<name>llbContent</name>
+<vie>Nội &lt;u&gt;d&lt;/u&gt;ung: </vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSend</name>
+<vie>Gửi(i)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnReset</name>
+<vie>Làm lại(l)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSendEmailSuccessful</name>
+<vie>Ý kiến đóng góp của bạn đã được chuyển đến địa chỉ của thư viện</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSendEmailHaveError</name>
+<vie>Không thực hiện được việc gửi thư</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblErrorAt</name>
+<vie> do lỗi: </vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<News>
+  <NewsItem>
+    <Title>Mobile Future</Title>
+    <Image>mobile2.gif</Image>
+    <Text>Wireless hotspots are coming to pubs, offering a whole...</Text>
+  </NewsItem>
+
+  <NewsItem>   
+    <Title>Y Trang</Title>
+    <Image>tivo.gif</Image>
+    <Text>The professional company design technolory management software...</Text>
+  
+</NewsItem>
+
+  <NewsItem>
+    <Title>Sun Shifting</Title>
+    <Image>sun.gif</Image>
+    <Text>Sun Microsystems is striking up partnerships with Linux...</Text>
+  </NewsItem>
+</News>
+

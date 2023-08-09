@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblMainTitle</name>
+<vie>Trang bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSubTitle1</name>
+<vie>Nơi bạn đọc có thể theo dõi và tương tác với những thông tin về hoạt động của mình tại thư viện (các yêu cầu mượn, yêu cầu giữ chỗ, yêu cầu ILL, các ấn phẩm đang mượn, các ấn phẩm mới của thư viện thuộc lĩnh vực mình quan tâm). </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSubTitle2</name>
+<vie>Để sử dụng các chức năng của Trang bạn đọc bạn cần nhập Số thẻ thư viện và mật khẩu của mình. </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNum</name>
+<vie>&lt;u&gt;S&lt;/u&gt;ố thẻ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassword</name>
+<vie>&lt;u&gt;M&lt;/u&gt;ật khẩu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnLogin</name>
+<vie>Đăng nhập(d)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSubTitle3</name>
+<vie>Nếu bạn chưa đặt mật khẩu để sử dụng Trang bạn đọc hãy</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkSetPass</name>
+<vie>Bấm vào đây</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Số thẻ hoặc mật khẩu không hợp lệ !|+|1|+|Hiện tại thẻ này đang bị khoá !|+|2|+|Số thẻ không được để trống !|+|3|+|Mật khẩu không được để trống !|+|4|+|Hiện tại thẻ này đã hết hạn sử dụng !</vie>
+<eng></eng>
+</data>
+</Head>

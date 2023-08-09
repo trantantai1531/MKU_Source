@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+/*------ Color BackGround ----- */
+.clr-lime
+{
+	background:#a4c400;
+}
+.clr-green
+{
+	background:#60a917;
+}
+.clr-emerald
+{
+	background:#008a00;
+}
+.clr-cyan
+{
+	background:#1ba1e2 ;
+}
+.clr-cobalt
+{
+	background:#0050ef;
+}
+.clr-indigo
+{
+	background:#6a00ff;
+}
+.clr-pink
+{
+	background:#dc4fad;
+}
+.clr-magenta
+{
+	background:#d80073;
+}
+.clr-crimson
+{
+	background:#a20025;
+}
+.clr-amber
+{
+	background:#f0a30a;
+}
+.clr-yellow
+{
+	background:#e3c800;
+}
+.clr-violet
+{
+	background:#81003c;
+}
+.clr-orange
+{
+	background:#fa6800;
+}
+.clr-red
+{
+	background:#ff2d19 ;
+}
+.clr-oliver
+{
+	background:#6d8764;
+}
+
+.clr-brown
+{
+	background:#825a2c;
+}
+.clr-gray
+{
+	background:#004050;
+}
+.clr-steel
+{
+	background:#647687;
+}
+.clr-mauve
+{
+	background:#76608a;
+}
+.clr-taupe
+{
+	background:#87794e;
+}
+.clr-dark
+{
+	background:#333;
+}
+.clr-lightTeal
+{
+	background:#45fffd;
+}
+.clr-lightOlive
+{
+	background:#78aa1c;
+}
+.clr-darkTeal
+{
+	background:#004050;
+}
+.clr-white
+{
+	background:#fff;
+}
+/* ----------------- Color Text -------------- */
+
+.txt-white
+{
+	color:#fff;
+}
+.txt-lime
+{
+	color:#a4c400;
+}
+.txt-green
+{
+	color:#60a917;
+}
+.txt-emerald
+{
+	color:#008a00;
+}
+.txt-cyan
+{
+	color:#1ba1e2 ;
+}
+.txt-cobalt
+{
+	color:#0050ef;
+}
+.txt-indigo
+{
+	color:#6a00ff ;
+}
+.txt-pink
+{
+	color:#dc4fad;
+}
+.txt-magenta
+{
+	color:#d80073;
+}
+.txt-crimson
+{
+	color:#a20025;
+}
+.txt-amber
+{
+	color:#f0a30a ;
+}
+.txt-yellow
+{
+	color:#e3c800;
+}
+.txt-violet
+{
+	background:#81003c;
+}
+.txt-orange
+{
+	color:#fa6800;
+}
+.txt-red
+{
+	color:#ff2d19 ;
+}
+.txt-oliver
+{
+	color:#6d8764;
+}
+
+.txt-brown
+{
+	color:#825a2c;
+}
+.txt-gray
+{
+	color:#004050;
+}
+.txt-steel
+{
+	color:#647687 ;
+}
+.txt-mauve
+{
+	color:#76608a ;
+}
+.txt-taupe
+{
+	color:#87794e;
+}
+.txt-dark
+{
+	color:#333;
+}
+.txt-lightTeal
+{
+	color:#45fffd ;
+}
+.txt-lightOlive
+{
+	color:#78aa1c ;
+}
+.txt-darkTeal
+{
+	color:#004050;
+}
+
+/* ---------------- Color Border ---------------*/
+
+.bd-white
+{
+	border-color:#fff;
+}
+.bd-lime
+{
+	border-color:#a4c400;
+}
+.bd-green
+{
+	border-color:#60a917;
+}
+.bd-emerald
+{
+	border-color:#008a00;
+}
+.bd-cyan
+{
+	border-color:#1ba1e2 ;
+}
+.bd-cobalt
+{
+	border-color:#0050ef !important;
+}
+.bd-indigo
+{
+	border-color:#6a00ff !important ;
+}
+.bd-pink
+{
+	border-color:#dc4fad !important;
+}
+.bd-magenta
+{
+	border-color:#d80073 !important ;
+}
+.bd-crimson
+{
+	border-color:#a20025 !important;
+}
+.bd-amber
+{
+	border-color:#f0a30a !important ;
+}
+.bd-yellow
+{
+	border-color:#e3c800 !important ;
+}
+.bd-violet
+{
+	border-color:#81003c;
+}
+.bd-orange
+{
+	border-color:#fa6800;
+}
+.bd-red
+{
+	border-color:#ff2d19 ;
+}
+.bd-oliver
+{
+	color:#6d8764;
+}
+
+.bd-brown
+{
+	border-color:#825a2c !important ;
+}
+.bd-gray
+{
+	border-color:#004050;
+}
+.bd-steel
+{
+	border-color:#647687 !important;
+}
+.bd-mauve
+{
+	background:#76608a !important;
+}
+.bd-taupe
+{
+	border-color:#87794e !important;
+}
+.bd-dark
+{
+	border-color:#333 !important;
+}
+.bd-lightTeal
+{
+	border-color:#45fffd !important;
+}
+.bd-lightOlive
+{
+	border-color:#78aa1c !important;
+}
+.bd-darkTeal
+{
+	border-color:#004050 !important;
+}

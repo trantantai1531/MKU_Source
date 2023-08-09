@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spItemType</name>
+<vie>Dạng tài liệu</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEDATAContent</name>
+<vie>Đọc nội dung</vie>
+<eng></eng>
+</data>
+<data>
+<name>spEDATA</name>
+<vie>Dữ liệu điện tử</vie>
+<eng></eng>
+</data>
+<data>
+<name>spURL</name>
+<vie>Địa chỉ truy cập</vie>
+<eng></eng>
+</data>
+<data>
+<name>spISSN</name>
+<vie>ISSN</vie>
+<eng></eng>
+</data>
+<data>
+<name>spAuthor</name>
+<vie>Tác giả</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPhysicalInfo</name>
+<vie>Mô tả vật lý</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPublisherInfo</name>
+<vie>Thông tin xuất bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNotFoundItem</name>
+<vie>Không có tài liệu nào được chọn</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRemoveMyList</name>
+<vie>Xóa mục này khỏi danh sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseRemoveItem</name>
+<vie>raiseRemoveItem</vie>
+<eng></eng>
+</data>
+</Head>

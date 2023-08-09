@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleZ3950Result</name>
+<vie>Z3950</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbShowRemote</name>
+<vie>Máy chủ/Cổng dịch vụ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lbShowDatabase</name>
+<vie>Cơ sở dữ liệu: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFound</name>
+<vie>Tìm thấy:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumrec</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRec</name>
+<vie>biểu ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblStatus</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDisplay</name>
+<vie>Hiển thị:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlDisplay</name>
+<vie>MARC|+|MARC|+|ISBD|+|ISBD|+|SIMPLE|+|Đơn giản</vie>
+<eng></eng>
+</data>
+<data>
+<name>NotFound</name>
+<vie>Không tìm thấy bản ghi nào thoả mãn điều kiện</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|tìm thấy |+|1|+| biểu ghi|+|2|+|Tác giả|+|3|+|Nhan đề|+|4|+|Xuất bản|+|5|+|Thông tin khác|+|6|+|Xin vui lòng chờ đợi trong chốc lát !|+|7|+|trường xem tiếp phải có thông tin !|+|8|+|trường xem tiếp phải là số !|+|9|+|Vượt quá phạm vi cho phép !|+|10|+|Không kết nối được với máy chủ !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblJS</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng></eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng></eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng></eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+</Head>

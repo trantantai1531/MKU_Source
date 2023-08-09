@@ -1,0 +1,282 @@
+body {
+	background-color: #f0f3f4; 
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt;
+	topmargin: 0;
+	scrollbar-face-color:#dee3e7; 
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #dee3e7; 
+	scrollbar-3dlight-color: #d1d7dc; 
+	scrollbar-track-color: #efefef; 
+	scrollbar-arrow-color: #006699; 
+	scrollbar-darkshadow-color: #98aab1	
+}
+
+
+.lbLinkheader { FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: 'TAHOMA'; TEXT-DECORATION: none }
+
+.lbFunctionTR
+{
+	background-color: #f0f3f4;
+}
+
+th {
+	background-color: #c0cad6; 
+	color: #880000; 
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 11pt; 
+	font-weight: bold; 
+	padding-top: 2; 
+	margin: 0px
+}
+td {
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt
+}
+select {
+	border-top: #b0b0b0 1px solid; 
+	border-right: #b0b0b0 1px solid; 
+	border-bottom: #b0b0b0 1px solid; 
+	border-left: #b0b0b0 1px solid; 
+	font-family: Arial, Times New Roman, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+textarea {
+	border-top: #5d5d5d 1px solid; 
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	border-left: #5d5d5d 1px solid; 
+	font-family: Arial, Times New Roman, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+.lbRectStatistic
+{
+	font-family:Arial, Verdana;
+	font-size: 16pt;
+	font-weight: bold;	
+	padding-bottom:2px;
+	padding-top: 2px;	
+}
+.lbTextbox 
+{
+	border-top: #5d5d5d 1px solid; 
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	border-left: #5d5d5d 1px solid; 
+	font-family: Arial, Times New Roman, Verdana; 
+	color: #000080; 
+	font-size: 10pt
+}
+.lbRadio 
+{    
+    border-bottom-style:none;
+    border-left-style: none;
+	font-family: Arial, Times New Roman, Verdana;
+	color: #000080; 
+	font-size: 10pt	
+}
+.lbCheckbox {
+	font-family: Arial, Times New Roman, Verdana;
+	color: #000080;
+	font-size: 10pt	
+}
+.lbButton {
+	border-top: #f0f3f4;
+	border-left: #f0f3f4;
+	border-right: #5d5d5d 1px solid; 
+	border-bottom: #5d5d5d 1px solid; 
+	color: #486195;
+	font-family: Verdana, Arial, Times New Roman;
+	font-size: 8pt;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-bottom: 2px
+}
+.lbLinkFunction {
+	font-family: Verdana, Arial, Times New Roman;
+	font-weight:bold;
+	color: blue;
+	font-size: 8pt;		
+	text-decoration: none
+}
+
+.lbLinkFunctionSmall {
+	font-family: Verdana, Arial, Times New Roman;
+	font-weight:bold;
+	color: blue;
+	font-size: 7pt;
+	text-decoration: none
+}
+
+.lbGrid {
+	border-style: none;
+    border-right-style: solid ;
+    border-right-color: #b0b0d9;
+    border-left-style: solid ;
+    border-left-color: #b0b0d9;    
+    border-top-style: solid ;
+    border-top-color: #b0b0d9;
+    border-bottom-style: solid ;
+    border-bottom-color: #b0b0d9;        
+}
+.lbGridHeader 
+{
+	background-color:336699;
+	font-family: Arial, Verdana;
+	font-size: small;
+	font-weight: bold;
+	color: White;
+    text-align:center
+}
+.lbGridCell 
+{
+	background-color:ddeeff;
+	font-family: Arial, Verdana;
+	font-size: small ;
+	color: #000040
+}
+.lbGridAlterCell 
+{
+	background-color:eeeedd;
+	font-family: Arial, Verdana;
+	font-size: small ;
+	color: #000080
+}
+.lbGridPager {
+	background-color:eebb88;
+	font-family: Arial, Verdana;
+	font-size: small;
+	font-weight:bold;
+	color: #ffffff
+}
+.lbGridEdit {
+	background-color:#CCCCCC;
+	font-family: Arial, Verdana;
+	font-size: small;
+	font-weight:bold;
+	color: #ffffff
+}
+.lbGridButton {
+}
+.lbPageTitle
+{
+	background-color:#25A0DA;
+	font-weight:bold; font-size: 16px; color: white;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+.lbTrPageTitle 
+{
+	background: 336699;
+	color: #ffffff; 
+	font-weight: bold;
+	font-family: Arial,Times New Roman, Arial, Verdana; 
+	font-size: 18pt;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px	
+}
+
+.lbGroupTitle
+{
+	font-weight:bold; font-size: 16px; color: white;
+	padding:0px 0px 0px 5px ;text-align:left;text-transform:uppercase;
+	font-family: Arial,Tahoma, Verdana, Arial;
+}
+.lbFunctionTitle {
+	font-weight: bold;
+	font-family:  Arial;
+	font-size: 10pt;
+	color:#000066;
+}
+.lbModuleTitle
+{
+	font-family:Tahoma;
+	font-size: 15;
+	color: #FF0000;
+	font-weight: bold ;
+}
+.lbLogin
+{
+	font-family:Tahoma;
+	font-size: 12;
+	color: #25446c;
+	font-weight: bold ;
+}
+.lbFunctionMenu
+{
+	font-family:Tahoma;
+	font-size: 7pt;
+	font-weight: bold;
+	color:FFFFFF;
+}
+.lbFunctionDetail 
+{
+	font-family:Tahoma;
+	font-size: 8pt;
+	padding-top: 2px;
+}
+.lbSubformTitle 
+{
+	background-color: 448899;
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: White;
+	padding-left:8px
+}
+.lbLabel {
+	color: #000080; 
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt 
+}
+.lbSubTitle
+{
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 12pt;
+    font-weight: bold
+}
+.lbSubTitleSmall
+{
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt;
+    font-weight: bold
+}
+.lbAmount
+{
+	color: 990000;
+	font-family: Arial, Times New Roman, Verdana;
+	font-size: 10pt;
+	font-weight: bold
+}
+.lbTransparentBgLabel
+{
+	background-color: Transparent;
+	color: White; 
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt; 
+}
+
+.lbControlBar
+{
+	background-color: #c0c0c0; 
+	font-family: Arial, Times New Roman, Verdana; 
+	font-size: 10pt;
+	topmargin: 0;
+	scrollbar-face-color:#dee3e7; 
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #dee3e7; 
+	scrollbar-3dlight-color: #d1d7dc; 
+	scrollbar-track-color: #efefef; 
+	scrollbar-arrow-color: #006699; 
+	scrollbar-darkshadow-color: #98aab1	
+}
+
+a:link { color:#dd3409;text-decoration:none; }
+a:visited { color:#a31515;text-decoration:none; }
+a:visited:hover { color:#a31515;text-decoration:underline; }
+a:hover { color:#dd3409;text-decoration:underline; }
+a:active { color:#f30;text-decoration:underline; }
+a:focus,a:active { outline:none; }

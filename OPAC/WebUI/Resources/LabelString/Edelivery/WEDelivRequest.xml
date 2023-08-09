@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleEdataSearchResult</name>
+<vie>MUA TÀI LIỆU</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMainTitle</name>
+<vie>Tài khoản đặt mua ấn phẩm điện tử toàn văn</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronName</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkLogOut</name>
+<vie>Đăng xuất</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkTransaction</name>
+<vie>Các giao dịch đã thực hiện</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNumOfTrans</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNothing</name>
+<vie>Hiện không có tệp toàn văn nào đang được bạn chọn mua.</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTemp1</name>
+<vie>Dưới đây là danh sách các tệp toàn văn ấn phẩm điện tử đang được bạn chọn mua. </vie>
+<eng></eng>
+</data>
+</Head>

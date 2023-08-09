@@ -1,0 +1,31 @@
+<items>
+  <item Text="Quản lý" NavigateUrl="../Admin/AdmIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook" >
+    <item Text="Người dùng" NavigateUrl="AdmUser.aspx?page=AdmUser" />
+    <item Text="Nhật ký hệ thống" NavigateUrl="AdmLog.aspx?page=AdmLog" />
+    <item Text="Tham số hệ thống" NavigateUrl="AdmParameter.aspx?page=AdmParameter" />
+    <item Text="Ngôn ngữ" NavigateUrl="AdmLanguage.aspx?page=AdmLanguage" />
+  </item>
+
+  <item Text="Biên mục" NavigateUrl="../Acquisition/AcqIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Bổ sung" NavigateUrl="AcqAcquisition.aspx?page=AcqAcquisition" />
+    <item Text="Hệ thống lưu trữ" NavigateUrl="AcqStoredSystem.aspx?page=AcqStoredSystem" />
+    <item Text="Thống kê" NavigateUrl="AcqStatistic.aspx?page=AcqStatistic" />
+  </item>
+
+  <item Text="Bạn đọc" NavigateUrl="../Patron/PatIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Hồ sơ" NavigateUrl="PatDocument.aspx?page=PatDocument" />
+    <item Text="Thẻ" NavigateUrl="PatCard.aspx?page=PatCard" />
+    <item Text="Thống kê" NavigateUrl="PatStatistic.aspx?page=PatStatistic" />
+  </item>
+
+  <item Text="Mượn trả" NavigateUrl="../Circulation/CirIndex.aspx" SubGroupCssClass="Level2Group" DefaultSubItemLookId="Level2TabLook" DefaultSubItemSelectedLookId="SelectedLevel2TabLook">
+    <item Text="Ghi mượn" NavigateUrl="CirCheckout.aspx?page=CirCheckout" />
+    <item Text="Ghi trả" NavigateUrl="CirCheckin.aspx?page=CirCheckin" />
+    <item Text="Gia hạn" NavigateUrl="CirRenewal.aspx?page=CirRenewal" />
+    <item Text="Quá hạn" NavigateUrl="CirOverdue.aspx?page=CirOverdue" />
+    <item Text="Đặt chỗ" NavigateUrl="CirReservation.aspx?page=CirReservation" />
+    <item Text="Chính sách" NavigateUrl="CirPolicy.aspx?page=CirPolicy" />
+    <item Text="Thống kê" NavigateUrl="CirStatistic.aspx?page=CirStatistic" />
+  </item>
+
+</items>

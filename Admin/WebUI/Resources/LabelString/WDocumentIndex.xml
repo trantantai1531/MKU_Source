@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Quản lý hồ sơ&lt;/p&gt;&lt;p class="desc-button"&gt;Cập nhật sửa chữa hồ sơ.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Import Excell&lt;/p&gt;&lt;p class="desc-button"&gt;Import Excel&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Tra cứu&lt;/p&gt;&lt;p class="desc-button"&gt;Tìm kiếm thông tin hồ sơ bạn đọc.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Hàng đợi&lt;/p&gt;&lt;p class="desc-button"&gt;Sửa chữa hồ sơ trong hàng đợi.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Nhóm bạn đọc&lt;/p&gt;&lt;p class="desc-button"&gt;Dạnh mục các nhóm bạn đọc.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Khoa&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục các khoa.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Tỉnh&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục các tỉnh.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Dân tộc&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục các dân tộc.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Trình độ văn hóa&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục trình độ.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Nhóm ngành nghề&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục các nhóm ngành nghề.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Trường&lt;/p&gt;&lt;p class="desc-button"&gt;Danh mục các trường.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Khuôn dạng xuất&lt;/p&gt;&lt;p class="desc-button"&gt;Tạo ra các khuôn dạng xuất dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Xuất dữ liệu&lt;/p&gt;&lt;p class="desc-button"&gt;Xuất dữ liệu theo khuôn dạng.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Khuôn dạng nhập&lt;/p&gt;&lt;p class="desc-button"&gt;Tạo các khuôn dạng nhập dữ liệu.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Nhập dữ liệu&lt;/p&gt;&lt;p class="desc-button"&gt;Nhập dữ liệu theo khuôn dạng.&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Đồng bộ tài khoản&lt;/p&gt;&lt;p class="desc-button"&gt;Đồng bộ danh sách bạn đọc từ SSC&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;&lt;p&gt;Yêu cầu bổ sung tài liệu&lt;/p&gt;&lt;p class="desc-button"&gt;Danh sách yêu cầu bổ sung tài liệu&lt;/p&gt;</vie>
+<eng></eng>
+</data>
+</Head>

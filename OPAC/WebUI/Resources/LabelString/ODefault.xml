@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spLanguage</name>
+<vie>Ngôn ngữ:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ltrLanguage</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>divWelcome</name>
+<vie>&lt;h3  class="fg-white"&gt;&lt;img src="images/Imgviet/WhiteLogo.png" border="0" /&gt; Chào mừng đến với thư viện điện tử - thư viện số eMicLib&lt;/h3&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>spLanguageVietNamese</name>
+<vie>Tiếng Việt</vie>
+<eng></eng>
+</data>
+<data>
+<name>spLanguageEnglish</name>
+<vie>Tiếng Anh</vie>
+<eng></eng>
+</data>
+</Head>

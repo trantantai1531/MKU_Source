@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleEdataSearchResult</name>
+<vie>MUA TÀI LIỆU</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbMainTitle</name>
+<vie>Đăng nhập vào tài khoản đặt mua ấn phẩm điện tử</vie>
+<eng></eng>
+</data>
+<data>
+<name>SubTitle1</name>
+<vie>Dịch vụ cung cấp tài liệu điện tử (E-Delivery) cho phép bạn đọc của thư viện và những các đối tượng cá nhân/tập thể khác (gọi chung là người dùng) có thể đặt mua các tài liệu điện tử toàn văn mà thư viện cung cấp qua mạng. Để sử dụng dịch vụ này, người dùng cần đăng ký một tài khoản với thư viện.</vie>
+<eng></eng>
+</data>
+<data>
+<name>SubTitle2</name>
+<vie>Nếu chưa có tài khoản E-Delivery, bạn có thể:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRegister</name>
+<vie>Đăng ký</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblError</name>
+<vie>Sai tên hoặc mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblApproved</name>
+<vie>Tài khoản của bạn đang tạm thời bị khoá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblUserName</name>
+<vie>Mã&lt;u&gt; t&lt;/u&gt;ài khoản:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassword</name>
+<vie>&lt;u&gt;M&lt;/u&gt;ật khẩu:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnLogin</name>
+<vie>Đăng nhập(n)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMsg</name>
+<vie>Bạn chưa nhập tên tài khoản</vie>
+<eng></eng>
+</data>
+</Head>

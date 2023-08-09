@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spWelcome</name>
+<vie>CHÀO MỪNG TỚI THƯ VIỆN</vie>
+<eng>WELCOME TO THE LIBRARY</eng>
+</data>
+<data>
+<name>spIntroduce</name>
+<vie>Tìm kiếm thông tin nhanh, tiết kiệm thời gian, &lt;br /&gt;dễ dàng tổ chức thông tin và cá nhân hoá &lt;br /&gt; những kinh nghiệm học tập của bạn.</vie>
+<eng>Quickly Find Information, saving time,&lt;br /&gt; easily organize information and personalize &lt;br /&gt;your learning experience.</eng>
+</data>
+<data>
+<name>spLblTotalItem</name>
+<vie>Tổng số đầu sách: </vie>
+<eng>Total of books</eng>
+</data>
+<data>
+<name>spLblTotalItemCopy</name>
+<vie>Tổng số bản sách:</vie>
+<eng>Total of copy books:</eng>
+</data>
+<data>
+<name>spLblTotalItemMagazine</name>
+<vie>Tổng số báo/tạp chí: </vie>
+<eng>Total of newspaper / magazine: </eng>
+</data>
+<data>
+<name>spLblTotalDigital</name>
+<vie>Tổng tài liệu điện tử:</vie>
+<eng>Total of electronic documents:</eng>
+</data>
+<data>
+<name>spNewDocument</name>
+<vie>tài liệu mới</vie>
+<eng>new document</eng>
+</data>
+<data>
+<name>spMostView</name>
+<vie>tài liệu xem nhiều nhất</vie>
+<eng>Most viewed documents</eng>
+</data>
+<data>
+<name>spCollection</name>
+<vie>Bộ sưu tập&lt;span class="icon-arrow-right-5"&gt;&lt;/span&gt;</vie>
+<eng>Collection&lt;span class="icon-arrow-right-5"&gt;&lt;/span&gt;</eng>
+</data>
+<data>
+<name>spEbooks</name>
+<vie>Sách điện tử</vie>
+<eng>Ebook</eng>
+</data>
+<data>
+<name>spPicture</name>
+<vie>Hình ảnh</vie>
+<eng>Picture</eng>
+</data>
+<data>
+<name>spMedia</name>
+<vie>Phim ảnh</vie>
+<eng>Media</eng>
+</data>
+<data>
+<name>spAudioEbooks</name>
+<vie>Sách nói</vie>
+<eng>Audio book</eng>
+</data>
+<data>
+<name>spNews</name>
+<vie>Tin tức</vie>
+<eng>News</eng>
+</data>
+<data>
+<name>spWeblinks</name>
+<vie>Liên kết tham khảo</vie>
+<eng>Weblinks</eng>
+</data>
+<data>
+<name>spLinkDescription</name>
+<vie>&lt;strong&gt;Liên kết này&lt;/strong&gt; liệt kê danh sách Website hữu dụng trong nước và ngoài nước giúp cho bạn đọc tìm kiếm thông tin dễ dàng, thuận tiện hơn... : Công cụ tìm tiếm, tổ chức chính phủ, cơ quan nhà nước, tổ chức chính trị, tổ chức quốc tế, tổ chức xã hội, văn bản pháp luật, báo chí, các viện và trường học, trung tâm thông tin và thư viện, thông tin tham khảo, thông tin về thành phố Hồ Chí Minh, các tỉnh thành khác,... </vie>
+<eng>&lt;strong&gt;The link&lt;/strong&gt; lists Weblinks in our country and abroad to help readers find information easier, more convenient</eng>
+</data>
+<data>
+<name>spAddToMyList</name>
+<vie>Thêm vào danh sách của tôi</vie>
+<eng>Add to my list</eng>
+</data>
+<data>
+<name>spInMyList</name>
+<vie>Đã trong danh sách của tôi</vie>
+<eng>Already in my list</eng>
+</data>
+<data>
+<name>spMyListTitle</name>
+<vie>Tiêu đề</vie>
+<eng>Titles</eng>
+</data>
+<data>
+<name>spLblMyList</name>
+<vie>Danh sách của tôi</vie>
+<eng>My list</eng>
+</data>
+<data>
+<name>spMyList</name>
+<vie>&lt;strong&gt;Tiêu đề: 0&lt;/strong&gt;</vie>
+<eng>&lt;strong&gt;Titles: 0&lt;/strong&gt;</eng>
+</data>
+<data>
+<name>spMagazine</name>
+<vie>&lt;div class='tile-status-top bg-lightBlue opacity'&gt; &lt;span style='margin-top:15px;font-weight:bold;'&gt;BÁO IN/TẠP CHÍ ĐIỆN TỬ&lt;/span&gt;&lt;/div&gt;</vie>
+<eng>&lt;div class='tile-status-top bg-lightBlue opacity'&gt; &lt;span style='margin-top:15px;font-weight:bold;'&gt;DIGITAL NEWSPAPER/MAGAZINE&lt;/span&gt;&lt;/div&gt;</eng>
+</data>
+<data>
+<name>spDescriptionCollection</name>
+<vie>&lt;div class='tile-status-top bg-lightBlue opacity'&gt; &lt;span style='margin-top:15px;font-weight:bold;'&gt;@PHUONGTT@&lt;/span&gt;&lt;/div&gt;</vie>
+<eng>&lt;div class='tile-status-top bg-lightBlue opacity'&gt; &lt;span style='margin-top:15px;font-weight:bold;'&gt;@PHUONGTT@&lt;/span&gt;&lt;/div&gt;</eng>
+</data>
+</Head>

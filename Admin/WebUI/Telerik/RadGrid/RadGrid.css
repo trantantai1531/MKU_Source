@@ -1,0 +1,41 @@
+﻿.RadGrid_Office2010Black th.rgHeader
+{
+    font-size: medium;
+    font-weight: bold;
+    background: #F0A30A none repeat scroll 0 0;
+    text-align: center;
+    color: #000;
+}
+
+.RadGrid_Office2010Black .rgHeader,
+.RadGrid_Office2010Black th.rgResizeCol,
+.RadGrid_Office2010Black .rgFilterRow td,
+.RadGrid_Office2010Black .rgRow td,
+.RadGrid_Office2010Black .rgAltRow td,
+.RadGrid_Office2010Black .rgEditRow td,
+.RadGrid_Office2010Black .rgPager,
+.RadGrid_Office2010Black .rgFooter td
+{
+    border-color: #000000 !important;
+    border-width: 0 0 1px 1px !important;
+    border-style: solid !important;
+}
+
+.RadGrid_Office2010Black .rgPager
+{
+    background: #fff !important;
+}
+
+.RadGrid_Office2010Black .rgMasterTable
+{
+    font-size: medium !important;
+    color: #000;
+    background: #fff !important;
+   
+
+}
+
+    .RadGrid_Office2010Black .rgMasterTable tr:hover
+    {
+        background: #ececec none repeat scroll 0 0;
+    }

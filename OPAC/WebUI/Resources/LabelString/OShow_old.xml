@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spFilterBy</name>
+<vie>Lọc kết quả tìm kiếm bởi...</vie>
+<eng>Filter search results by...</eng>
+</data>
+<data>
+<name>ltrBreadcrumbsInResult</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>divSearchInResult</name>
+<vie>
+                                        &lt;div class="input-control text" data-role="input-control"&gt;
+                                                &lt;input type="text" placeholder="Nhập thông tin tìm kiếm trong tập kết quả của bạn ở đây" id="txtSearchInResult" name="txtSearchInResult" value="" onkeypress="keySearchInResult(event);"/&gt;
+                                                &lt;button class="btn-search" id="btSearchInResult" onclick="searchInResult()" type="button"&gt;&lt;/button&gt;
+			                            &lt;/div&gt;
+		                            </vie>
+<eng>
+                                        &lt;div class="input-control text" data-role="input-control"&gt;
+                                                &lt;input type="text" placeholder="Enter your search here within results" id="txtSearchInResult" name="txtSearchInResult" value="" onkeypress="keySearchInResult(event);"/&gt;
+                                                &lt;button class="btn-search" id="btSearchInResult" onclick="searchInResult()" type="button"&gt;&lt;/button&gt;
+			                            &lt;/div&gt;
+		                            </eng>
+</data>
+<data>
+<name>spOrderBy</name>
+<vie>Sắp xếp</vie>
+<eng>Order by</eng>
+</data>
+<data>
+<name>ltrOrderBy</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>spMyListHeader</name>
+<vie>Danh sách của tôi</vie>
+<eng>My list</eng>
+</data>
+<data>
+<name>spMyList</name>
+<vie>&lt;strong&gt;Tiêu đề: 0&lt;/strong&gt;</vie>
+<eng>&lt;strong&gt;Title: 0&lt;/strong&gt;</eng>
+</data>
+<data>
+<name>spCatalogy</name>
+<vie>Danh mục</vie>
+<eng>Categories</eng>
+</data>
+<data>
+<name>spEDATAContent</name>
+<vie>Đọc nội dung</vie>
+<eng>Read content</eng>
+</data>
+<data>
+<name>spEDATA</name>
+<vie>Dữ liệu điện tử</vie>
+<eng>Electronic data</eng>
+</data>
+<data>
+<name>spURL</name>
+<vie>Địa chỉ truy cập</vie>
+<eng>Address access</eng>
+</data>
+<data>
+<name>spMsgNotFound</name>
+<vie>Không tìm thấy biểu ghi nào.</vie>
+<eng>No records were found.</eng>
+</data>
+<data>
+<name>spItemType</name>
+<vie>Dạng tài liệu</vie>
+<eng>Document type</eng>
+</data>
+<data>
+<name>spISSN</name>
+<vie>ISSN</vie>
+<eng>ISSN</eng>
+</data>
+<data>
+<name>spAuthor</name>
+<vie>Tác giả</vie>
+<eng>Author</eng>
+</data>
+<data>
+<name>spPublisher</name>
+<vie>Nhà xuất bản</vie>
+<eng>Publisher</eng>
+</data>
+<data>
+<name>spKeyWord</name>
+<vie>Từ khóa</vie>
+<eng>Keyword</eng>
+</data>
+<data>
+<name>spSeries</name>
+<vie>Tuyển tập (Series)</vie>
+<eng>Series</eng>
+</data>
+<data>
+<name>spSubjectheading</name>
+<vie>Tiêu đề đề mục</vie>
+<eng>Subject heading</eng>
+</data>
+<data>
+<name>spLanguage</name>
+<vie>Ngôn ngữ</vie>
+<eng>Language</eng>
+</data>
+<data>
+<name>spNLM</name>
+<vie>Phân loại NLM</vie>
+<eng>NLM classification</eng>
+</data>
+<data>
+<name>spDDC</name>
+<vie>Phân loại DDC</vie>
+<eng>DDC classification</eng>
+</data>
+<data>
+<name>spElectronicData</name>
+<vie>Tài liệu điện tử</vie>
+<eng>Electronic Resources</eng>
+</data>
+<data>
+<name>spPublisherYear</name>
+<vie>Năm xuất bản</vie>
+<eng>Publication year</eng>
+</data>
+<data>
+<name>spViewMore</name>
+<vie>Xem nhiều hơn</vie>
+<eng>View more</eng>
+</data>
+<data>
+<name>spViewLess</name>
+<vie>Xem rút gọn</vie>
+<eng>View less</eng>
+</data>
+<data>
+<name>spFilter</name>
+<vie>Lọc - </vie>
+<eng>Filter</eng>
+</data>
+<data>
+<name>spRemoveFilter</name>
+<vie>Bỏ điều kiện lọc này</vie>
+<eng>Remove this filter</eng>
+</data>
+<data>
+<name>spTitleInfo</name>
+<vie>Nhan đề</vie>
+<eng>Title</eng>
+</data>
+<data>
+<name>spPhysicalInfo</name>
+<vie>Mô tả vật lý</vie>
+<eng>Physical Description</eng>
+</data>
+<data>
+<name>spPublisherInfo</name>
+<vie>Thông tin xuất bản</vie>
+<eng>Information published</eng>
+</data>
+<data>
+<name>spRecordItem</name>
+<vie>Mục</vie>
+<eng>Item</eng>
+</data>
+<data>
+<name>spRecordTo</name>
+<vie>đến</vie>
+<eng>to</eng>
+</data>
+<data>
+<name>spRecordOf</name>
+<vie>của</vie>
+<eng>ò</eng>
+</data>
+<data>
+<name>spPreviousPage</name>
+<vie>Trang trước</vie>
+<eng>Previous page</eng>
+</data>
+<data>
+<name>spNextPage</name>
+<vie>Trang tiếp</vie>
+<eng>Next page</eng>
+</data>
+<data>
+<name>spMyListTitle</name>
+<vie>Tiêu đề</vie>
+<eng>Title</eng>
+</data>
+<data>
+<name>spAddToMyList</name>
+<vie>Thêm vào danh sách của tôi</vie>
+<eng>Add to my list</eng>
+</data>
+<data>
+<name>spInMyList</name>
+<vie>Đã trong danh sách của tôi</vie>
+<eng>Already in my list</eng>
+</data>
+<data>
+<name>spInfoSearchInResult</name>
+<vie>Bạn vui lòng nhập thông tin tìm kiếm trong tập kết quả.</vie>
+<eng>Please enter your information in search results</eng>
+</data>
+<data>
+<name>spInfoNotFound</name>
+<vie>Không tìm thấy kết quả tìm kiếm của bạn. Bạn vui lòng thử lại.</vie>
+<eng>No results were found for your search. Please try again</eng>
+</data>
+<data>
+<name>spFilterFor</name>
+<vie>Kết quả tìm kiếm cho: </vie>
+<eng>Search Results for: </eng>
+</data>
+<data>
+<name>raiseFilterInResult</name>
+<vie>raiseFilterInResult</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseFilter</name>
+<vie>raiseFilter</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseShowRecord</name>
+<vie>raiseShowRecord</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseOrderBy</name>
+<vie>raiseOrderBy</vie>
+<eng></eng>
+</data>
+<data>
+<name>raiseDeleteFilterInResult</name>
+<vie>raiseDeleteFilterInResult</vie>
+<eng></eng>
+</data>
+</Head>

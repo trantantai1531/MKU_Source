@@ -1,0 +1,71 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/">
+  <channel>
+    <title>MRSS Playlist</title>
+    <item>
+      <id>1</id>
+      <title>PHẦN 1/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110000356/Tham tu Sherlock Holmes-10.mp3" xmlns:media="schema" />
+      <order>1</order>
+    </item>
+    <item>
+      <id>2</id>
+      <title>PHẦN 2/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110000463/Tham tu Sherlock Holmes-09.mp3" xmlns:media="schema" />
+      <order>2</order>
+    </item>
+    <item>
+      <id>3</id>
+      <title>PHẦN 3/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110000604/Tham tu Sherlock Holmes-08.mp3" xmlns:media="schema" />
+      <order>3</order>
+    </item>
+    <item>
+      <id>4</id>
+      <title>PHẦN 4/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110000689/Tham tu Sherlock Holmes-07.mp3" xmlns:media="schema" />
+      <order>4</order>
+    </item>
+    <item>
+      <id>5</id>
+      <title>PHẦN 5/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110000822/Tham tu Sherlock Holmes-06.mp3" xmlns:media="schema" />
+      <order>5</order>
+    </item>
+    <item>
+      <id>6</id>
+      <title>PHẦN 6/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001138/Tham tu Sherlock Holmes-05.mp3" xmlns:media="schema" />
+      <order>6</order>
+    </item>
+    <item>
+      <id>7</id>
+      <title>PHẦN 7/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001232/Tham tu Sherlock Holmes-04.mp3" xmlns:media="schema" />
+      <order>7</order>
+    </item>
+    <item>
+      <id>8</id>
+      <title>PHẦN 8/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001312/Tham tu Sherlock Holmes-03.mp3" xmlns:media="schema" />
+      <order>8</order>
+    </item>
+    <item>
+      <id>9</id>
+      <title>PHẦN 9/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001372/Tham tu Sherlock Holmes-02.mp3" xmlns:media="schema" />
+      <order>9</order>
+    </item>
+    <item>
+      <id>10</id>
+      <title>PHẦN 10/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001414/Tham tu Sherlock Holmes-01.mp3" xmlns:media="schema" />
+      <order>10</order>
+    </item>
+    <item>
+      <id>11</id>
+      <title>PHẦN 11/11</title>
+      <media:content url="http://localhost/ebooks/2013/7/20130711110001452/Tham tu Sherlock Holmes-00LoiGioiThieu.mp3" xmlns:media="schema" />
+      <order>11</order>
+    </item>
+  </channel>
+</rss>

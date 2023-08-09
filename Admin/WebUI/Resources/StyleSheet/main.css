@@ -1,0 +1,895 @@
+﻿
+@charset "utf-8";
+#divMain {
+    background: #fff none repeat scroll 0 0;
+    min-width: 100%;
+    position: relative;
+    width: 100%;
+}
+#divHeader {
+    background: #333 none repeat scroll 0 0;
+}
+#divBody {
+    min-height: 500px;
+    position: relative;
+   
+}
+#divFooter {
+    background: #333 none repeat scroll 0 0;
+}
+.center-form {
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 100%;
+    padding: 0;
+    position: relative;
+}
+.SSCBarUser {
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.SSCBarUser .BarItem {
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.SSCBarUser .BarUser {
+    position: relative;
+}
+.SSCBar .BarUser .menu-icon {
+    border: medium none;
+    text-decoration: none;
+}
+.SSCNavBar .BarItem {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    position: relative;
+}
+.SSCNavBar .BarItem a {
+    color: #666;
+    text-decoration: none;
+}
+.SSCNavBar .BarItem span {
+    color: #fff;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+.SSCUserBar {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 42px;
+    z-index: 1000;
+}
+.SSCUserBar .InputUserInfo {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #999;
+    margin: 0;
+    width: 300px;
+}
+.SSCUserBar .divPersonal {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.SSCUserBar .divPersonal .NarrowUser {
+    position: absolute;
+    right: 20px;
+    top: -9px;
+}
+.SSCUserBar .divPersonal .PersonalForm {
+    padding: 10px;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalLeft {
+    float: left;
+    width: 25%;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalRight {
+    float: right;
+    text-align: left;
+    width: 70%;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalLeft .UserIcon {
+    background: #d7ffeb none repeat scroll 0 0;
+    color: #090;
+    font-size: 55px;
+    padding: 5px;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalRight h3 {
+    color: #666;
+    font-family: HeadFont;
+    font-size: 150%;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-align: left;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalRight h4 {
+    color: #666;
+    font-size: 13px !important;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalRight a {
+    color: #093;
+    font-size: 13px;
+    text-decoration: none;
+}
+.SSCUserBar .divPersonal .PersonalForm .PersonalRight a:hover {
+    text-decoration: underline;
+}
+.SSCUserBar .InputUserInfo .PersonalOut {
+    background: #ccc none repeat scroll 0 0;
+    padding: 5px;
+    text-align: right;
+}
+.SSCUserBar .InputUserInfo .PersonalOut .LogoutBtn {
+    background: #09c none repeat scroll 0 0;
+    border: 1px solid #ececec;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.FormArrow .NarrowBorder {
+    border-bottom: 8px solid #999;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    height: 0;
+    left: -1px;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+.FormArrow .NarrowBG {
+    border-bottom: 8px solid #fff;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 1px;
+    width: 0;
+}
+.ButtonBar {
+    margin-top: 5px;
+    text-align: right;
+}
+.ButtonBar .bar-left {
+    float: left;
+}
+.bar-left p, .bar-left > div > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.ButtonBar .input-control {
+    display: inline-block !important;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.ButtonBar .bar-right {
+    float: right;
+}
+.ButtonBar a {
+    display: inline-block;
+}
+.ButtonBar .link-btn {
+    background: #f0a30a none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.ButtonBar .link-btn:hover {
+    box-shadow: 0 2px 0 #f63;
+}
+.head-form {
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 1000px;
+    padding: 10px 5px;
+    position: relative;
+}
+.head-form .img-logo {
+    float: left;
+    margin-right: 10px;
+}
+.head-form .img-logo img {
+    height: 50px;
+}
+.head-form .title-logo {
+    float: left;
+}
+.head-form .title-logo h1 {
+    color: #f0a30a;
+    font-family: HeadFont;
+    font-size: 250%;
+    font-weight: normal;
+}
+.menu-form {
+}
+.menu-form .top-menu {
+    background: #f0a30a none repeat scroll 0 0;
+}
+.top-menu .sub-list-menu {
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top-menu .sub-list-menu li {
+    display: inline-block;
+}
+.top-menu .sub-list-menu li a {
+    color: #fff;
+    display: block;
+    font-size: 120%;
+    padding: 10px 25px;
+}
+.top-menu .sub-list-menu li a:hover {
+    background: #666 none repeat scroll 0 0;
+}
+.top-menu .sub-list-menu li .active {
+    background: #333 none repeat scroll 0 0;
+}
+.menu-form .bot-menu {
+    background: #333 none repeat scroll 0 0;
+}
+.bot-menu .sub-list-menu {
+    padding: 0 20px;
+}
+.bot-menu .sub-list-menu li {
+    display: inline-block;
+}
+.bot-menu .sub-list-menu li a {
+    color: #fff;
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+}
+.bot-menu .sub-list-menu .active {
+    color: #f0a30a;
+}
+.bot-menu .sub-list-menu .bot-icon {
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 120%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.bot-menu .sub-list-menu li a:hover {
+    color: #f0a30a;
+}
+.main-body {
+    position: relative;
+    padding: 0 1%;
+}
+.content-form {
+    position: relative;
+}
+.main-form {
+    margin-bottom: 20px;
+    
+}
+.main-form:last-child {
+    margin-bottom: 0;
+}
+
+.main-head-form {
+    color: #f0a30a;
+    font-family: HeadFont;
+    font-size: 183%;
+    font-weight: normal;
+    margin: 3px 0 6px;
+}
+
+span#lblRectStat {
+    margin-left: 23px;
+}
+.main-group-form {
+    background: #aacfea none repeat scroll 0 0;
+    color: #000;
+    display: inline-block;
+    font-family: HeadFont;
+    font-size: 150%;
+    font-weight: normal;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 4px 2% 7px;
+    width: 94%;
+}
+.row-detail .main-group-form {
+      margin-left: 0;
+    margin-right: 0;
+}
+
+
+.control-row {
+}
+.control-row .row-detail {
+    padding: 10px 0;
+}
+.two-column {
+}
+.two-column .two-column-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    float: left;
+    min-height: 50px;
+}
+
+.two-column-form:first-child {
+    padding-right: 2%;
+}
+.three-column {
+    margin-bottom: 10px;
+}
+.three-column .three-column-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+}
+.middle {
+    vertical-align: middle;
+}
+.top {
+    vertical-align: top;
+}
+.row-detail:last-child {
+    margin-bottom: 0;
+}
+.two-column .row-detail:last-child {
+    border-bottom: medium none;
+}
+.two-column .row-detail p {
+    margin-bottom: 5px;
+    margin-right: 1.5%;
+    vertical-align: middle;
+}
+.row-detail p a {
+    color: #f0a30a;
+    font-style: italic;
+}
+.row-detail p a:hover {
+    text-decoration: underline;
+     color: #f0a30a !important;
+}
+.two-column .row-detail .checkbox-control, .two-column .row-detail .radio-control {
+    display: inline-block;
+    min-height: 30px;
+    vertical-align: middle;
+}
+.two-column .label-form {
+    width: 100%;
+}
+.table-form {
+    margin: 10px 0;
+}
+.table-form table {
+    border: 1px solid #666;
+    border-collapse: collapse;
+   
+}
+#dtgEducation {
+     margin-top: 12px;
+}
+#dtgCollege {
+    margin-bottom: 27px;
+}
+.table-form td {
+    color: #444;
+    height: 30px;
+    padding: 5px;
+    position: relative;
+    border: 1px solid #666;
+}
+.col-auto {
+    overflow-x: auto;
+}
+.col-auto .first-col {
+    border: medium none;
+    display: block;
+    width: 250px;
+}
+.col-auto td {
+    min-width: 100px;
+}
+.table-form tr:hover {
+    background: #ececec none repeat scroll 0 0;
+}
+
+
+.table-form .lbGridHeader td {
+    padding: 8px 20px;
+        font-weight: bold;
+}
+
+.lbgridheader td a {
+    color: #444;
+}
+.table-form .row-total {
+    background: #ececec none repeat scroll 0 0;
+    color: #000;
+    font-family: WebFont
+}
+.table-form .row-head:hover,.table-form .lbGridHeader:hover {
+    background: #f0a30a none repeat scroll 0 0;
+}
+.table-form .row-second {
+    background-color: #fafafa;
+}
+.table-form .group-row {
+    background: #ccc none repeat scroll 0 0;
+}
+.table-form .group-row:hover {
+    background: #ccc none repeat scroll 0 0;
+}
+.table-form h3 {
+    font-family: HeadFont;
+    font-size: 160%;
+    font-weight: normal;
+}
+.table-form .link-control {
+    color: #f0a30a;
+    text-decoration: none;
+}
+.table-form .link-control:hover {
+    text-decoration: underline;
+}
+.table-form .table-link-btn {
+    color: #f0a30a;
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+}
+.table-form .table-link-btn:hover {
+    text-decoration: underline;
+}
+.table-form .table-btn {
+    background: #f0a30a none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 10px;
+    vertical-align: top;
+}
+.table-form .table-btn:hover {
+    box-shadow: 0 2px 0 #f0a30a;
+}
+.icon-history {
+    color: #000000;
+}
+.table-form .button-form {
+    
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.table-form .button-form:hover {
+    
+}
+.table-form .button-form .btn-icon {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.table-form .button-form .btn-value {
+    padding: 5px 10px 5px 35px;
+}
+.table-form .button-form .btn-value span {
+    font-size: 120%;
+    left: 10px;
+    position: absolute;
+    top: 5px;
+}
+.text-column-2 {
+    -moz-column-count: 2;
+    -moz-column-gap: 30px;
+    /*padding-top: 5em;*/
+}
+.main-page {
+    padding: 0 1%;
+}
+.main-page p {
+    margin-bottom: 10px;
+}
+.main-page ul {
+    margin-top: 20px;
+}
+.main-page .group-menu {
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    width: 98%;
+    float: left;
+}
+.group-menu a {
+    color: #f0a30a;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 100%;
+    float: left;
+    
+}
+
+
+.group-left .column-item {
+    min-height: 230px;
+}
+.group-menu p {
+    width: 95%;
+    float: left;
+    
+}
+.group-menu a:hover {
+    text-decoration: underline;
+    color: #f0a30a !important;
+}
+.error-page {
+  
+      background: #ececec none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.error-form {
+    margin-top: -130px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.error-head {
+    text-align: center;
+}
+.error-head h3 {
+    color: #f93;
+    font-family: HeadFont;
+    font-size: 250%;
+    font-weight: normal;
+}
+.error-head span {
+    color: #f93;
+    display: block;
+    font-size: 900%;
+    margin: 20px 0;
+}
+.error-note {
+    color: #333;
+    font-size: 120%;
+    text-align: center;
+}
+.error-note p {
+    margin-bottom: 10px;
+}
+.error-note a {
+    color: #f93;
+    text-decoration: none;
+}
+.error-note a:hover {
+    text-decoration: underline;
+}
+.footer-form {
+    min-width: 320px;
+    padding: 20px 5px;
+    position: relative;
+}
+.footer-form .footer-info {
+}
+.footer-form .footer-info h5 {
+    color: #fff;
+    font-size: 90%;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.footer-form .footer-info a {
+    color: #f0a30a;
+    text-decoration: none;
+}
+.footer-form .footer-info a:hover {
+    text-decoration: underline;
+}
+.footer-form .footer-info span {
+    margin: 0 10px;
+}
+.show-form-view {
+    background: #fdfdc9 none repeat scroll 0 0;
+    border: 1px solid gainsboro;
+    display: -moz-deck;
+}
+a.menu-link {
+    display: none;
+}
+a.menu-link2 {
+    display: none;
+}
+.top-menu .sub-list-menu .active {
+    display: block;
+}
+@media screen and (max-width: 980px) {
+a.menu-link {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: gold;
+    display: block;
+    float: right;
+    font-size: 15px;
+    padding: 0.8em;
+}
+a.menu-link2 {
+    display: block;
+}
+a.menu-link2 {
+    background: #fff none repeat scroll 0 0;
+    border-radius: 5px;
+    color: gold;
+    display: block;
+    float: right;
+    font-size: 15px;
+    padding: 0.8em;
+}
+a.menu-link {
+    display: block;
+}
+.head-submenu {
+    margin-top: 1em;
+}
+.js .top-menu .sub-list-menu[role="navigation"] {
+    max-height: none;
+}
+.top-menu .sub-list-menu[role="navigation"] ul {
+    border: 0 none;
+    margin: 0 0 0 -0.25em;
+}
+.top-menu .sub-list-menu[role="navigation"] li {
+    display: inline-block;
+    margin: 0 0.25em;
+}
+.top-menu .sub-list-menu[role="navigation"] li a {
+    border: 0 none;
+}
+.bot-menu .sub-list-menu li {
+    display: inline-block;
+    width: 49%;
+}
+}
+@media only screen and (max-width: 680px) {
+.active_menutop {
+    display: none;
+}
+.active_menutop .active {
+    display: block;
+}
+.head-submenu {
+    clear: both;
+    margin-top: 1em;
+    transition: all 0.3s ease-out 0s;
+}
+.dropdown-top-menu {
+    background: #f3f3da none repeat scroll 0 0;
+    display: inline-block;
+    float: right;
+    padding: 0.8em;
+}
+.top-menu .sub-list-menu li {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    width: 100%;
+}
+.bot-menu .sub-list-menu li {
+    display: inline-block;
+    width: 100%;
+}
+.three-column .three-column-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+}
+@media only screen and (max-width: 980px) {
+.head-form .img-logo {
+    float: inherit;
+    margin-right: 10px;
+    max-width: 100%;
+}
+.SSCBarUser {
+    display: block;
+    float: right;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.head-form .title-logo {
+    float: left;
+    max-width: 100%;
+}
+.active_menutop {
+    display: none;
+}
+.active_menutop.active {
+    display: block;
+}
+.head-submenu {
+    clear: both;
+    margin-top: 1em;
+    transition: all 0.3s ease-out 0s;
+}
+.dropdown-top-menu {
+    background: #f3f3da none repeat scroll 0 0;
+    display: inline-block;
+    float: right;
+    padding: 0.8em;
+}
+.top-menu .sub-list-menu li {
+    border-bottom: 1px solid #fff;
+    display: inline-block;
+    width: 100%;
+}
+#divMain {
+    background: #fff none repeat scroll 0 0;
+    min-width: auto;
+    position: relative;
+    width: 100%;
+}
+.center-form {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+}
+.head-form {
+    margin: 0 auto;
+    max-width: 100%;
+    padding:30px 0;
+    position: relative;
+}
+.two-column .two-column-form {
+    width: 100%;
+}
+.three-column .three-column-form {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+.text-column-2 {
+    -moz-column-count: 1;
+    -moz-column-gap: 30px;
+    padding-top: 1em;
+}
+.col-left-2 {
+    float: left;
+    width: 99%;
+}
+.col-right-8 {
+    float: right;
+    width: 97%;
+}
+}
+/*WSetSysParam*/
+/*WIndexLog*/
+.indexlog .group-menu a
+{
+    display:block;
+}
+
+.lbGroupTitle b {
+   color: black;
+    font-family: none;
+}
+/*WViewLog*/
+#lnkSearch{
+      float: right;
+  font-size: 15px;
+  font-family: 'WebFont';
+  padding: 2px 10px;
+}
+/*WViewItemOrder*/
+
+table#tblMon1 {}
+
+.lbCalendar tr:first-child td {
+    color: #e2e2e2;    text-align: center;    
+    border-top: 1px solid #333 !important;    border-bottom: 1px solid #645C5C;    -webkit-box-shadow: inset -1px 1px 1px 0px rgba(103, 102, 102, 1);    
+    box-shadow: inset 0px 1px 1px 0px rgba(103, 102, 102, 1);
+}
+
+#tblCalendar .lbCalendar {
+    border-top: 2px solid #fff;
+    outline: none;
+    height: 215px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#tblCalendar td {
+    border: none;
+    padding: 0px;
+    vertical-align: top;
+    display: inline-block;
+    background-color: #eee;
+    border: none;
+}
+
+td.excheckbox span {
+    clear: both;    
+    font-size: 11px;
+    display: inline-block;    position: relative;    
+    width: 100%;    
+    padding: 0px;
+    min-height: 35px;
+    text-align: center;
+    line-height: 28px;    
+    margin: 0px;
+    color: #666;    background-image: -webkit-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);    background-image: -moz-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);    background-image: -o-linear-gradient(top, #eaeaea, #e5e5e5 60%, #d9d9d9);    background-image: linear-gradient(to bottom, #eaeaea, #e5e5e5 60%, #d9d9d9);    -webkit-box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+#tblCalendar tr:first-child td {
+    background-color: #000;
+    color: white;
+    line-height: 30px;
+    /* color: #e2e2e2; */    
+    /* text-align: center; */    
+    /* border-top: 1px solid #333; */    
+    /* border-bottom: 1px solid #645C5C; */    
+    /* -webkit-box-shadow: inset -1px 1px 1px 0px rgba(103, 102, 102, 1); */    
+    /* box-shadow: inset -1px 1px 1px 0px rgba(103, 102, 102, 1); */
+}
+
+#tblCalendar {
+    border: #ddd;
+}
+
+#tblcalendar input[type="checkbox"]::before,#tblcalendar input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    padding: 0px;
+}
+
+#tblParams .lbCheckBox > input {
+    margin-left: 3px;
+}
+#tblParams .lbGridAlterCell select {
+    width: 100%;
+}
+#tblParams .lbGridCell select {
+    width: 100%;
+}
+.input-form  select {
+    width: 100%;
+    border: none;
+}
+#lblPreview a:hover {
+    color: black;
+    text-decoration: none;
+}
+tr.lbGridHeader, tr.lbTrPageTitle{
+    background-color: #BEDAEF;
+}
+.table-form .row-head:hover, .table-form .lbGridHeader:hover {
+    background: #BEDAEF none repeat scroll 0 0;
+}
+.lbButton:hover {
+    background: #1D24FB none repeat scroll 0 0 !important;
+    color: white !important;
+    border: none;
+    box-shadow:none;
+}
+.form-btn, .lbButton {
+    background: #BEDAEF none repeat scroll 0 0;
+    border-radius: 5px;
+    border: none;
+    color: #2061a3;
+    cursor: pointer;
+    display: inline-block;
+    padding: 5px 6px;
+    vertical-align: top;
+    min-width: 45px;
+}

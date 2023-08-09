@@ -1,0 +1,14 @@
+&langNextPage=Next Page
+&langPrevPage=Previous Page
+&langZoomBestFit=Zoom Best Fit
+&langZoomIn=Zoom.In
+&langZoomOut=Zoom.Out
+&langFullScreen=Full Screen
+&langExitFullScreen=Exit Full Screen
+&langZoomIn=zoom in
+&langZoomOut=zoom out
+&langSearch=Search
+&langClearSearch=Clear search
+&langZoomShowAll=Zoom Show All
+&langCopyClip=Copy To Clipboard
+&langPrint=Print

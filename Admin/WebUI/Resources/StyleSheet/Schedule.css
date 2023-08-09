@@ -1,0 +1,116 @@
+﻿
+@font-face {
+    font-family: "WebFont";
+    src: url("../fonts/segoeui.ttf");
+}
+
+@font-face {
+    font-family: "HeadFont";
+    src: url("../fonts/UTMBebas.ttf");
+}
+
+@font-face {
+    font-family: "BoldFont";
+    src: url("../fonts/seguisb.ttf");
+}
+body {
+    font-family: WebFont;
+    font-size: 15px;
+    overflow-x: hidden;
+    position: relative;
+    background-color: white;
+}
+ tr.lbCalendarDay .lbLabel {
+            background: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, header, footer {
+            line-height: inherit !important;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: WebFont;
+            overflow-x: hidden;
+            position: relative;
+            background-color: white;
+        }
+
+        .inline-box .input-control {
+            display: inline-block !important;
+            vertical-align: bottom;
+        }
+
+        .row-detail .inline-box > div {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .input-control .dropdown-form {
+            background: white none repeat scroll 0 0;
+            border: 1px solid #999;
+            height: 25px;
+            padding: 2px 5px;
+        }
+
+            .input-control .dropdown-form > select {
+                background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+                border: medium none;
+                cursor: pointer;
+                font-size: 110%;
+                height: 25px;
+                width: 100% !important;
+            }
+
+        .row-detail.inline-box {
+            margin-bottom: 17px;
+            margin-top: 15px;
+        }
+
+
+        .form-btn, .lbButton {
+            background: #f0a30a none repeat scroll 0 0;
+            border: 1px solid #f0a30a !important;
+            border-radius: 5px;
+            color: white;
+            display: inline-block;
+            margin-bottom: 15px;
+            margin-right: 2px;
+            min-height: 30px;
+            padding: 8px 10px;
+            position: relative;
+            vertical-align: top;
+            width: 97px;
+        }
+
+            .form-btn, .lbButton:hover {
+                background: #f0a30a none repeat scroll 0 0;
+                color: white;
+                box-shadow:0 2px 0 #f63
+            }
+
+        .button-form a.lbLinkFunction {
+            color: #aacfea;
+            text-decoration: none;
+        }
+
+            .button-form a.lbLinkFunction:hover {
+                color: #1D24FB;
+                text-decoration: none;
+            }
+
+        .lbCheckBox > input {
+            float: right;
+            margin-right: 15px;
+        }
+
+        .excheckbox label {
+        }
+        
+.input-form .area-input {
+    color: #666;
+    font-size: 110%;
+}

@@ -1,0 +1,59 @@
+.slider
+{
+	background-color:#f2f2f2;
+}
+.ticks
+{
+	margin-top:19px;
+	height:3px;
+	width:2px;
+	background-color:#dddddd;
+}
+.grip 
+{
+	background-image:url('images/grip.png');
+	height:19px;
+	width:11px;
+	cursor: pointer;
+	cursor: hand;
+	z-index:1;
+}
+.grip_hover
+{
+	background-image:url('images/grip_hover.png');
+	height:19px;
+	width:11px;
+	cursor: pointer;
+	cursor: hand;
+	z-index:1;
+}
+.track
+{
+	background-image:url('images/track.gif');
+	height:30px;
+	cursor: pointer;
+	cursor: hand;
+}
+.decrease_track
+{
+	background-image:url('images/decrease_track.gif');
+	height:30px;
+	cursor: pointer;
+	cursor: hand;
+}
+.decrease
+{
+	background-image:url('images/decrease.gif');
+	width:12px;
+	height:30px;
+	cursor: pointer;
+	cursor: hand;
+}
+.increase
+{
+	background-image:url('images/increase.gif');
+	width:12px;
+	height:30px;
+	cursor: pointer;
+	cursor: hand;
+}

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitleResult</name>
+<vie>KẾT QUẢ TÌM KIẾM</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumResultCap</name>
+<vie>Tìm thấy</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSumResultVal</name>
+<vie>0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblRec</name>
+<vie>biểu ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDown</name>
+<vie>Tải biểu ghi</vie>
+<eng></eng>
+</data>
+<data>
+<name>imgbtnDownload</name>
+<vie>images\downloadsmall.gif</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPageAction</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>btnPre</name>
+<vie>Trang trước(t)</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnNext</name>
+<vie>Trang tiếp (p)</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgResult</name>
+<vie>STT|+|Chọn|+|Thông tin ấn phẩm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNotFound</name>
+<vie>Không tìm thấy biểu ghi nào !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMSG</name>
+<vie>Quá giới hạn download !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDesPhy</name>
+<vie>Mô tả vật lý</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDesPub</name>
+<vie>Thông tin XB</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDesCop</name>
+<vie>Thông tin xếp giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDesTit</name>
+<vie>Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDownLoad</name>
+<vie>Chưa chọn biểu ghi nào download</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblControlNumber</name>
+<vie>Số định danh</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbldownload1</name>
+<vie>File dính kèm:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Tác giả|+|1|+|Chỉ số phân loại BBK|+|2|+|Chỉ số phân loại DDC|+|3|+|Chỉ số phân loại UDC|+|4|+|Chỉ số phân loại NSC|+|5|+|Từ khoá|+|6|+|Tiêu đề đề mục|+|7|+|Ấn phẩm chưa sẵn sàng phục vụ bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMucluc</name>
+<vie>Mục lục:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLocationTitle</name>
+<vie>Thông tin kho</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalItem</name>
+<vie>Tổng số bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVolumeLTitle</name>
+<vie>Số bản đóng tập</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVolumeL</name>
+<vie>bản</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblIssueTitle</name>
+<vie>Số:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblVolumeP</name>
+<vie>Tập:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSpecialName</name>
+<vie>Tên đặc biệt</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSummary</name>
+<vie>Tóm tắt</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbltt</name>
+<vie>Tóm tắt:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblIssueDate</name>
+<vie>Ngày phát hành: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPhysDetail</name>
+<vie>Ðặc trưng số lượng </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSpecialTitle</name>
+<vie>Tên số đặc biệt </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCopyNumberTitle</name>
+<vie>Xếp giá</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDKCB</name>
+<vie>ÐKCB</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNoCoyNumber</name>
+<vie>Không có ÐKCB</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPage</name>
+<vie>tr</vie>
+<eng></eng>
+</data>
+</Head>

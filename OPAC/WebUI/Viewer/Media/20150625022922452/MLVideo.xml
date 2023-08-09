@@ -1,0 +1,23 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:jwplayer="http://developer.longtailvideo.com/trac/">
+  <channel>
+    <title>MRSS Playlist</title>
+    <item>
+      <id>1</id>
+      <creator>
+      </creator>
+      <title>PHẦN 1/2</title>
+      <media:content url="D:/Noidungso/Ebooks/2015/6/20150625022922452/Phuong_phap_gian_do_vecto_P1_Thay_Nguyen_Anh_Vinh_va_Thay_Chu_Van_Bien.flv" xmlns:media="schema" />
+      <description> Phương pháp giản đồ véc-tơ</description>
+      <jwplayer:duration xmlns:jwplayer="duration">rsion r21343-www.DVDVideoSoft.com</jwplayer:duration>
+    </item>
+    <item>
+      <id>2</id>
+      <creator>
+      </creator>
+      <title>PHẦN 2/2</title>
+      <media:content url="D:/Noidungso/Ebooks/2015/6/20150625023058236/Phuong_phap_gian_do_vecto_P2_Thay_Nguyen_Anh_Vinh_va_Thay_Chu_Van_Bien.flv" xmlns:media="schema" />
+      <description> Phương pháp giản đồ véc-tơ</description>
+      <jwplayer:duration xmlns:jwplayer="duration">rsion r21343-www.DVDVideoSoft.com</jwplayer:duration>
+    </item>
+  </channel>
+</rss>

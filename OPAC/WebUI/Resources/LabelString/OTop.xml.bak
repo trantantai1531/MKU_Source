@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>spLoginLogout</name>
+<vie>Đăng nhập</vie>
+<eng>Login</eng>
+</data>
+<data>
+<name>spSearch</name>
+<vie>Tìm kiếm</vie>
+<eng>Search</eng>
+</data>
+<data>
+<name>spSearchAdvance</name>
+<vie>&lt;i class="icon-target-2"&gt;&lt;/i&gt; Tìm kiếm nâng cao</vie>
+<eng>&lt;i class="icon-target-2"&gt;&lt;/i&gt; Advanced Search</eng>
+</data>
+<data>
+<name>spSearchZ3950</name>
+<vie>&lt;i class="icon-cloud-2"&gt;&lt;/i&gt; Tìm kiếm Z39.50</vie>
+<eng>&lt;i class="icon-cloud-2"&gt;&lt;/i&gt; Search Z39.50</eng>
+</data>
+<data>
+<name>spMyInfo</name>
+<vie>Thông tin của tôi</vie>
+<eng>My Information</eng>
+</data>
+<data>
+<name>spBrowseTo</name>
+<vie>Duyệt theo</vie>
+<eng>Browse by</eng>
+</data>
+<data>
+<name>spBrowseByCollection</name>
+<vie>&lt;i class="icon-cabinet"&gt;&lt;/i&gt; Bộ sưu tập</vie>
+<eng>&lt;i class="icon-cabinet"&gt;&lt;/i&gt; Collection</eng>
+</data>
+<data>
+<name>spBrowseByCategory</name>
+<vie>&lt;i class="icon-tree-view"&gt;&lt;/i&gt; Danh mục</vie>
+<eng>&lt;i class="icon-tree-view"&gt;&lt;/i&gt; Category</eng>
+</data>
+<data>
+<name>spBrowseBySubjectHeading</name>
+<vie>&lt;i class="icon-glasses-2"&gt;&lt;/i&gt; Tiêu đề đề mục</vie>
+<eng>&lt;i class="icon-glasses-2"&gt;&lt;/i&gt; Suject Heading</eng>
+</data>
+<data>
+<name>spBrowseByKeyword</name>
+<vie>&lt;i class="icon-target"&gt;&lt;/i&gt; Từ khóa</vie>
+<eng>&lt;i class="icon-target"&gt;&lt;/i&gt; Keyword</eng>
+</data>
+<data>
+<name>spBrowseByTitle</name>
+<vie>&lt;i class="icon-type"&gt;&lt;/i&gt; Nhan đề</vie>
+<eng>&lt;i class="icon-type"&gt;&lt;/i&gt; Title</eng>
+</data>
+<data>
+<name>spBrowseByAuthor</name>
+<vie>&lt;i class="icon-user-3"&gt;&lt;/i&gt; Tác giả</vie>
+<eng>&lt;i class="icon-user-3"&gt;&lt;/i&gt; Author</eng>
+</data>
+<data>
+<name>spBrowseByPublisherYear</name>
+<vie>&lt;i class="icon-calendar"&gt;&lt;/i&gt; Năm xuất bản</vie>
+<eng>&lt;i class="icon-calendar"&gt;&lt;/i&gt; Publication year</eng>
+</data>
+<data>
+<name>spBrowseByPublisher</name>
+<vie>&lt;i class="icon-award-fill"&gt;&lt;/i&gt; Nhà xuất bản</vie>
+<eng>&lt;i class="icon-award-fill"&gt;&lt;/i&gt; Publisher </eng>
+</data>
+<data>
+<name>spBrowseByDocType</name>
+<vie>&lt;i class="icon-cube"&gt;&lt;/i&gt; Dạng tài liệu</vie>
+<eng>&lt;i class="icon-cube"&gt;&lt;/i&gt; Document type </eng>
+</data>
+<data>
+  <name>spBrowseByDocType</name>
+  <vie>&lt;i class="icon-rocket"&gt;&lt;/i&gt; Tài liệu điện tử</vie>
+  <eng>&lt;i class="icon-rocket"&gt;&lt;/i&gt; Electronic data </eng>
+</data>
+<data>
+<name>spLibraryInfo</name>
+<vie>Thông tin thư viện</vie>
+<eng>Library Information</eng>
+</data>
+<data>
+<name>spNews</name>
+<vie>&lt;i class="icon-newspaper"&gt;&lt;/i&gt; Tin tức</vie>
+<eng>&lt;i class="icon-newspaper"&gt;&lt;/i&gt; News</eng>
+</data>
+<data>
+<name>spLinkSite</name>
+<vie>&lt;i class="icon-anchor"&gt;&lt;/i&gt; Website hữu ích</vie>
+<eng>&lt;i class="icon-anchor"&gt;&lt;/i&gt; Weblinks</eng>
+</data>
+<data>
+<name>spHome</name>
+<vie>Trang chủ</vie>
+<eng>Home</eng>
+</data>
+<data>
+<name>divSearch</name>
+<vie>
+                                 &lt;input type="text" placeholder="Nhập thông tin tìm kiếm của bạn ở đây" id="txtSearch" name="txtSearch" value="" style="width:400px;"/&gt;
+				                 &lt;button class="btn-search" id="btSearch" onclick="clickSearch()"&gt;&lt;/button&gt;
+			                </vie>
+<eng>
+                                 &lt;input type="text" placeholder="Enter your search here" id="txtSearch" name="txtSearch" value="" style="width:400px;"/&gt;
+				                 &lt;button class="btn-search" id="btSearch" onclick="clickSearch()"&gt;&lt;/button&gt;
+			                </eng>
+</data>
+<data>
+<name>spRecordByPrint</name>
+<vie>Tài liệu in (Biên mục)</vie>
+<eng>Print document (Cataloging)</eng>
+</data>
+<data>
+<name>spRecordByEbooks</name>
+<vie>Tài liệu số (Toàn văn)</vie>
+<eng>Digital document (Fulltext)</eng>
+</data>
+<data>
+<name>spLibrary</name>
+<vie>&lt;strong&gt;Thư viện cở sở II - Tp. Hồ Chí Minh&lt;/strong&gt;</vie>
+<eng>&lt;strong&gt;Campus II library - Ho Chi Minh City&lt;/strong&gt;</eng>
+</data>
+<data>
+<name>spAccount</name>
+<vie>Xin chào, khách!</vie>
+<eng>Hello, guest</eng>
+</data>
+<data>
+<name>spLogin</name>
+<vie>Đăng nhập</vie>
+<eng>Login</eng>
+</data>
+<data>
+<name>spLogout</name>
+<vie>Đăng xuất</vie>
+<eng>Logout</eng>
+</data>
+<data>
+<name>spHello</name>
+<vie>Xin chào,</vie>
+<eng>Hello,</eng>
+</data>
+<data>
+<name>spGuest</name>
+<vie>Khách</vie>
+<eng>guest</eng>
+</data>
+<data>
+<name>spInputEmpty</name>
+<vie>Bạn vui lòng nhập nhập vào thông tin tìm kiếm.</vie>
+<eng>You enter information into search.</eng>
+</data>
+<data>
+<name>spLanguageVietNamese</name>
+<vie>Tiếng Việt</vie>
+<eng>Vietnamese</eng>
+</data>
+<data>
+<name>spLanguageEnglish</name>
+<vie>Tiếng Anh</vie>
+<eng>English</eng>
+</data>
+<data>
+<name>spWaiting</name>
+<vie>Xin vui lòng đợi trong chốc lát...</vie>
+<eng>Please wait a moment...</eng>
+</data>
+<data>
+<name>raiseLogout</name>
+<vie>raiseLogout</vie>
+<eng></eng>
+</data>
+</Head>

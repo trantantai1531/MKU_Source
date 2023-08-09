@@ -1,0 +1,4 @@
+﻿<tabs>
+  <tab Text="Field catalogue" Look-LeftIconUrl="alacarte.png" SelectedLook-LeftIconUrl="alacarte.png" />
+  <tab Text="Folder save e-book" Look-LeftIconUrl="folder-open.png" SelectedLook-LeftIconUrl="folder-open.png" />
+</tabs>

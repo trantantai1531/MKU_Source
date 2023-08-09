@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitle</name>
+<vie>Chuyển tải file</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRoot1</name>
+<vie>Trang tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbspace</name>
+<vie>&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRoot2</name>
+<vie>Danh sách</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbspace1</name>
+<vie>&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkRoot3</name>
+<vie>Định dạng</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDownload1</name>
+<vie>Nếu hộp thoại tải file về không hiện ra bạn hãy nhấn </vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkGetIt</name>
+<vie>vào đây</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDownload2</name>
+<vie> để lấy lại.</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgSavedList</name>
+<vie>Các tài liệu hiển thị được hiển thị ở dạng:</vie>
+<eng></eng>
+</data>
+<data>
+<name>ddlLabel</name>
+<vie>0|+|Chuyển tải file|+|1|+|Hiển thị tài liệu|+|2|+|Chuyển tải tài liệu.|+|3|+|Không gửi thư được!|+|4|+|Gửi thư thành công !|+|5|+|Gửi thư.</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>divFooter</name>
+<vie>
+             &lt;address style="margin:8px auto;"&gt;
+        	    &lt;strong&gt;Công Ty Cổ Phần Công Nghệ DGSoft © eMicLib 2015. All Rights Reserved&lt;/strong&gt;&lt;br /&gt;
+                &lt;span class="icon-address-book fg-lightBlue"&gt;&lt;/span&gt;: 138/7 Duy Tân, Phường 15, Quận Phú Nhuận, TP Hồ Chí Minh&lt;br /&gt;
+                &lt;span class="icon-phone fg-lightBlue"&gt;&lt;/span&gt;: (84-8 3 847 5821)&lt;br /&gt;
+                &lt;span class="icon-mail fg-lightBlue"&gt;&lt;/span&gt;: &lt;a href="mailto:info@dgsoft.vn"&gt;info@dgsoft.vn&lt;/a&gt;
+            &lt;/address&gt;
+        </vie>
+<eng>
+		&lt;address style="margin:8px auto;"&gt;
+        	    &lt;strong&gt;DGSoft Technologies JSC © eMicLib 2015. All Rights Reserved&lt;/strong&gt;&lt;br /&gt;
+                &lt;span class="icon-address-book fg-lightBlue"&gt;&lt;/span&gt;: 138/7 Duy Tan Street, 15 Ward, Phu Nhuan District, Ho Chi Minh City&lt;br /&gt;
+                &lt;span class="icon-phone fg-lightBlue"&gt;&lt;/span&gt;: (84-8 3 847 5821)&lt;br /&gt;
+                &lt;span class="icon-mail fg-lightBlue"&gt;&lt;/span&gt;: &lt;a href="mailto:info@dgsoft.vn"&gt;info@dgsoft.vn&lt;/a&gt;
+            &lt;/address&gt;
+</eng>
+</data>
+</Head>

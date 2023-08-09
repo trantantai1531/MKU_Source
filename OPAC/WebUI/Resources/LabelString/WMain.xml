@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitle</name>
+<vie>
+													CHÀO MỪNG TỚI THƯ VIỆN</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalSingleItems</name>
+<vie>Tổng số ấn phẩm đơn bản: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalSingleItemsValue</name>
+<vie>
+														&lt;b&gt;0&lt;/b&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalCopyNumberItems</name>
+<vie>Tổng số xếp giá: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalCopyNumberItemsValue</name>
+<vie>
+														&lt;b&gt;0&lt;/b&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalSerialItems</name>
+<vie>Tổng số ấn phẩm định kỳ: </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTotalSerialItemsValue</name>
+<vie>
+														&lt;b&gt;0&lt;/b&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblNewItems</name>
+<vie>Những ấn phẩm mới có trong thư viện:</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrNewItems</name>
+<vie>STT|+|Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblViewDetail</name>
+<vie>Xem thêm...</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTop5</name>
+<vie>5</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblItems</name>
+<vie>ấn phẩm được mượn nhiều nhất trong</vie>
+<eng></eng>
+</data>
+<data>
+<name>lbl365</name>
+<vie>365  </vie>
+<eng></eng>
+</data>
+<data>
+<name>lblDays</name>
+<vie>ngày qua:</vie>
+<eng></eng>
+</data>
+<data>
+<name>dgrStatisticTop</name>
+<vie>STT|+|Nhan đề</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPoweredByeMicLib60</name>
+<vie>Powered By eMicLib6.0</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSearch</name>
+<vie>&lt;b&gt;Tì&lt;u&gt;m&lt;/u&gt;&lt;/b&gt;:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnSearch</name>
+<vie>Tìm(t)</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTutor</name>
+<vie>Gõ điều kiện tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>optItemInLibrary</name>
+<vie>Sách trong thư &lt;u&gt;v&lt;/u&gt;iện</vie>
+<eng></eng>
+</data>
+<data>
+<name>optItemILL</name>
+<vie>Ấ&lt;u&gt;n&lt;/u&gt; phẩm điện tử</vie>
+<eng></eng>
+</data>
+<data>
+<name>optItemVinaseek</name>
+<vie>Vina See&lt;u&gt;k&lt;/u&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>optItemGoogle</name>
+<vie>Go&lt;u&gt;o&lt;/u&gt;gle</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronPage</name>
+<vie>Trang bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lnkPatronPage</name>
+<vie>Trang bạn đọc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNumber</name>
+<vie>Số th&lt;u&gt;ẻ&lt;/u&gt;:</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPassword</name>
+<vie>Mật khẩ&lt;u&gt;u&lt;/u&gt;:</vie>
+<eng></eng>
+</data>
+<data>
+<name>btnPatronLogon</name>
+<vie> Nhập(a)</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfSetPassword</name>
+<vie>Đặt mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfForgotPassword</name>
+<vie>Quên mật khẩu</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfPatronInfo</name>
+<vie>Trang cá nhân</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMessage</name>
+<vie>&lt;b&gt;LỊCH 
+														LÀM VIỆC: &lt;/b&gt;
+												</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCurrentmonth</name>
+<vie>10
+												</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfCurrentyear</name>
+<vie>2004</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSun</name>
+<vie>Sun</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblMon</name>
+<vie>Mon</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTue</name>
+<vie>Tue</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblWed</name>
+<vie>Wed</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblThu</name>
+<vie>Thu</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFri</name>
+<vie>Fri</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSat</name>
+<vie>Sat</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblViewCalendar</name>
+<vie>Vùng hiển thị lịch</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLocation</name>
+<vie>&lt;b&gt;K&lt;u&gt;h&lt;/u&gt;o:&lt;/b&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfZ3950</name>
+<vie>Z39.50</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblZ3950</name>
+<vie>Tìm tài liệu trong các thư viện trực tuyến</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfILL</name>
+<vie>ILL</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblILL</name>
+<vie>Mượn tài liệu ở các thư viện khác</vie>
+<eng></eng>
+</data>
+<data>
+<name>hrfFeedBack</name>
+<vie>Góp ý</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblFeedBack</name>
+<vie>Đóng góp ý kiến cho thư viện</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSelectLocation</name>
+<vie>---Chọn kho---</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblCardNumberAlert</name>
+<vie>Số thẻ là bắt buộc</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblSearchAlert</name>
+<vie>Chưa nhập điều kiện tìm kiếm</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblLoginPatron</name>
+<vie>Tên hoặc mật khẩu không hợp lệ!</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronLocked</name>
+<vie>Hiện tại thẻ này đang bị khoá !</vie>
+<eng></eng>
+</data>
+<data>
+<name>lblPatronExpired</name>
+<vie>Hiện tại thẻ này đã hết hạn sử dụng !</vie>
+<eng></eng>
+</data>
+</Head>

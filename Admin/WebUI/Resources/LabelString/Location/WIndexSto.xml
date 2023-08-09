@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Đóng kho&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Tạm thời đóng việc khai thác kho.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Mở kỳ kiểm kê&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Tạo kỳ kiểm kê mới.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Kiểm kê&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Xác định các ấn phẩm thiếu hoặc xếp nhầm chỗ trong một khu vực lưu trữ.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Xem kết quả/Đóng kỳ kiểm kê&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Xem và ghi nhận chính thức kết quả kiểm kê.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;In kết quả kiểm kê&lt;/span&gt;                                    &lt;span class="desc-button"&gt;In kết quả kiểm kê.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Mở kho&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Mở một kho đang ở trạng thái đóng để phục vụ khai thác.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Thư viện&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Nhập thông tin về hệ thống thư viện.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Kho&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Nhập thông tin về hệ thống kho.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Tạo danh sách ĐKCB&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Lập danh sách tất cả các ĐKCB trong một kho/giá.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Chuyển kho&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Chuyển ấn phẩm giữa các kho.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Xếp giá trong kho&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Quản lý thông tin xếp giá của tư liệu trong hệ thống kho.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Xếp giá đã thanh lý/mất&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Đưa những ĐKCB đang bị đình chỉ hoặc chưa đưa ra khai thác vào phục vụ.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+<data>
+<name></name>
+<vie>&lt;span class="icon-history"&gt;&lt;/span&gt;                                    &lt;span class="txtbox"&gt;Thanh lý&lt;/span&gt;                                    &lt;span class="desc-button"&gt;Thanh lý hoặc loại bỏ một số ĐKCB ra khỏi kho.&lt;/span&gt;</vie>
+<eng></eng>
+</data>
+</Head>

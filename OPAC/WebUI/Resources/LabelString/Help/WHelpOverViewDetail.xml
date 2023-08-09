@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Head>
+<data>
+<name>lblTitle</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblContent</name>
+<vie></vie>
+<eng></eng>
+</data>
+<data>
+<name>lblTitleItemLink</name>
+<vie>Các ch?c nang liên quan</vie>
+<eng></eng>
+</data>
+<data>
+<name>dtgItemLink</name>
+<vie>|+|</vie>
+<eng></eng>
+</data>
+</Head>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+eMicLibAdmin.BusinessRules
+</name>
+</assembly>
+<members>
+<member name="M:eMicLibAdmin.BusinessRules.Catalogue.clsBCataScriptHelper.CreateOnChangeScriptForNonrepeatableFieldContent(System.String,System.String)">
+ <summary>
+ Bind input tag OnChange event handler with specify javascript code for non-repeatable field.
+ This javascript codes actually update Hidden Field in form WCataModify.aspx ( Sentform iframe) and change value of leader.
+ The format for separates between fieldcode value and it's indicator as follow : 10::data
+ </summary>
+ <param name="fieldCode">FieldCode with sub field if exists</param>
+ <param name="checkTitleScript">If this fieldcode is 245$a</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Catalogue.clsBCataScriptHelper.CreateOnChangeScriptForRepeatableFieldContent(System.String,System.String)">
+ <summary>
+ Bind input tag OnChange event handler with specify javascript code for repeatable field.
+ This javascript codes actually update Hidden Field in form WCataModify.aspx ( Sentform iframe) and change value of leader.
+ The format for separates between fieldcode value and it's indicator as follow : 10::data
+ </summary>
+ <param name="fieldCode">FieldCode with sub field if exists</param>
+ <param name="checkTitleScript">If this fieldcode is 245$a</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Catalogue.clsBCataScriptHelper.CreateCheckTitleScript(System.Int32)">
+ <summary>
+ When value of fieldcode 245$a changed, check for duplicate Title
+ </summary>
+ <param name="intUTF">0 if not convert to UTF-8 else convert</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Catalogue.clsBCataScriptHelper.CreateCheckItemCodeScript(System.Int32)">
+ <summary>
+ When value of fielcode 001 changed, check for duplicate Item-Code
+ </summary>
+ <param name="intUTF">0 if not convert to UTF-8 else convert</param>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.LoanMode">
+ <summary>
+ Hình thức mượn
+ 0 - Tất cả
+ 1 - Về nhà
+ 2 - Tại chỗ
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.LoanType">
+ <summary>
+ Dạng tư liệu lưu thông
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.StatOption">
+ <summary>
+ 0 - Theo đầu ấn phẩm
+ 1 - Theo bản ấn phẩm
+ 2 - Theo bạn đọc
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetLibFieldContent(System.String,System.String)">
+ <summary>
+ Only get first content by symbol ignored remaining.
+ </summary>
+ <param name="content"></param>
+ <param name="symbol"></param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.WriteLog(System.Int32,System.String)">
+ <summary>
+ Placeholder purpose!!!
+ </summary>
+ <param name="errorCode">0 if success -1 if unknow</param>
+ <param name="erroMsg"></param>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetReportOnLoanCopy(System.Int32,System.String,System.String,System.String,System.Int32@,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Lấy thông tin ấn phẩm đang mượn.
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="patronCode"></param>
+ <param name="copyNumber"></param>
+ <param name="itemCode"></param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="checkInDateFrom"></param>
+ <param name="checkInDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <param name="shouldConverted">Format text or Native Text($a,b,c ...)</param>
+ <param name="isAddHeader">When export</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetReportLoanCopy(System.Int32,System.String,System.String,System.String,System.Int32@,System.String,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ Lấy thông tin ấn phẩm từng mượn
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="patronCode"></param>
+ <param name="copyNumber"></param>
+ <param name="itemCode"></param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="checkInDateFrom"></param>
+ <param name="checkInDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <param name="shouldConverted">Format text or Native Text($a,b,c ...)</param>
+ <param name="isAddHeader">When export</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetCheckInLocationStat(System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+ <summary>
+ Lấy thông tin thống kê số lượt ghi trả theo từng ngày của kho.
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total">paging</param>
+ <param name="checkInDateFrom"></param>
+ <param name="checkInDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetCheckOutLocationStat(System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+ <summary>
+ Lấy thông tin thống kê số lượt ghi mượn theo từng ngày của kho.
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total">paging</param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetCheckInLocation(System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean)">
+ <summary>
+ Lấy dữ liệu ghi trả theo từng ngày của kho.
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total">paging</param>
+ <param name="checkInDateFrom"></param>
+ <param name="checkInDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetCheckOutLocation(System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean)">
+ <summary>
+ Lấy dữ liệu ghi mượn theo từng ngày của kho.
+ </summary>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total">paging</param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index">paging</param>
+ <param name="size">paging</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetAnnualStat(System.Boolean,System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+ <summary>
+ Thống kê ghi mượn hàng năm
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetMonthStat(System.Boolean,System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+ <summary>
+ Thống kê ghi mượn hàng tháng
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetDayStat(System.Boolean,System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+ <summary>
+ Thống kê ghi mượn hàng ngày
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetInformationAnnual(System.Boolean,System.Int32,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean)">
+ <summary>
+ Lấy dữ liệu ghi mượn
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="shouldConverted">Format text or Native Text($a,b,c ...)</param>
+ <param name="isAddHeader">When export</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetHoldingPlaceStat(System.Boolean,System.Boolean,System.Int32,System.String,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+ <summary>
+ Thống kê ghi mượn theo địa điểm
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="isLib">true if ids refer to LibID else LocID</param>
+ <param name="ids">IDs String</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetHoldingPlace(System.Boolean,System.Boolean,System.Int32,System.String,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean)">
+ <summary>
+ Lấy dữ liệu ghi mượn theo địa điểm
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="isLib">true if ids refer to LibID else LocID</param>
+ <param name="ids">IDs String</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="shouldConverted">Format text or Native Text($a,b,c ...)</param>
+ <param name="isAddHeader">When export</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetHoldingLoanTypeStat(System.Boolean,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">
+ <summary>
+ Thống kê dạng tư liệu lưu thông theo thời gian.
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="locationID">0 for all or specified location id</param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="isOutputTotal">Should get total entry or not (default is False which increase performance)</param>
+ <returns></returns>
+</member>
+<member name="M:eMicLibAdmin.BusinessRules.Circulation.clsBDHVLStatistic.GetHoldingLoanType(System.Boolean,System.Int32@,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.Boolean)">
+ <summary>
+ Lấy dữ liệu theo tài liệu lưu thông
+ </summary>
+ <param name="isHistory">
+ True if History (Loan History -> từng mượn)
+ False if not History ( Current Loan -> đang mượn)
+ </param>
+ <param name="total"></param>
+ <param name="checkOutDateFrom"></param>
+ <param name="checkOutDateTo"></param>
+ <param name="index"></param>
+ <param name="size"></param>
+ <param name="shouldConverted">Format text or Native Text($a,b,c ...)</param>
+ <param name="isAddHeader">When export</param>
+ <returns></returns>
+</member>
+</members>
+</doc>

@@ -1,0 +1,151 @@
+.TopGroup
+{
+  background-color:#3F3F3F; 
+  background-image: url(images/top_group_bg.gif);
+  border: 0px solid black;
+  border-bottom-color: #CCCCCC;
+  border-right:0px;
+  border-left:0px;
+  font-weight: bold;
+  position: relative;
+}
+
+.Level2Group
+{
+  background-color:silver; 
+  background-image: url(images/level2_group_bg.gif);
+}
+
+.TopLevelTab 
+{
+  color:white; 
+  font-family: Verdana; 
+  font-size:11px; 
+  cursor:pointer;
+}
+
+.TopLevelTabHover 
+{
+  color:gray; 
+  font-family: Verdana; 
+  font-size:11px; 
+  cursor:pointer;
+}
+
+.SelectedTopLevelTab
+{
+  background-color: silver; 
+  background-image: url(images/top_item_selected_bg.gif);
+  font-family: Verdana; 
+  font-size:11px; 
+  cursor:default;
+  border: 0px solid #CCCCCC;
+  border-right-color: white;  
+  position:relative;
+  top:1px;
+}
+
+.Level2Tab 
+{
+  font-family: Verdana; 
+  font-size:11px; 
+  cursor:pointer;
+}
+
+.Level2TabHover 
+{
+  font-family: Verdana; 
+  font-size:11px; 
+  text-decoration:underline;
+  cursor:pointer;
+}
+
+.SelectedLevel2Tab 
+{
+  background-color:#F6F6F6;
+  font-family: Verdana; 
+  font-size:11px; 
+  border: 1px solid #AAAAAA;
+  border-right-color: #F6F6F6;
+  border-bottom-color: #F6F6F6;  
+}
+
+
+.LinkLanguage
+{
+  color :white;
+  font-size:11px;
+  font-family: Verdana; 
+  background-color:#3F3F3F; 
+  background-image: url(images/bg_header_new.JPG);
+  border: 0px solid black;
+  border-bottom-color: #CCCCCC;
+  border-left:0px; 
+  font-weight: bold;
+}
+
+.LinkIntroduce
+{
+  color :white;
+  font-size:11px;
+  font-family: Verdana; 
+  background-color:#3F3F3F; 
+  background-image: url(images/top_group_bg.gif);
+  border: 0px solid black;
+  border-bottom-color: #CCCCCC;
+  border-right:0px; 
+  height:44px;
+}
+
+
+.TopGroupWithIcon
+{
+  z-index:99;
+  position:relative;
+}
+
+.DefaultTabWithIcon
+{
+  color:#888888; 
+  background-color: #E8E8E7;
+  background-image: url(images/InputAcquisition/tab_bg.gif);
+  border: 1px solid #ADADAD;
+  font-family: Verdana; 
+  font-size: 11px; 
+  cursor:pointer;
+}
+
+.DefaultTabHoverWithIcon 
+{
+  color:#888888; 
+  background-color: #E8E8E7;
+  background-image: url(images/InputAcquisition/tab_bg.gif);
+  border: 1px solid #ADADAD;
+  font-family: Verdana; 
+  font-size: 11px; 
+  cursor:pointer;
+}
+
+.SelectedTabWithIcon 
+{
+  color:#888888; 
+  background-color: #FFFFFF;
+  background-image: url(images/InputAcquisition/selected_tab_bg.gif);
+  border: 1px solid #ADADAD;
+  border-bottom-width: 0px;
+  font-family: Verdana; 
+  font-size: 11px; 
+  cursor:pointer;
+}
+
+.MultiPageWithIcon
+{
+  background-color:White;
+  border: 1px solid #919B9C;
+  width:100%;
+  height:100%;
+  position:relative;
+  top:-2px;
+  left:1px;
+  z-index:98;
+}
